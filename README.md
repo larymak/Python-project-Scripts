@@ -3,5 +3,8 @@
 
 ### What is Covered
 
-[Ascii Converter]()
-[Pyjokes](https://github.com/larymak/Python-project-Scripts/tree/master/pyjokes)
+* [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii)
+
+* [Pyjokes](https://github.com/larymak/Python-project-Scripts/tree/master/pyjokes)
+
+_more coming soon_
