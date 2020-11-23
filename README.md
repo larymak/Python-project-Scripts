@@ -7,4 +7,6 @@
 
 * [Pyjokes](https://github.com/larymak/Python-project-Scripts/tree/master/pyjokes)
 
+* [WhatsApp Spambot](https://github.com/larymak/Python-project-Scripts/tree/master/whatsapp-spam)
+
 _more coming soon_
