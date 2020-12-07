@@ -9,4 +9,6 @@
 
 * [WhatsApp Spambot](https://github.com/larymak/Python-project-Scripts/tree/master/whatsapp-spam)
 
+* [Photo Editor App](https://github.com/larymak/Python-project-Scripts/tree/master/photo%20editor)
+
 _more coming soon_
