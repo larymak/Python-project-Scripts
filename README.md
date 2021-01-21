@@ -11,4 +11,6 @@
 
 * [Photo Editor App](https://github.com/larymak/Python-project-Scripts/tree/master/photo%20editor)
 
+* [Random Name Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomNameGen)
+
 _more coming soon_
