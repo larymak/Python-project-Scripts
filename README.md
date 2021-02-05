@@ -1,7 +1,7 @@
 # Python-project-Scripts
-## This is a list of python scripts for begonner projects
+## This is a list of python scripts for beginner projects
 
-### What is Covered
+### What is Covered 
 
 * [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii)
 
