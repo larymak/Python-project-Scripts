@@ -15,4 +15,6 @@
 
 * [Web Scrapping](https://github.com/larymak/WebScraping-Local-Website)
 
-_more coming soon_
+_more coming soon_  
+
+_contributions are welcomed, fork the repo and do the magic_
