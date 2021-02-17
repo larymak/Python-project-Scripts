@@ -13,4 +13,6 @@
 
 * [Random Name Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomNameGen)
 
+* [Web Scrapping](https://github.com/larymak/WebScraping-Local-Website)
+
 _more coming soon_
