@@ -1,7 +1,8 @@
-# Python-project-Scripts
+# Python-project-Scripts.
+
 ## This is a list of python scripts for beginner projects
 
-### A list of Programmes in this Repo:   
+### A list of Codes in this Repo:   
 
 * [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii)
 
