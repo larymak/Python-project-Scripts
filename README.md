@@ -18,6 +18,8 @@
 
 * [Random Password Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomPassword)
 
+* [YouTube Video Downloader](https://github.com/larymak/Python-project-Scripts/tree/main/YoutubeDownloader)
+
 _more coming soon_  
 
 _contributions are welcomed, fork the repo and do the magic_
