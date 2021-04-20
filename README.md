@@ -1,7 +1,8 @@
-# Python-project-Scripts
-## This is a list of python scripts for begonner projects
+# Python-project-Scripts.
 
-### What is Covered
+## This is a list of python scripts for beginner projects
+
+### A list of Project Codes snippets in the Repository:   
 
 * [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii)
 
@@ -9,6 +10,18 @@
 
 * [WhatsApp Spambot](https://github.com/larymak/Python-project-Scripts/tree/master/whatsapp-spam)
 
+* [Instagram Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstagramBot)
+
 * [Photo Editor App](https://github.com/larymak/Python-project-Scripts/tree/master/photo%20editor)
 
-_more coming soon_
+* [Random Name Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomNameGen)
+
+* [Web Scrapping](https://github.com/larymak/WebScraping-Local-Website)
+
+* [Random Password Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomPassword)
+
+* [YouTube Video Downloader](https://github.com/larymak/Python-project-Scripts/tree/main/YoutubeDownloader)
+
+_more coming soon_  
+
+_contributions are welcomed, fork the repo and do the magic_
