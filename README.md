@@ -10,6 +10,8 @@
 
 * [WhatsApp Spambot](https://github.com/larymak/Python-project-Scripts/tree/master/whatsapp-spam)
 
+* [Instagram Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstagramBot)
+
 * [Photo Editor App](https://github.com/larymak/Python-project-Scripts/tree/master/photo%20editor)
 
 * [Random Name Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomNameGen)
