@@ -24,7 +24,7 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 
 When you Add a projectAdd it to the README for ease of finding it
 
-### A list of Project Codes snippets in the Repository:   
+### So far Added in the Repository:   
 
 * [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii)
 
