@@ -38,7 +38,7 @@ When you Add a projectAdd it to the README for ease of finding it
 
 * [Random Name Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomNameGen)
 
-* [Web Scrapping](https://github.com/larymak/WebScraping-Local-Website)
+* [Web Scrapping](https://github.com/larymak/Python-project-Scripts/tree/main/WebScraping)
 
 * [Random Password Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomPassword)
 
