@@ -26,7 +26,9 @@ When you Add a projectAdd it to the README for ease of finding it
 
 ## So far Added in the Repository:   
 
-* [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii)
+* [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii) 
+
+* [Insta Spam Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstaSpamBot)
 
 * [Pyjokes](https://github.com/larymak/Python-project-Scripts/tree/master/pyjokes)
 
