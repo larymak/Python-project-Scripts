@@ -4,7 +4,7 @@
 
 ### Description  
 Welcome On board fellow Developer, This is where you will find Python scripts where you are free to contribute too.
-You can Contribute by giving yur scripts written in python and you think are amazing for other people to see.
+You can Contribute by giving your scripts written in python and you think are amazing for other people to see.
 
 #### Contribution Guidelines
 The contribution guidelines are as per the guide [HERE](https://github.com/larymak/Python-project-Scripts/blob/main/CONTRIBUTING.md)
@@ -22,7 +22,7 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 
 **Note**  
 
-When you Add a projectAdd it to the README for ease of finding it
+When you Add a project Add it to the README for ease of finding it
 
 ## So far Added in the Repository:   
 
