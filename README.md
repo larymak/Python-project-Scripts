@@ -45,6 +45,8 @@ When you Add a projectAdd it to the README for ease of finding it
 * [Random Password Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomPassword)
 
 * [YouTube Video Downloader](https://github.com/larymak/Python-project-Scripts/tree/main/YoutubeDownloader)
+  
+* Text to Audio
 
 _more coming soon_  
 
