@@ -48,7 +48,9 @@ When you Add a project Add it to the README for ease of finding it
 
 * [YouTube Video Downloader](https://github.com/larymak/Python-project-Scripts/tree/main/YoutubeDownloader)
   
-* Text to Audio
+* [Text to Audio](https://github.com/larymak/Python-project-Scripts/tree/main/texttoaudio)
+
+* [Sending Emails](https://github.com/larymak/Python-project-Scripts/tree/main/Sending-Emails)
 
 _more coming soon_  
 
