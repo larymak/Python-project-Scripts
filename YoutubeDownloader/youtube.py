@@ -2,7 +2,7 @@ import tkinter as tk
 from pytube import YouTube
 
 
-#Dispaly Window
+#Display Window
 dock = tk.Tk()
 dock.geometry('500x300')
 dock.resizable(0,0)
