@@ -52,6 +52,8 @@ When you Add a project Add it to the README for ease of finding it
 
 * [Sending Emails](https://github.com/larymak/Python-project-Scripts/tree/main/Sending-Emails)
 
+* [Shorten Links](https://github.com/larymak/Python-project-Scripts/tree/main/ShortenLinks)
+
 * [Python Dictionary](https://github.com/larymak/Python-project-Scripts/tree/main/PYDICTIONARY)
 
 _more coming soon_  
