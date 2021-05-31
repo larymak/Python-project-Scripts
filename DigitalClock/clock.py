@@ -4,7 +4,7 @@ import time
 
 root = Tk()
 
-# Title the window to "My Clock"
+# Label the window to "My Clock"
 root.title('My Clock')
 
 #Time calculation 
