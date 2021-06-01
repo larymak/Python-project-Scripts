@@ -1,9 +1,15 @@
-# Python-project-Scripts.
+# Python-project-Scripts. 
+
+![Contributors](https://img.shields.io/github/contributors/larymak/Python-project-Scripts?style=plastic)
+![Forks](https://img.shields.io/github/forks/larymak/Python-project-Scripts)
+![Starts](https://img.shields.io/github/stars/larymak/Python-project-Scripts)
+![Licence](https://img.shields.io/github/license/larymak/Python-project-Scripts)
+![Issues](https://img.shields.io/github/issues/larymak/Python-project-Scripts)
 
 ## This is a list of python scripts for beginner projects
 
 ### Description  
-Welcome On board fellow Developer, This is where you will find Python scripts where you are free to contribute too.
+Welcome Onboard fellow Developer, This is where you will find Python scripts where you are free to contribute too.
 You can Contribute by giving your scripts written in python and you think are amazing for other people to see.
 
 #### Contribution Guidelines
