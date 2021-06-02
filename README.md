@@ -24,7 +24,7 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 - Create a pull request
 - Star this repository
 - Wait for Pull Request to merge
-- Celebrate, your first step into the open Source World
+- Celebrate, your first step into the open Source World and contribute more
 
 **Note**  
 
