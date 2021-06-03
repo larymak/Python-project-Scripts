@@ -12,4 +12,4 @@ This snippet of code will Generate Image-Captcha (Numbers) of given number of le
 - Run this code.py `$ python code.py`
 - Enter the length of captcha you want (i.e 6)
 - Boom !!! captcha with .png extension will be generate in dir.
-- Enjoy the Captcha !!!!!
+- Enjoy the Captcha Thing !!!!!
