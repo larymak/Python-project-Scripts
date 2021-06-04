@@ -1,13 +1,13 @@
 # Python-project-Scripts.
 
-## This is a list of python scripts for beginner projects
+## This is a list of python scripts for beginner projects.
 
 ### Description  
 Welcome On board fellow Developer, This is where you will find Python scripts where you are free to contribute too.
 You can Contribute by giving your scripts written in python and you think are amazing for other people to see.
 
-#### Contribution Guidelines
-The contribution guidelines are as per the guide [HERE](https://github.com/larymak/Python-project-Scripts/blob/main/CONTRIBUTING.md)
+### Contribution Guidelines
+The contribution guidelines are as per the guide [HERE](https://github.com/larymak/Python-project-Scripts/blob/main/CONTRIBUTING.md).
 
 ### Instructions
 
@@ -20,11 +20,10 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 - Wait for Pull Request to merge
 - Celebrate, your first step into the open Source World
 
-**Note**  
-
+### Note
 When you Add a project Add it to the README for ease of finding it
 
-## So far Added in the Repository:   
+## So far Added in the Repository:
 
 * [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii) 
 
@@ -53,6 +52,10 @@ When you Add a project Add it to the README for ease of finding it
 * [Sending Emails](https://github.com/larymak/Python-project-Scripts/tree/main/Sending-Emails)
 
 * [Shorten Links](https://github.com/larymak/Python-project-Scripts/tree/main/ShortenLinks) 
+
+* [Image Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Captcha%20Generator)
+
+* [Python Dictionary](https://github.com/larymak/Python-project-Scripts/tree/main/PYDICTIONARY)
 
 _more coming soon_  
 
