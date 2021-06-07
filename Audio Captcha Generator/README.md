@@ -10,7 +10,6 @@ This snippet of code will Generate Audio-Captcha (Numbers).
 ## Steps To Execution
 - Fork this repo and navigate to ShortenLinks folder
 - Run this code.py `$ python code.py`
-- Enter the length of captcha you want (i.e 6)
 - Boom !!! captcha with .mp3 extension will be generate in dir.
 - Enjoy the Audio Captcha Thing !!!!!
 
