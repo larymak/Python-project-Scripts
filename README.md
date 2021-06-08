@@ -57,6 +57,8 @@ When you Add a project Add it to the README for ease of finding it
 
 * [Python Dictionary](https://github.com/larymak/Python-project-Scripts/tree/main/PYDICTIONARY)
 
+* [Audio Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Audio%20Captcha%20Generator)
+
 _more coming soon_  
 
 _contributions are welcomed, fork the repo and do the magic_
