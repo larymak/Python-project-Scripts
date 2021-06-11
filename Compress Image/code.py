@@ -1,11 +1,6 @@
-import PIL
 from PIL import Image
-
-print("enter image name :")
-image_name = str(input())  # image name with relative path
-
-img = Image.open(image_name)
-mywidth = img.size[0]
-myheight = img.size[1]
-img = img.resize((mywidth, myheight), PIL.Image.ANTIALIAS)
-img.save("Resized_Image.jpeg")
+img =  Image.open('1.jpg')  ## file name of relative path with file name (with extension)
+h,w =  img.size   ## getting height and width of image
+img = img.resize((h,w),Image.ANTIALIAS)   ## compression
+img.save('1_compressed.jpg')  ## output location and file name 
+print("Image Compression Process Successfully Completed !! ")
