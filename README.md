@@ -70,6 +70,8 @@ When you Add a project Add it to the README for ease of finding it
 
 * [Audio Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Audio%20Captcha%20Generator)
 
+* [Compress Image](https://github.com/larymak/Python-project-Scripts/tree/main/Compress%20Image)
+
 _more coming soon_  
 
 _contributions are welcomed, fork the repo and do the magic_
