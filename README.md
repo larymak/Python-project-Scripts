@@ -66,8 +66,6 @@ When you Add a project Add it to the README for ease of finding it
 
 * [Image Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Captcha%20Generator)
 
-* [Python Dictionary](https://github.com/larymak/Python-project-Scripts/tree/main/PYDICTIONARY)
-
 * [Audio Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Audio%20Captcha%20Generator)
 
 * [Compress Image](https://github.com/larymak/Python-project-Scripts/tree/main/Compress%20Image)
