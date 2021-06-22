@@ -70,6 +70,8 @@ When you Add a project Add it to the README for ease of finding it
 
 * [Compress Image](https://github.com/larymak/Python-project-Scripts/tree/main/Compress%20Image)
 
+* [Gettin Files and Folders sizes](https://github.com/Saeedahmadi7714/Python-project-Scripts/tree/main/Gettin%20File%20and%20Folder%20sizes)
+
 _more coming soon_  
 
 _contributions are welcomed, fork the repo and do the magic_
