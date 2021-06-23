@@ -61,6 +61,8 @@ When you Add a project Add it to the README for ease of finding it
 
 * [Compress Image](https://github.com/larymak/Python-project-Scripts/tree/main/Compress%20Image)
 
+* [Image Grayscalling](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Grayscalling)
+
 _more coming soon_  
 
 _contributions are welcomed, fork the repo and do the magic_
