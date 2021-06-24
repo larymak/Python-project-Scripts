@@ -63,6 +63,8 @@ When you Add a project Add it to the README for ease of finding it
 
 * [Image Grayscalling](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Grayscalling)
 
+* [Weather Forcasting](https://github.com/larymak/Python-project-Scripts/tree/main/Weather%20Forcasting)
+
 _more coming soon_  
 
 _contributions are welcomed, fork the repo and do the magic_
