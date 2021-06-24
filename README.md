@@ -1,9 +1,18 @@
-# Python-project-Scripts.
+# Python-project-Scripts. 
+
+![Contributors](https://img.shields.io/github/contributors/larymak/Python-project-Scripts?style=plastic)
+![Forks](https://img.shields.io/github/forks/larymak/Python-project-Scripts)
+![Starts](https://img.shields.io/github/stars/larymak/Python-project-Scripts)
+![Licence](https://img.shields.io/github/license/larymak/Python-project-Scripts)
+![Issues](https://img.shields.io/github/issues/larymak/Python-project-Scripts)
+<a href="https://join.slack.com/t/ngc-goz8665/shared_invite/zt-r01kumfq-dQUT3c95BxEP_fnk4yJFfQ">
+  <img alt="Join us on Slack" src="https://raw.githubusercontent.com/netlify/netlify-cms/master/website/static/img/slack.png" width="165"/>
+</a>
 
 ## This is a list of python scripts for beginner projects.
 
 ### Description  
-Welcome On board fellow Developer, This is where you will find Python scripts where you are free to contribute too.
+Welcome Onboard fellow Developer, This is where you will find Python scripts where you are free to contribute too.
 You can Contribute by giving your scripts written in python and you think are amazing for other people to see.
 
 ### Contribution Guidelines
@@ -18,7 +27,7 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 - Create a pull request
 - Star this repository
 - Wait for Pull Request to merge
-- Celebrate, your first step into the open Source World
+- Celebrate, your first step into the open Source World and contribute more
 
 ### Note
 When you Add a project Add it to the README for ease of finding it
@@ -51,11 +60,11 @@ When you Add a project Add it to the README for ease of finding it
 
 * [Sending Emails](https://github.com/larymak/Python-project-Scripts/tree/main/Sending-Emails)
 
-* [Shorten Links](https://github.com/larymak/Python-project-Scripts/tree/main/ShortenLinks) 
-
-* [Image Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Captcha%20Generator)
+* [Shorten Links](https://github.com/larymak/Python-project-Scripts/tree/main/ShortenLinks)
 
 * [Python Dictionary](https://github.com/larymak/Python-project-Scripts/tree/main/PYDICTIONARY)
+
+* [Image Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Captcha%20Generator)
 
 * [Audio Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Audio%20Captcha%20Generator)
 
@@ -64,6 +73,8 @@ When you Add a project Add it to the README for ease of finding it
 * [Image Grayscalling](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Grayscalling)
 
 * [Weather Forcasting](https://github.com/larymak/Python-project-Scripts/tree/main/Weather%20Forcasting)
+
+* [Getting Files and Folders sizes](https://github.com/Saeedahmadi7714/Python-project-Scripts/tree/main/Gettin%20File%20and%20Folder%20sizes)
 
 _more coming soon_  
 
