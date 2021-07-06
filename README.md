@@ -76,8 +76,6 @@ When you Add a project Add it to the README for ease of finding it
 
 * [Getting Files and Folders sizes](https://github.com/Saeedahmadi7714/Python-project-Scripts/tree/main/Gettin%20File%20and%20Folder%20sizes)
 
-* [Pyttsx3]
-
 _more coming soon_  
 
 _contributions are welcomed, fork the repo and do the magic_
