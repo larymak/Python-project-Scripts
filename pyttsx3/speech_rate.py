@@ -1,3 +1,4 @@
+#Changing speech rate
 import pyttsx3
 engine = pyttsx3.init()
 rate = engine.getProperty('rate')
