@@ -1,3 +1,4 @@
+#Interrupting an utterance
 import pyttsx3
 def onWord(name, location, length):
    print 'word', name, location, length
