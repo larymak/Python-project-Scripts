@@ -8,7 +8,7 @@
    It is an easy to use library which does not requires you to do some additional setup.<br />
 
 ## Installation
-   This library can be installed by the pip command, open your command prompt and type in the following command...<br />
+   This library can be installed by the pip command, open your command prompt and type in the following command...<br /><br />
    `$ pip install pywhatkit
 
 ## Links
