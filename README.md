@@ -78,6 +78,8 @@ When you Add a project Add it to the README for ease of finding it
 
 * [pyttsx3](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/pyttsx3)
 
+* [pywhatkit](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/pywhatkit)
+
 _more coming soon_  
 
 _contributions are welcomed, fork the repo and do the magic_
