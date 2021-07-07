@@ -9,6 +9,6 @@
    `$ pip install pywhatkit
 
 ## Links
-   *[Join our discord server](https://discord.gg/uwznv4jKgk)
+   *[Join our discord server](https://discord.gg/uwznv4jKgk) <br />
    *[Detailed documentation](https://pypi.org/project/pywhatkit/)
 
