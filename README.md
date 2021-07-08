@@ -9,7 +9,7 @@
   <img alt="Join us on Slack" src="https://raw.githubusercontent.com/netlify/netlify-cms/master/website/static/img/slack.png" width="165"/>
 </a>
 
-## This is a list of python scripts for beginner projects.
+## This is a list of python scripts for beginner projects
 
 ### Description  
 
