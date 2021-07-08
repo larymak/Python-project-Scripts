@@ -1,7 +1,7 @@
 # Contributing to Python-Project-Scripts
-Thanks for your interest in Python. Our goal is to bring fast, open-source python projects to all communities.
-We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+Thanks for your interest in Python. Our goal is to bring fast, reliable, and trouble-free open-source python projects to all communities.
+We love your input! We want to make every contribution to this project as transparent and effortless as possible.
+Please note that we have a code of conduct that we need to follow moving forward in all your interactions with the project.
 
 - Reporting a bug
 - Discussing the current state of the code
