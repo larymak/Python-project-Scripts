@@ -1,7 +1,7 @@
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-# pip install watchdog     (required)
+# pip install watchdog /or/ poetry add watchdog    (required)
 
 import time
 import os
