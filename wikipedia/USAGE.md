@@ -1,12 +1,12 @@
-# <Usage of the wikipedia>
+# Usage of the wikipedia
 
 
->>>>> import wikipedia<br/>
->>> print wikipedia.summary("Wikipedia")<br/>
+>>>import wikipedia<br/>
+>>>print wikipedia.summary("Wikipedia")<br/>
 output : Wikipedia (/ˌwɪkɨˈpiːdiə/ or /ˌwɪkiˈpiːdiə/ WIK-i-PEE-dee-ə) is a collaboratively edited,<br/> 
 multilingual, free Internet encyclopedia supported by the non-profit Wikimedia Foundation...<br/>
 
->>> wikipedia.search("Barack")<br/>
+>>>>wikipedia.search("Barack")<br/>
 output : [u'Barak (given name)', u'Barack Obama', u'Barack (brandy)', u'Presidency of Barack Obama',<br/> 
 u'Family of Barack Obama', u'First inauguration of Barack Obama', u'Barack Obama presidential campaign, <br/>
 2008', u'Barack Obama, Sr.', u'Barack Obama citizenship conspiracy theories', u'Presidential transition of Barack Obama']<br/>
