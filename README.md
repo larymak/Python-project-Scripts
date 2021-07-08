@@ -39,30 +39,31 @@ When you Add a project Add it to the README for ease of finding it
 
 |Feature|
 |-------|
-| [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii)
-| [DigitalClock](https://github.com/larymak/Python-project-Scripts/tree/main/DigitalClock)
-| [Insta Spam Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstaSpamBot)
-|[Pyjokes](https://github.com/larymak/Python-project-Scripts/tree/master/pyjokes)
-|[WhatsApp Spambot](https://github.com/larymak/Python-project-Scripts/tree/master/whatsapp-spam)
-|[Instagram Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstagramBot)
-|[Photo Editor App](https://github.com/larymak/Python-project-Scripts/tree/master/photo%20editor)
-|[Random Name Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomNameGen)
-|[Web Scrapping](https://github.com/larymak/Python-project-Scripts/tree/main/WebScraping)
-|[Random Password Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomPassword)
-|[YouTube Video Downloader](https://github.com/larymak/Python-project-Scripts/tree/main/YoutubeDownloader)
-|[Text to Audio](https://github.com/larymak/Python-project-Scripts/tree/main/texttoaudio)
-|[Sending Emails](https://github.com/larymak/Python-project-Scripts/tree/main/Sending-Emails)
-|[Shorten Links](https://github.com/larymak/Python-project-Scripts/tree/main/ShortenLinks)
-|[Python Dictionary](https://github.com/larymak/Python-project-Scripts/tree/main/PYDICTIONARY)
-|[Image Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Captcha%20Generator)
-|[Audio Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Audio%20Captcha%20Generator)
-|[Compress Image](https://github.com/larymak/Python-project-Scripts/tree/main/Compress%20Image)
-|[Image Grayscalling](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Grayscalling)
-|[Weather Forcasting](https://github.com/larymak/Python-project-Scripts/tree/main/Weather%20Forcasting)
-|[Getting Files and Folders sizes](https://github.com/Saeedahmadi7714/Python-project-Scripts/tree/main/Gettin%20File%20and%20Folder%20sizes)
-|[pyttsx3](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/pyttsx3)
-|[pywhatkit](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/pywhatkit)
-|[wikipedia](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/wikipedia)
+|[Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii)|
+|[DigitalClock](https://github.com/larymak/Python-project-Scripts/tree/main/DigitalClock)|
+|[Insta Spam Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstaSpamBot)|
+|[Pyjokes](https://github.com/larymak/Python-project-Scripts/tree/master/pyjokes)|
+|[WhatsApp Spambot](https://github.com/larymak/Python-project-Scripts/tree/master/whatsapp-spam)|
+|[Instagram Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstagramBot)|
+|[Photo Editor App](https://github.com/larymak/Python-project-Scripts/tree/master/photo%20editor)|
+|[Random Name Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomNameGen)|
+|[Web Scrapping](https://github.com/larymak/Python-project-Scripts/tree/main/WebScraping)|
+|[Random Password Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomPassword)|
+|[YouTube Video Downloader](https://github.com/larymak/Python-project-Scripts/tree/main/YoutubeDownloader)|
+|[Text to Audio](https://github.com/larymak/Python-project-Scripts/tree/main/texttoaudio)|
+|[Sending Emails](https://github.com/larymak/Python-project-Scripts/tree/main/Sending-Emails)|
+|[Shorten Links](https://github.com/larymak/Python-project-Scripts/tree/main/ShortenLinks)|
+|[Python Dictionary](https://github.com/larymak/Python-project-Scripts/tree/main/PYDICTIONARY)|
+|[Image Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Captcha%20Generator)|
+|[Audio Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Audio%20Captcha%20Generator)|
+|[Compress Image](https://github.com/larymak/Python-project-Scripts/tree/main/Compress%20Image)|
+|[Image Grayscalling](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Grayscalling)|
+|[Weather Forcasting](https://github.com/larymak/Python-project-Scripts/tree/main/Weather%20Forcasting)|
+|[Getting Files and Folders sizes](https://github.com/Saeedahmadi7714/Python-project-Scripts/tree/main/Gettin%20File%20and%20Folder%20sizes)|
+|[pyttsx3](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/pyttsx3)|
+|[pywhatkit](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/pywhatkit)|
+|[wikipedia](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/wikipedia)|
+|[Speech](https://github.com/moh-ash96/Python-project-Scripts/tree/main/mp3-to-text)| 
 
 ### *more coming soon*
 
