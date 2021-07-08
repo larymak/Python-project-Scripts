@@ -1,4 +1,5 @@
 # Wikipedia
+![image](https://user-images.githubusercontent.com/67740644/124870233-fe2d1300-dfdf-11eb-889e-8e831fd0cb7a.png)
 
 ## Project description
 Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia.<br />
@@ -16,10 +17,4 @@ To install Wikipedia, simply run:<br /><br />
 MIT licensed. See the *[License](https://github.com/goldsmith/Wikipedia/blob/master/LICENSE) file for full details.
 
 ## Hello wiki
-                     ( Hello wiki )
-				   \
-			            \
-				      _
-				    <(0)
-				  <-(___)->
-                                   -=   =-
+🤔🤗🤔🤗🤔
