@@ -63,7 +63,7 @@ When you Add a project Add it to the README for ease of finding it
 |[pyttsx3](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/pyttsx3)|
 |[pywhatkit](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/pywhatkit)|
 |[wikipedia](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/wikipedia)|
-|[Speech](https://github.com/moh-ash96/Python-project-Scripts/tree/main/mp3-to-text)| 
+|[Speech Recognition](https://github.com/moh-ash96/Python-project-Scripts/tree/main/mp3-to-text)| 
 
 ### *more coming soon*
 

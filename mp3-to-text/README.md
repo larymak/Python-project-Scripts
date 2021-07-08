@@ -1,6 +1,6 @@
-# mp3 to text
+# Speech to text
 
-This Project converts mp3 files into text files.
+This Project converts mp3 files into txt files.
 
 ## Getting started
 

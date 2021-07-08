@@ -1,7 +1,7 @@
 from ibm_watson import SpeechToTextV1
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 import os
-apikey = 'ADD API KEY HERE'
+apikey = 'ADD YOUR API KEY HERE'
 url = 'https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/7dd3d9f3-1fe0-496b-ae56-3876034e7f42'
 
 authenticator = IAMAuthenticator(apikey)
