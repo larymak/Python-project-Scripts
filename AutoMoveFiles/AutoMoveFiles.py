@@ -1,6 +1,9 @@
 from watchdog.observers import Observer
-import time
 from watchdog.events import FileSystemEventHandler
+
+# pip install watchdog     (required)
+
+import time
 import os
 import json
 
