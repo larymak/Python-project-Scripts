@@ -1,6 +1,8 @@
 from watchdog.observers import Observer
+import time
 from watchdog.events import FileSystemEventHandler
 import os
+import json
 
 class Handler(FileSystemEventHandler):
     def on_modified(self, event):
@@ -9,8 +11,6 @@ class Handler(FileSystemEventHandler):
             dst = f"{destination_folder}/{file}"
             os.rename(src=src, dst=dst)
 
-
-
 if __name__=="__main__":
     watched_folder = input("Paste the path to the folder to be tracked: ")
     destination_folder = input("Paste the path to the destination folder: ")
@@ -18,4 +18,10 @@ if __name__=="__main__":
     observer = Observer()
     observer.schedule(event_handler=handler, path=watched_folder, recursive=True)
     observer.start()
+    try:
+        while True:
+            time.sleep(10)
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()
 
