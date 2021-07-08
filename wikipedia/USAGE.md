@@ -1,7 +1,7 @@
 # Usage of the wikipedia
 
 
->>>import wikipedia<br/>
+->>>import wikipedia<br/>
 >>>print wikipedia.summary("Wikipedia")<br/>
 output : Wikipedia (/ˌwɪkɨˈpiːdiə/ or /ˌwɪkiˈpiːdiə/ WIK-i-PEE-dee-ə) is a collaboratively edited,<br/> 
 multilingual, free Internet encyclopedia supported by the non-profit Wikimedia Foundation...<br/>
