@@ -13,7 +13,7 @@
 
 ## This is a list of python scripts for beginner projects.
 
-### Description  
+### Description
 
 Welcome Onboard fellow Developer, This is where you will find Python scripts where you are free to contribute too.
 You can Contribute by giving your scripts written in python and you think are amazing for other people to see.
@@ -36,13 +36,13 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 ### Note
 
 When you Add a project Add it to the README for ease of finding it
-_more coming soon_  
-
+_more coming soon_
 
 ## So far Added in the Repository
 
-|Feature|
-|-------|
+| Feature |
+| ------- |
+
 | [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii)
 | [DigitalClock](https://github.com/larymak/Python-project-Scripts/tree/main/DigitalClock)
 | [Insta Spam Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstaSpamBot)
@@ -63,11 +63,10 @@ _more coming soon_
 |[Compress Image](https://github.com/larymak/Python-project-Scripts/tree/main/Compress%20Image)
 |[Image Grayscalling](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Grayscalling)
 |[Weather Forcasting](https://github.com/larymak/Python-project-Scripts/tree/main/Weather%20Forcasting)
-|[Getting Files and Folders sizes](https://github.com/Saeedahmadi7714/Python-project-Scripts/tree/main/Gettin%20File%20and%20Folder%20sizes)
-|[pyttsx3](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/pyttsx3)
-|[pywhatkit](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/pywhatkit)
-|[wikipedia](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/wikipedia)
+|[Getting Files and Folders sizes](https://github.com/larymak/Python-project-Scripts/tree/main/Getting%20Files%20and%20Folders%20sizes)
+|[pywhatkit](https://github.com/larymak/Python-project-Scripts/tree/main/pywhatkit)
+|[wikipedia](https://github.com/larymak/Python-project-Scripts/tree/main/wikipedia)
 
-### *more coming soon*
+### _more coming soon_
 
-#### *contributions are welcomed, fork the repo and do the magic*
+#### _contributions are welcomed, fork the repo and do the magic_
