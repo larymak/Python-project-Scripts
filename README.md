@@ -79,11 +79,11 @@ When you Add a project Add it to the README for ease of finding it
 
 - [Getting Files and Folders sizes](https://github.com/Saeedahmadi7714/Python-project-Scripts/tree/main/Gettin%20File%20and%20Folder%20sizes)
 
-- [pyttsx3](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/pyttsx3)
+- [pyttsx3](https://github.com/larymak/Python-project-Scripts/tree/main/pyttsx3)
 
-- [pywhatkit](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/pywhatkit)
+- [pywhatkit](https://github.com/larymak/Python-project-Scripts/tree/main/pywhatkit)
 
-- [wikipedia](https://github.com/KanakamSasikalyan/Python-project-Scripts/tree/main/wikipedia)
+- [wikipedia](https://github.com/larymak/Python-project-Scripts/tree/main/wikipedia)
 
 _more coming soon_
 
