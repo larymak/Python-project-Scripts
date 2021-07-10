@@ -1,8 +1,8 @@
 import csv
  
-def read_using_DictReader():
+def read_using_DictReader(path):
     # opening the CSV file
-    with open('CSV_files/assets/addresses.csv', mode ='r') as file:   
+    with open(path, mode ='r') as file:   
        # reading the CSV file
        csvFile = csv.DictReader(file)
  
@@ -14,4 +14,4 @@ def read_using_DictReader():
             
 
 if __name__=="__main__":
-    print(read_using_DictReader())
+    print(read_using_DictReader('CSV_files/assets/addresses.csv'))
