@@ -1,10 +1,12 @@
 # Python-project-Scripts
 
-[![Contributors](https://img.shields.io/github/contributors/larymak/Python-project-Scripts?style=plastic)](https://github.com/larymak/Python-project-Scripts/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/larymak/Python-project-Scripts)](https://github.com/larymak/Python-project-Scripts/network/members)
-[![Stars](https://img.shields.io/github/stars/larymak/Python-project-Scripts)](https://github.com/larymak/Python-project-Scripts/stargazers)
-[![Licence](https://img.shields.io/github/license/larymak/Python-project-Scripts)](https://github.com/larymak/Python-project-Scripts/blob/main/LICENSE)
-[![Issues](https://img.shields.io/github/issues/larymak/Python-project-Scripts)](https://github.com/larymak/Python-project-Scripts/issues)
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/larymak/Python-project-Scripts)
+![Contributors](https://img.shields.io/github/contributors/larymak/Python-project-Scripts?style=plastic)
+![Forks](https://img.shields.io/github/forks/larymak/Python-project-Scripts)
+![Stars](https://img.shields.io/github/stars/larymak/Python-project-Scripts)
+![Licence](https://img.shields.io/github/license/larymak/Python-project-Scripts)
+![Issues](https://img.shields.io/github/issues/larymak/Python-project-Scripts)
+
 <a href="https://join.slack.com/t/ngc-goz8665/shared_invite/zt-r01kumfq-dQUT3c95BxEP_fnk4yJFfQ">
   <img alt="Join us on Slack" src="https://raw.githubusercontent.com/netlify/netlify-cms/master/website/static/img/slack.png" width="165"/>
 </a>
@@ -34,6 +36,8 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 ### Note
 
 When you Add a project Add it to the README for ease of finding it
+_more coming soon_  
+
 
 ## So far Added in the Repository
 
