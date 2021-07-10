@@ -1,4 +1,7 @@
 import csv
+import pandas as pd
+
+
  
 
 def write_to_csv_files_using_DictWriter_class(data,fields,filename):
@@ -13,7 +16,9 @@ def write_to_csv_files_using_DictWriter_class(data,fields,filename):
         # writing data rows 
         writer.writerows(data) 
 
-
+def write_by_pandas(name_dict):
+        df = pd.DataFrame(name_dict)
+        return df
 
 if __name__=="__main__":
      # my data rows as dictionary objects 
@@ -27,7 +32,14 @@ if __name__=="__main__":
     fields = ['name','course'] 
         
     # name of csv file 
-    filename = "CSV_files/assets/course_name.csv"
+    filename = "assets/course_name.csv"
         
     # writing to csv file 
     print(write_to_csv_files_using_DictWriter_class(mydata,fields,filename))
+
+
+    name_dict = {
+        'Name': ['Omar','Mahmoud','Noura','Raneem'],
+        'Score': [82,86,84,65]
+        }
+    print(write_by_pandas(name_dict))

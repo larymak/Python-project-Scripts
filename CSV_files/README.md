@@ -12,4 +12,7 @@
 - using csv.DictWritter class
 
 * **Write using cvs.DictWritter() class**: this class returns a writer object which maps directories onto output rows.
+
+
+* **Write using pandas module**:You can save your Pandas DataFrame as a CSV file with .to_csv(data)
   
