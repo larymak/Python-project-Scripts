@@ -11,7 +11,5 @@ def read_using_DictReader(path):
             return lines
 
 
-            
-
 if __name__=="__main__":
-    print(read_using_DictReader('CSV_files/assets/addresses.csv'))
+    print(read_using_DictReader('assets/addresses.csv'))
