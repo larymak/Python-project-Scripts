@@ -14,6 +14,10 @@ Running the script is pretty easy, open a terminal in the folder where your scri
 
 # Sample use of the script
 
-![alt text](https://github.com/Mannuel25/py-projects/blob/master/all-python-codes/countdown-timer/screenshot_1.png)
+![alt text](https://github.com/Mannuel25/Python-project-Scripts/blob/main/Countdown%20Timer/screenshot_1.png)
 
-![alt text](https://github.com/Mannuel25/py-projects/blob/master/all-python-codes/countdown-timer/screenshot_2.png)
+![alt text](https://github.com/Mannuel25/Python-project-Scripts/blob/main/Countdown%20Timer/screenshot_2.png)
+
+# Author's name
+
+[Tanimowo Emmanuel](https://github.com/Mannuel25)
