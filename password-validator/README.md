@@ -20,11 +20,11 @@ Running the script is pretty easy, open a terminal in the folder where your scri
 
 # Sample use of the script
 
-![alt text](https://github.com/Mannuel25/py-projects/blob/master/all-python-codes/password-validator/screenshot_1.png)
+![alt text](https://github.com/Mannuel25/Python-project-Scripts/blob/main/password-validator/screenshot_1.png)
 
-![alt text](https://github.com/Mannuel25/py-projects/blob/master/all-python-codes/password-validator/screenshot_2.png)
+![alt text](https://github.com/Mannuel25/Python-project-Scripts/blob/main/password-validator/screenshot_2.png)
 
-![alt text](https://github.com/Mannuel25/py-projects/blob/master/all-python-codes/password-validator/screenshot_3.png)
+![alt text](https://github.com/Mannuel25/Python-project-Scripts/blob/main/password-validator/screenshot_3.png)
 
 # Author's name
 
