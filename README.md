@@ -1,90 +1,22 @@
-# Python-project-Scripts.
+# Number Guessing Game
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/larymak/Python-project-Scripts)
-![Contributors](https://img.shields.io/github/contributors/larymak/Python-project-Scripts?style=plastic)
-![Forks](https://img.shields.io/github/forks/larymak/Python-project-Scripts)
-![Stars](https://img.shields.io/github/stars/larymak/Python-project-Scripts)
-![Licence](https://img.shields.io/github/license/larymak/Python-project-Scripts)
-![Issues](https://img.shields.io/github/issues/larymak/Python-project-Scripts)
-<a href="https://join.slack.com/t/ngc-goz8665/shared_invite/zt-r01kumfq-dQUT3c95BxEP_fnk4yJFfQ">
-<img alt="Join us on Slack" src="https://raw.githubusercontent.com/netlify/netlify-cms/master/website/static/img/slack.png" width="165"/>
-</a>
+This is a game that allows you guess a number between the range of 1- 10 in just 7 trials.
 
-## This is a list of python scripts for beginner projects.
+# Prerequisites
 
-### Description
+It requires no prerequisites, you only need to run the script. If you don't have Python installed, you can visit [here](https://www.python.org/downloads/) to download Python
 
-Welcome Onboard fellow Developer, This is where you will find Python scripts where you are free to contribute too.
-You can Contribute by giving your scripts written in python and you think are amazing for other people to see.
+# How to run the script
 
-### Contribution Guidelines
+Running the script is pretty easy, open a terminal in the folder where your script is located and run the following command :
 
-The contribution guidelines are as per the guide [HERE](https://github.com/larymak/Python-project-Scripts/blob/main/CONTRIBUTING.md).
+`python numberGuessingGame.py`
 
-### Instructions
+# Sample use of the script
 
-- Fork this Repository
-- Clone your forked repository
-- Add your scripts
-- Commit & Push
-- Create a pull request
-- Star this repository
-- Wait for Pull Request to merge
-- Celebrate, your first step into the open Source World and contribute more
+![alt text](https://github.com/Mannuel25/py-projects/blob/master/all-python-codes/number-guessing-game/script_screenshot.png)
 
-### Note
 
-When you Add a project Add it to the README for ease of finding it
+# Author's name
 
-## So far Added in the Repository:
-
-- [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii)
-
-- [DigitalClock](https://github.com/larymak/Python-project-Scripts/tree/main/DigitalClock)
-
-- [Insta Spam Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstaSpamBot)
-
-- [Pyjokes](https://github.com/larymak/Python-project-Scripts/tree/master/pyjokes)
-
-- [WhatsApp Spambot](https://github.com/larymak/Python-project-Scripts/tree/master/whatsapp-spam)
-
-- [Instagram Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstagramBot)
-
-- [Photo Editor App](https://github.com/larymak/Python-project-Scripts/tree/master/photo%20editor)
-
-- [Random Name Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomNameGen)
-
-- [Web Scrapping](https://github.com/larymak/Python-project-Scripts/tree/main/WebScraping)
-
-- [Random Password Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomPassword)
-
-- [YouTube Video Downloader](https://github.com/larymak/Python-project-Scripts/tree/main/YoutubeDownloader)
-- [Text to Audio](https://github.com/larymak/Python-project-Scripts/tree/main/texttoaudio)
-
-- [Sending Emails](https://github.com/larymak/Python-project-Scripts/tree/main/Sending-Emails)
-
-- [Shorten Links](https://github.com/larymak/Python-project-Scripts/tree/main/ShortenLinks)
-
-- [Python Dictionary](https://github.com/larymak/Python-project-Scripts/tree/main/PYDICTIONARY)
-
-- [Image Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Captcha%20Generator)
-
-- [Audio Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Audio%20Captcha%20Generator)
-
-- [Compress Image](https://github.com/larymak/Python-project-Scripts/tree/main/Compress%20Image)
-
-- [Image Grayscalling](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Grayscalling)
-
-- [Weather Forcasting](https://github.com/larymak/Python-project-Scripts/tree/main/Weather%20Forcasting)
-
-- [Getting Files and Folders sizes](https://github.com/Saeedahmadi7714/Python-project-Scripts/tree/main/Gettin%20File%20and%20Folder%20sizes)
-
-- [pyttsx3](https://github.com/larymak/Python-project-Scripts/tree/main/pyttsx3)
-
-- [pywhatkit](https://github.com/larymak/Python-project-Scripts/tree/main/pywhatkit)
-
-- [wikipedia](https://github.com/larymak/Python-project-Scripts/tree/main/wikipedia)
-
-_more coming soon_
-
-_contributions are welcomed, fork the repo and do the magic_
+[Tanimowo Emmanuel](https://github.com/Mannuel25)
