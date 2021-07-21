@@ -10,7 +10,7 @@ It requires no prerequisites, you only need to run the script. If you don't have
 
 Running the script is pretty easy, open a terminal in the folder where your script is located and run the following command :
 
-`python numberGuessingGame.py`
+`python number_guessing_game.py`
 
 # Sample use of the script
 
