@@ -36,55 +36,16 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 
 When you Add a project Add it to the README for ease of finding it
 
-## So far Added in the Repository:
+## Projects
 
-- [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii)
+SR No   | Project | Author  
+--- | --- | ---
 
-- [DigitalClock](https://github.com/larymak/Python-project-Scripts/tree/main/DigitalClock)
+1 | [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii) | [Larymak](https://github.com/larymak)
+2 | [DigitalClock](https://github.com/larymak/Python-project-Scripts/tree/main/DigitalClock) | [Dekataji](https://github.com/dekataji)
+3 | [Insta Spam Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstaSpamBot) | [Dekataji](https://github.com/dekataji)
+4 | [Pyjokes](https://github.com/larymak/Python-project-Scripts/tree/master/pyjokes) | [Larymak](https://github.com/larymak)
+5 | [WhatsApp Spambot](https://github.com/larymak/Python-project-Scripts/tree/master/whatsapp-spam) | [Larymak](https://github.com/larymak)
+6 | [Instagram Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstagramBot) | [Dekataji](https://github.com/dekataji)
+7 | [Photo Editor App](https://github.com/larymak/Python-project-Scripts/tree/master/photo%20editor)| [Larymak](https://github.com/larymak)
 
-- [Insta Spam Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstaSpamBot)
-
-- [Pyjokes](https://github.com/larymak/Python-project-Scripts/tree/master/pyjokes)
-
-- [WhatsApp Spambot](https://github.com/larymak/Python-project-Scripts/tree/master/whatsapp-spam)
-
-- [Instagram Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstagramBot)
-
-- [Photo Editor App](https://github.com/larymak/Python-project-Scripts/tree/master/photo%20editor)
-
-- [Random Name Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomNameGen)
-
-- [Web Scrapping](https://github.com/larymak/Python-project-Scripts/tree/main/WebScraping)
-
-- [Random Password Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomPassword)
-
-- [YouTube Video Downloader](https://github.com/larymak/Python-project-Scripts/tree/main/YoutubeDownloader)
-- [Text to Audio](https://github.com/larymak/Python-project-Scripts/tree/main/texttoaudio)
-
-- [Sending Emails](https://github.com/larymak/Python-project-Scripts/tree/main/Sending-Emails)
-
-- [Shorten Links](https://github.com/larymak/Python-project-Scripts/tree/main/ShortenLinks)
-
-- [Python Dictionary](https://github.com/larymak/Python-project-Scripts/tree/main/PYDICTIONARY)
-
-- [Image Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Captcha%20Generator)
-
-- [Audio Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Audio%20Captcha%20Generator)
-
-- [Compress Image](https://github.com/larymak/Python-project-Scripts/tree/main/Compress%20Image)
-
-- [Image Grayscalling](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Grayscalling)
-
-- [Weather Forcasting](https://github.com/larymak/Python-project-Scripts/tree/main/Weather%20Forcasting)
-
-- [Getting Files and Folders sizes](https://github.com/Saeedahmadi7714/Python-project-Scripts/tree/main/Gettin%20File%20and%20Folder%20sizes)
-
-- [pyttsx3](https://github.com/larymak/Python-project-Scripts/tree/main/pyttsx3)
-
-- [pywhatkit](https://github.com/larymak/Python-project-Scripts/tree/main/pywhatkit)
-
-- [wikipedia](https://github.com/larymak/Python-project-Scripts/tree/main/wikipedia)
-
-_more coming soon_
-
-_contributions are welcomed, fork the repo and do the magic_
