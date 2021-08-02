@@ -72,3 +72,8 @@ SR No   | Project | Author
 30 | [Notifications Alert](https://github.com/larymak/Python-project-Scripts/tree/main/Notification) | [Lary Mak](https://github.com/larymak)
 31 | [Qr Code Generator](https://github.com/larymak/Python-project-Scripts/tree/main/QrCodeGen) | [Lary Mak](https://github.com/larymak)
 32 | [User Hash Generator](https://github.com/larymak/Python-project-Scripts/tree/main/User%20Hash%20Generator) | [Samed Kahyaoglu](https://github.com/urtuba)
+33 | [Weather Updates](https://github.com/larymak/Python-project-Scripts/tree/main/Weather%20Updates) | [Harshad Bhere](https://github.com/harshadbhere)
+34 | [Custom Clock](https://github.com/larymak/Python-project-Scripts/tree/main/current_time) | [Saeedahmadi](https://github.com/Saeedahmadi7714)
+35 | [Image to ASCII](https://github.com/larymak/Python-project-Scripts/tree/main/image-ascii) | [Lary Mak](https://github.com/larymak)
+36 | [Password Validator](https://github.com/larymak/Python-project-Scripts/tree/main/password-validator) | [Emmanuel Tanimowo](https://github.com/Mannuel25)
+37 | [Text to Audio](https://github.com/larymak/Python-project-Scripts/tree/main/texttoaudio) | [Azmine Toushik](https://github.com/azminewasi)
