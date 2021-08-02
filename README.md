@@ -59,3 +59,6 @@ SR No   | Project | Author
 17 | [Audio Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Audio%20Captcha%20Generator)| [Dekataji](https://github.com/dekataji)
 18 | [Compress Image](https://github.com/larymak/Python-project-Scripts/tree/main/Compress%20Image)| [Dekataji](https://github.com/xolanigumbi)
 19 | [Image Grayscalling](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Grayscalling)| [Dekataji](https://github.com/dekataji)
+20 | [Weather Forcasting](https://github.com/larymak/Python-project-Scripts/tree/main/Weather%20Forcasting)| [Dekataji](https://github.com/dekataji)
+21 | [Pywhatkit](https://github.com/larymak/Python-project-Scripts/tree/main/pywhatkit) | [SasiKalyan](https://github.com/KanakamSasikalyan)
+22 | [Wikipedia](https://github.com/larymak/Python-project-Scripts/tree/main/wikipedia)| [SasiKalyan](https://github.com/KanakamSasikalyan)
