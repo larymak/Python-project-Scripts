@@ -32,7 +32,7 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 - Wait for Pull Request to merge
 - Celebrate, your first step into the open Source World and contribute more
 
-### Note: When you Add a project Add it to the README for ease of finding it
+#### Note: When you Add a project Add it to the README for ease of finding it
 
 ## Projects
 
