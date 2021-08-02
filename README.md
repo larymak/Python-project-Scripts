@@ -47,4 +47,9 @@ SR No   | Project | Author
 5 | [WhatsApp Spambot](https://github.com/larymak/Python-project-Scripts/tree/master/whatsapp-spam) | [Larymak](https://github.com/larymak)
 6 | [Instagram Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstagramBot) | [Dekataji](https://github.com/dekataji)
 7 | [Photo Editor App](https://github.com/larymak/Python-project-Scripts/tree/master/photo%20editor)| [Larymak](https://github.com/larymak)
-
+8 | [Random Name Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomNameGen) | [Dekataji](https://github.com/dekataji)
+9 | [Web Scrapping](https://github.com/larymak/Python-project-Scripts/tree/main/WebScraping) | [Dekataji](https://github.com/dekataji)
+10 | [Random Password Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomPassword) | [Dekataji](https://github.com/dekataji)
+11 | [YouTube Video Downloader](https://github.com/larymak/Python-project-Scripts/tree/main/YoutubeDownloader) | [Dekataji](https://github.com/dekataji)
+12 | [Text to Audio](https://github.com/larymak/Python-project-Scripts/tree/main/texttoaudio) | [Dekataji](https://github.com/dekataji)
+13 | [Sending Emails](https://github.com/larymak/Python-project-Scripts/tree/main/Sending-Emails) | [Dekataji](https://github.com/dekataji)
