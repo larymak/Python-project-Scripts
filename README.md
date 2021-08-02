@@ -40,7 +40,6 @@ When you Add a project Add it to the README for ease of finding it
 
 SR No   | Project | Author  
 --- | --- | ---
-
 1 | [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii) | [Larymak](https://github.com/larymak)
 2 | [DigitalClock](https://github.com/larymak/Python-project-Scripts/tree/main/DigitalClock) | [Dekataji](https://github.com/dekataji)
 3 | [Insta Spam Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstaSpamBot) | [Dekataji](https://github.com/dekataji)
