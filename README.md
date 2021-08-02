@@ -67,3 +67,8 @@ SR No   | Project | Author
 25 | [Getting files and folders sizes](https://github.com/larymak/Python-project-Scripts/tree/main/Getting%20Files%20and%20Folders%20sizes) | [Saeedahmadi](https://github.com/Saeedahmadi7714)
 26 | [Contact management system](https://github.com/larymak/Python-project-Scripts/tree/main/Contact-management) | [Gagan prajapati](https://github.com/Gagan1111)
 27 | [Countdown Timer](https://github.com/larymak/Python-project-Scripts/tree/main/Countdown%20Timer) | [Emmanuel Tanimowo](https://github.com/Mannuel25)
+28 | [Simple Flask Calculator](https://github.com/larymak/Python-project-Scripts/tree/main/FlaskSimpleCalculator) | [Devnamrits](https://github.com/devnamrits)
+29 | [Hex to Base64 Converter](https://github.com/larymak/Python-project-Scripts/tree/main/Hex%20to%20Base64%20Converter) | [Dev M](https://github.com/devmgardner)
+30 | [Notifications Alert](https://github.com/larymak/Python-project-Scripts/tree/main/Notification) | [Lary Mak](https://github.com/larymak)
+31 | [Qr Code Generator](https://github.com/larymak/Python-project-Scripts/tree/main/QrCodeGen) | [Lary Mak](https://github.com/larymak)
+32 | [User Hash Generator](https://github.com/larymak/Python-project-Scripts/tree/main/User%20Hash%20Generator) | [Samed Kahyaoglu](https://github.com/urtuba)
