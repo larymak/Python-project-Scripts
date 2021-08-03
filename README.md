@@ -32,59 +32,46 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 - Wait for Pull Request to merge
 - Celebrate, your first step into the open Source World and contribute more
 
-### Note
+#### Note: When you Add a project Add it to the README for ease of finding it
 
-When you Add a project Add it to the README for ease of finding it
+## Projects
 
-## So far Added in the Repository:
-
-- [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii)
-
-- [DigitalClock](https://github.com/larymak/Python-project-Scripts/tree/main/DigitalClock)
-
-- [Insta Spam Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstaSpamBot)
-
-- [Pyjokes](https://github.com/larymak/Python-project-Scripts/tree/master/pyjokes)
-
-- [WhatsApp Spambot](https://github.com/larymak/Python-project-Scripts/tree/master/whatsapp-spam)
-
-- [Instagram Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstagramBot)
-
-- [Photo Editor App](https://github.com/larymak/Python-project-Scripts/tree/master/photo%20editor)
-
-- [Random Name Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomNameGen)
-
-- [Web Scrapping](https://github.com/larymak/Python-project-Scripts/tree/main/WebScraping)
-
-- [Random Password Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomPassword)
-
-- [YouTube Video Downloader](https://github.com/larymak/Python-project-Scripts/tree/main/YoutubeDownloader)
-- [Text to Audio](https://github.com/larymak/Python-project-Scripts/tree/main/texttoaudio)
-
-- [Sending Emails](https://github.com/larymak/Python-project-Scripts/tree/main/Sending-Emails)
-
-- [Shorten Links](https://github.com/larymak/Python-project-Scripts/tree/main/ShortenLinks)
-
-- [Python Dictionary](https://github.com/larymak/Python-project-Scripts/tree/main/PYDICTIONARY)
-
-- [Image Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Captcha%20Generator)
-
-- [Audio Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Audio%20Captcha%20Generator)
-
-- [Compress Image](https://github.com/larymak/Python-project-Scripts/tree/main/Compress%20Image)
-
-- [Image Grayscalling](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Grayscalling)
-
-- [Weather Forcasting](https://github.com/larymak/Python-project-Scripts/tree/main/Weather%20Forcasting)
-
-- [Getting Files and Folders sizes](https://github.com/Saeedahmadi7714/Python-project-Scripts/tree/main/Gettin%20File%20and%20Folder%20sizes)
-
-- [pyttsx3](https://github.com/larymak/Python-project-Scripts/tree/main/pyttsx3)
-
-- [pywhatkit](https://github.com/larymak/Python-project-Scripts/tree/main/pywhatkit)
-
-- [wikipedia](https://github.com/larymak/Python-project-Scripts/tree/main/wikipedia)
-
-_more coming soon_
-
-_contributions are welcomed, fork the repo and do the magic_
+SR No   | Project | Author  
+--- | --- | ---
+1 | [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii) | [Lary Mak](https://github.com/larymak)
+2 | [DigitalClock](https://github.com/larymak/Python-project-Scripts/tree/main/DigitalClock) | [Logan Ozdyck](https://github.com/ozdyck3)
+3 | [Insta Spam Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstaSpamBot) | [Lary Mak](https://github.com/larymak)
+4 | [Pyjokes](https://github.com/larymak/Python-project-Scripts/tree/master/pyjokes) | [Lary Mak](https://github.com/larymak)
+5 | [WhatsApp Spambot](https://github.com/larymak/Python-project-Scripts/tree/master/whatsapp-spam) | [Lary Mak](https://github.com/larymak)
+6 | [Instagram Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstagramBot) | [Lary Mak](https://github.com/larymak)
+7 | [Photo Editor App](https://github.com/larymak/Python-project-Scripts/tree/master/photo%20editor)| [Lary Mak](https://github.com/larymak)
+8 | [Random Name Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomNameGen) | [Lary Mak](https://github.com/larymak)
+9 | [Web Scrapping](https://github.com/larymak/Python-project-Scripts/tree/main/WebScraping) | [Lary Mak](https://github.com/larymak)
+10 | [Random Password Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomPassword) | [Gagan prajapatii](https://github.com/Gagan1111)
+11 | [YouTube Video Downloader](https://github.com/larymak/Python-project-Scripts/tree/main/YoutubeDownloader) | [Kinathany](https://github.com/jkinathan)
+12 | [Text to Audio](https://github.com/larymak/Python-project-Scripts/tree/main/texttoaudio) | [Azmine Toushik](https://github.com/azminewasi)
+13 | [Sending Emails](https://github.com/larymak/Python-project-Scripts/tree/main/Sending-Emails) | [Dhrumil Gohel](https://github.com/Dhrumil-Zion)
+14 | [Shorten Links](https://github.com/larymak/Python-project-Scripts/tree/main/ShortenLinks) | [Dhrumil Gohel](https://github.com/Dhrumil-Zion)
+15 | [Python Dictionary](https://github.com/larymak/Python-project-Scripts/tree/main/PYDICTIONARY) | [Kinathany](https://github.com/jkinathan)
+16 | [Image Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Captcha%20Generator) | [Dhrumil Gohel](https://github.com/Dhrumil-Zion)
+17 | [Audio Captcha Generator](https://github.com/larymak/Python-project-Scripts/tree/main/Audio%20Captcha%20Generator)| [Dhrumil Gohel](https://github.com/Dhrumil-Zion)
+18 | [Compress Image](https://github.com/larymak/Python-project-Scripts/tree/main/Compress%20Image)| [Xolani](https://github.com/xolanigumbi)
+19 | [Image Grayscalling](https://github.com/larymak/Python-project-Scripts/tree/main/Image%20Grayscalling)| [Dhrumil Gohel](https://github.com/Dhrumil-Zion)
+20 | [Weather Forcasting](https://github.com/larymak/Python-project-Scripts/tree/main/Weather%20Forcasting) | [Dhrumil Gohel](https://github.com/Dhrumil-Zion)
+21 | [Pywhatkit](https://github.com/larymak/Python-project-Scripts/tree/main/pywhatkit) | [SasiKalyan](https://github.com/KanakamSasikalyan)
+22 | [Wikipedia](https://github.com/larymak/Python-project-Scripts/tree/main/wikipedia)| [SasiKalyan](https://github.com/KanakamSasikalyan)
+23 | [Auto Move Files](https://github.com/larymak/Python-project-Scripts/tree/main/AutoMoveFiles) | [Hisham Khalil](https://github.com/HishamKhalil1990)
+24 | [Working with CSV Files](https://github.com/larymak/Python-project-Scripts/tree/main/CSV_files)| [Mahmoud alzoubi](https://github.com/Mahmoud-alzoubi95)
+25 | [Getting files and folders sizes](https://github.com/larymak/Python-project-Scripts/tree/main/Getting%20Files%20and%20Folders%20sizes) | [Saeedahmadi](https://github.com/Saeedahmadi7714)
+26 | [Contact management system](https://github.com/larymak/Python-project-Scripts/tree/main/Contact-management) | [Gagan prajapati](https://github.com/Gagan1111)
+27 | [Countdown Timer](https://github.com/larymak/Python-project-Scripts/tree/main/Countdown%20Timer) | [Emmanuel Tanimowo](https://github.com/Mannuel25)
+28 | [Simple Flask Calculator](https://github.com/larymak/Python-project-Scripts/tree/main/FlaskSimpleCalculator) | [Devnamrits](https://github.com/devnamrits)
+29 | [Hex to Base64 Converter](https://github.com/larymak/Python-project-Scripts/tree/main/Hex%20to%20Base64%20Converter) | [Dev M](https://github.com/devmgardner)
+30 | [Notifications Alert](https://github.com/larymak/Python-project-Scripts/tree/main/Notification) | [Lary Mak](https://github.com/larymak)
+31 | [Qr Code Generator](https://github.com/larymak/Python-project-Scripts/tree/main/QrCodeGen) | [Lary Mak](https://github.com/larymak)
+32 | [User Hash Generator](https://github.com/larymak/Python-project-Scripts/tree/main/User%20Hash%20Generator) | [Samed Kahyaoglu](https://github.com/urtuba)
+33 | [Weather Updates](https://github.com/larymak/Python-project-Scripts/tree/main/Weather%20Updates) | [Harshad Bhere](https://github.com/harshadbhere)
+34 | [Custom Clock](https://github.com/larymak/Python-project-Scripts/tree/main/current_time) | [Saeedahmadi](https://github.com/Saeedahmadi7714)
+35 | [Image to ASCII](https://github.com/larymak/Python-project-Scripts/tree/main/image-ascii) | [Lary Mak](https://github.com/larymak)
+36 | [Password Validator](https://github.com/larymak/Python-project-Scripts/tree/main/password-validator) | [Emmanuel Tanimowo](https://github.com/Mannuel25)
+37 | [Text to Audio](https://github.com/larymak/Python-project-Scripts/tree/main/texttoaudio) | [Azmine Toushik](https://github.com/azminewasi)
