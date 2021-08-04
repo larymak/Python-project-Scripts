@@ -78,4 +78,4 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 35    | [Image to ASCII](https://github.com/larymak/Python-project-Scripts/tree/main/image-ascii)                                              | [Lary Mak](https://github.com/larymak)                  |
 | 36    | [Password Validator](https://github.com/larymak/Python-project-Scripts/tree/main/password-validator)                                   | [Emmanuel Tanimowo](https://github.com/Mannuel25)       |
 | 37    | [Text to Audio](https://github.com/larymak/Python-project-Scripts/tree/main/texttoaudio)                                               | [Azmine Toushik](https://github.com/azminewasi)         |
-| 37    | [Number Guessing Game](https://github.com/Mannuel25/Python-project-Scripts/tree/main/Number%20Guessing%20Game)                                               | [Emmanuel Tanimowo](https://github.com/Mannuel25)         |
+| 38    | [Number Guessing Game](https://github.com/Mannuel25/Python-project-Scripts/tree/main/Number%20Guessing%20Game)                                               | [Emmanuel Tanimowo](https://github.com/Mannuel25)         |
