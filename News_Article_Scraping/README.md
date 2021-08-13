@@ -1,5 +1,5 @@
 # Article Scraping (Python)
-
+![image](https://user-images.githubusercontent.com/67740644/129327650-24a85343-0371-4e8e-aa42-f290c4a6eb9c.png)
 ## Description :
 Newspaper is a Python module used for extracting and parsing newspaper articles.</br>
 Newspaper use advance algorithms with web scrapping to extract all the useful text from a website.</br>
@@ -21,8 +21,8 @@ Newspaper supports following languages:
   de&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;German</br>
   el&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Greek</br>
   en&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;English</br>
-  it&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Italian</br>
+  it&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Italian</br>
   zh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chinese</br>
                            ....etc.
 ## Link :
-You Can Read The original Documentation Here.[NewsPaper3k Documentation](https://newspaper.readthedocs.io/en/latest/)
+You Can Read The original Documentation Here. [NewsPaper3k Documentation](https://newspaper.readthedocs.io/en/latest/)
