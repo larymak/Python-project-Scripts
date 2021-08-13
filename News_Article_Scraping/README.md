@@ -24,3 +24,5 @@ Newspaper supports following languages:
   it&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Italian</br>
   zh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chinese</br>
                            ....etc.
+## Link :
+You Can Read The original Documentation Here.[NewsPaper3k Documentation](https://newspaper.readthedocs.io/en/latest/)
