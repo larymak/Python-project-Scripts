@@ -14,12 +14,12 @@ $ pip install newspaper (Wrong Command)
 ## Languages Supported :
 Newspaper supports following languages:  
 
-  input code         full name
-  ar               Arabic
-  da               Danish
-  de               German
-  el               Greek
-  en               English
-  it               Italian
-  zh               Chinese
+  input code         full name</br>
+  ar               Arabic</br>
+  da               Danish</br>
+  de               German</br>
+  el               Greek</br>
+  en               English</br>
+  it               Italian</br>
+  zh               Chinese</br>
                            ....etc.
