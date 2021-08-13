@@ -1,3 +1,4 @@
+###############################################################################
 """
 @Newspaper3k usage
 @Usage of functions in newspaper:
@@ -28,9 +29,9 @@ To extract article’s keywords
 
 article_name.keywords
 """
+####################################################################################
 
 #Sample Usage Program
-
 from newspaper import Article
  
 #A new article from TOI
@@ -67,6 +68,8 @@ print("n")
 print("Article's Keywords:")
 print(toi_article.keywords)
 
+
+#####################################################################################################################################################################################
 """
 Output:
 =======
@@ -84,5 +87,5 @@ sending its troops to the disputed Doklam area +puts Indian territory at risk +B
 "China can show the region and the international community or even the UN Security Council its evidence to illustrate China's position, " Long said.
 "Indians have migrated in large numbers to Nepal and Bhutan, interfering with Nepal's internal affairs.
 The first challenge for Nepal and Bhutan is to avoid becoming a state of India, like Sikkim, " he said.
-
 """
+####################################################################################################################################################################################
