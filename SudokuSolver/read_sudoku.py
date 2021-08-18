@@ -20,7 +20,7 @@ def is_solvable(sudoku: Sudoku) -> bool:
 
     # Check there are at least 17 non 0 numbers for unique solution
 
-    if sudoku[sudoku.grid != 0].size < MINIMUM_NUMBERS_FOR_UNIQUE_SOLUTION:
+    if sudoku.grid[sudoku.grid != 0].size < MINIMUM_NUMBERS_FOR_UNIQUE_SOLUTION:
         return False
 
     # Check rows' legality
@@ -30,14 +30,14 @@ def is_solvable(sudoku: Sudoku) -> bool:
             return False
 
     # Check columns' legality
-    for column in np.nditer(sudoku, flags = ['external_loop'], order='C'):
+    for column in np.nditer(sudoku.grid, flags = ['external_loop'], order='C'):
         column = column[column != 0]
         if np.unique(column).size != column.size:
             return False
 
     # Check regions' legality
     for region_number in range(NUMBER_REGIONS):
-        region = getattr(sudoku, 'region'+(region_number+1))
+        region = getattr(sudoku, "{}{}".format('region',region_number+1))
         region = region[region != 0]
         if np.unique(region).size != region.size:
             return False
