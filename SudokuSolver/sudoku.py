@@ -20,11 +20,18 @@ class Sudoku:
 
         self.grid[move.row, move.column] = move.number
 
-    def check_legal_state(self, previous_move: Move) -> bool:
+    def is_legal_state(self, new_move: Move) -> bool:
 
-        row_to_check = self.grid[previous_move.row, :].copy()
-        column_to_check = self.grid[:, previous_move.column].copy()
-        region_to_check = self.get_region_from_move(previous_move)
+        # Make the movement, take copies of the grid and remove the movement
+
+        self.put_number(new_move)
+
+        row_to_check = self.grid[new_move.row, :].copy()
+        column_to_check = self.grid[:, new_move.column].copy()
+        region_to_check = self.get_region_from_move(new_move).copy()
+
+        reset_move = Move(0, new_move.row, new_move.column)
+        self.put_number(reset_move)
 
         # Remove 0's from the areas to be checked
 

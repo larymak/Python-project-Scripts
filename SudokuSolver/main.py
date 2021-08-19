@@ -4,8 +4,7 @@ from sudoku_solver import solve_sudoku
 def main() -> None:
 
     sudoku_to_be_solved = import_sudoku()
-    sudoku_solved = solve_sudoku(sudoku_to_be_solved)
-    print("The solution to the sudoku proposed is:\n", sudoku_solved.grid)
+    solve_sudoku(sudoku_to_be_solved, 0, 0)
 
 if __name__ == '__main__':
     main()
