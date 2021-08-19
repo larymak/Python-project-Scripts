@@ -1,41 +1,46 @@
+import numpy as np
 from move import Move
 from sudoku import Sudoku
 
 LEGIT_DIGITS = list(range(1, 10))
 SUDOKU_DIMENSION = 9
 
-def solve_sudoku(sudoku: Sudoku, row: int, column: int) -> bool:
+
+def find_naked_cell(sudoku: Sudoku) -> tuple:
+
+    '''
+        Finds the first 0 labeled cell in the sudoku
+    '''
+
+    naked_cells_indexes = np.where(sudoku.grid == 0)
+    if naked_cells_indexes[0].size > 0:
+        if naked_cells_indexes[0][0].size > 0 and naked_cells_indexes[1][0].size > 0:
+            return (naked_cells_indexes[0][0], naked_cells_indexes[1][0])
+
+    return naked_cells_indexes
+
+def solve_sudoku(sudoku: Sudoku,) -> bool:
     '''
         Solve a given legal sudoku by appliying a
         backtracking strategy.
     '''
+    naked_cell = find_naked_cell(sudoku)
 
-    # Return True when the last cell is achieved to avoid further backtracking
-    
-    if (row == SUDOKU_DIMENSION - 1 and column == SUDOKU_DIMENSION - 1):
-        print("The solution to the Sudoku proposed is: \n", sudoku.grid)
+    if(not naked_cell[0].size > 0):
+        print("The solution to the proposed Sudoku is: \n", sudoku.grid)
         return True
 
-    # If we're in the last column, move to the next row
-
-    if column == SUDOKU_DIMENSION:
-        row += 1
-        column = 0
-
-    if sudoku.grid[row, column] > 0:
-        return solve_sudoku(sudoku, row, column + 1)
-
-    move = Move(0, row, column)
+    move = Move(0, naked_cell[0], naked_cell[1])
 
     for digit in LEGIT_DIGITS:
         move.number = digit
-
         if sudoku.is_legal_state(move):
             sudoku.put_number(move)
-
-            if solve_sudoku(sudoku, row, column + 1):
+            print(sudoku.grid)
+            if(solve_sudoku(sudoku)):
                 return True
 
-        sudoku.grid[row, column] = 0
-
+        move.number = 0
+        sudoku.put_number(move)
+        
     return False
