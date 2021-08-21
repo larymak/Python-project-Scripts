@@ -87,5 +87,4 @@ def game():
                 # start a new game
                 new_game = True
 
-if __name__ == '__main__':
-    game()
+game()
