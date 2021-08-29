@@ -8,8 +8,5 @@ length = int(input("Enter the length of the password(s): "))
 
 print("List(s) of Generated passwords: ")
 
-for pwd in range(numPass):
-    pw=''
-    for c in range(length):
-        pw += random.choice(passwrd) # Choice() function returns a random element from a iterable element.
-    print(pw)
+for _ in range(numPass):
+    print(''.join(random.sample(passwrd, k=length))) #sample() generates an array of random characters of length k
