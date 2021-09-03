@@ -121,7 +121,7 @@ def Get(url):
     try:
         sp = url.split("/")
         if len(sp) > 5:
-            for token in range(0, 7):
+            for _ in range(0, 7):
                 sp.pop(0)
             path = "/".join(sp)
 
@@ -262,23 +262,23 @@ except:
 
 if include_list:
     print("Searching for matches...")
-    (new_obj, matches) = include(obj, include_list)
+    (obj_, matches) = include(obj, include_list)
 
     if matches != 0:
-        obj = new_obj
-        del new_obj
+        obj = obj_
+        del obj_
         print(f"{matches} matches found to include")
     else:
         sys.exit(f"no matches for {include_list}")
 
 if exclude_list:
-    m = search_pattern(obj, exclude_list)
-    if m:
-        obj_ = exclude(obj, exclude_list, m)
+    matches = search_pattern(obj, exclude_list)
+    if matches:
+        obj_ = exclude(obj, exclude_list, matches)
         obj = obj_
         del obj_
     else:
-        print(f"{m} matches found to ignore")
+        print(f"{matches} matches found to ignore")
 
 print(f"\nClonning into {directory}...")
 
