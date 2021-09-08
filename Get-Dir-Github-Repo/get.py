@@ -4,9 +4,33 @@ import fnmatch
 import json
 import sys
 import os
-import requests
+import subprocess
 
 __version__ = "1.1"
+
+
+# This will attempt to import the modules required for the script run
+# if fail to import it will try to install
+modules = ['requests']
+
+try:
+    import requests
+except:
+
+    try:
+        for module in modules:
+            subprocess.run(['python', '-m', 'pip', 'install', module])
+        import requests
+    except:
+        pass
+
+    try:
+        for module in modules:
+            subprocess.run(['python3', '-m', 'pip', 'install', module])
+        import requests
+    except:
+        sys.exit('Could not install requirements')
+
 
 ### Comandline arguments ###
 parser = argparse.ArgumentParser(
@@ -27,7 +51,6 @@ parser.add_argument(
     action="store_true",
     help="Print each file of the repository while clonnig",
 )
-# parser.add_argument('-s', '--case-sensitive', action="store_true", help='Perform a case-sensitive filter. (Default is case insensitive.)')
 parser.add_argument(
     "-I",
     "--include-only",
@@ -108,6 +131,9 @@ def check_url(url):
         sys.exit(
             "Make sure you are provided a valid link and make sure you are connected to Internet."
         )
+
+
+### End of functions ###
 
 
 def Get(url):
@@ -215,8 +241,6 @@ def fetch(obj):
         print(file)
 
 
-### End of functions ###
-
 url = args.url[0]
 check_url(url)
 
@@ -284,3 +308,5 @@ print(f"\nClonning into {directory}...")
 
 with concurrent.futures.ThreadPoolExecutor() as executor:
     executor.map(fetch, obj)
+
+print("\nDone")
