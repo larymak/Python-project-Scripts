@@ -81,3 +81,5 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 38    | [Number Guessing Game](https://github.com/Mannuel25/Python-project-Scripts/tree/main/Number%20Guessing%20Game)                                               | [Emmanuel Tanimowo](https://github.com/Mannuel25)         |
 | 39    | [Web Dev with python Flask](https://github.com/deepaksaipendyala/Python-project-Scripts/tree/main/Web%20Dev%20with%20Flask)                                               | [Deepak Sai Pendyala](https://github.com/deepaksaipendyala)         |
 | 40    | [password breach checker](https://github.com/deepaksaipendyala/Python-project-Scripts/tree/main/passwordbreachchecker)                                               | [Deepak Sai Pendyala](https://github.com/deepaksaipendyala)         |
+| 41    | [Audio Book](https://github.com/Mannuel25/Python-project-Scripts/tree/main/AudioBuk)             | [Lary Mak](https://github.com/larymak)         |
+| 42    | [Geocoding Google API](https://github.com/Mannuel25/Python-project-Scripts/tree/main/Geocoding%20Google%20API)             | [Sherief Elsowiny](https://github.com/elsowiny)         |
