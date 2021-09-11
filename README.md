@@ -83,3 +83,5 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 40    | [password breach checker](https://github.com/deepaksaipendyala/Python-project-Scripts/tree/main/passwordbreachchecker)                                               | [Deepak Sai Pendyala](https://github.com/deepaksaipendyala)         |
 | 41    | [Audio Book](https://github.com/Mannuel25/Python-project-Scripts/tree/main/AudioBuk)             | [Lary Mak](https://github.com/larymak)         |
 | 42    | [Geocoding Google API](https://github.com/Mannuel25/Python-project-Scripts/tree/main/Geocoding%20Google%20API)             | [Sherief Elsowiny](https://github.com/elsowiny)         |
+| 43    | [News Article Scraping](https://github.com/Mannuel25/Python-project-Scripts/tree/main/News_Article_Scraping)             | [SasiKalyan](https://github.com/KanakamSasikalyan)         |
+| 44    | [Sudoku Solver](https://github.com/Mannuel25/Python-project-Scripts/tree/main/SudokuSolver)             | [Ruben Grande Muñoz](https://github.com/RgrMz)         |
