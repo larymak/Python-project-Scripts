@@ -16,20 +16,23 @@ modules = ['requests']
 try:
     import requests
 except:
+    print('Attempting to install the requirements...')
 
     try:
         for module in modules:
-            subprocess.run(['python', '-m', 'pip', 'install', module])
+            subprocess.run(['python', '-m', 'pip', 'install', module],
+                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         import requests
+        print('Requirements was successful installed!')
     except:
-        pass
-
-    try:
-        for module in modules:
-            subprocess.run(['python3', '-m', 'pip', 'install', module])
-        import requests
-    except:
-        sys.exit('Could not install requirements')
+        try:
+            for module in modules:
+                subprocess.run(['python3', '-m', 'pip', 'install', module],
+                               stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            import requests
+            print('Requirements was successful installed!')
+        except:
+            sys.exit('Could not install requirements :(')
 
 
 ### Comandline arguments ###
@@ -98,7 +101,8 @@ def check_url(url):
         sys.exit("Someone closed the program")
     else:
         if r.status_code == 404:
-            sys.exit("404: Verify internet connection or check if the url is correct")
+            sys.exit(
+                "404: Verify internet connection or check if the url is correct")
 
         if not "https://github.com/" in url:
             sys.exit("Not a Github repo")
