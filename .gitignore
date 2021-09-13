@@ -1,2 +1,4 @@
 .vscode/extensions.json
 SudokuSolver/__pycache__/sudoku.cpython-38.pyc
+.idea
+pencilSketch/venv/
