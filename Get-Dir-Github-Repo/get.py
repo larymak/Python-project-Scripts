@@ -1,7 +1,6 @@
 import argparse
 import concurrent.futures
 import fnmatch
-import json
 import sys
 import os
 import subprocess
@@ -277,12 +276,12 @@ else:
 r = ""
 
 try:
-    r = requests.get(api_url, timeout=30).content.decode("utf-8")
+    r = requests.get(api_url, timeout=30)
 except requests.exceptions.RequestException:
     sys.exit("error: Connetion error. Aborted.")
 
 try:
-    obj = json.loads(r)
+    obj = r.json()
     obj_len = len(obj)
 except:
     sys.exit(f"error: Could not load files on {url}")
