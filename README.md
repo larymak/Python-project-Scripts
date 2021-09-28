@@ -17,7 +17,7 @@
 
 ### Description
 
-Welcome Onboard fellow Developer, This is where you will find Python scripts where you are free to contribute too.
+Welcome on board fellow Developer,this is where you will find Python scripts where you are free to contribute too.
 You can Contribute by giving your scripts written in python and you think are amazing for other people to see.
 
 ### Contribution Guidelines
