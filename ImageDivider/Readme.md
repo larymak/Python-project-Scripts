@@ -12,3 +12,7 @@ pip install opencv-python
  - Hit run and you are done!!
 
 Note: This code will divide the images vertically.
+
+## Demo:
+
+<img src="https://github.com/GSAUC3/Python-project-Scripts/blob/gsauce1/ImageDivider/Screenshot%20.png">
