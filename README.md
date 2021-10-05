@@ -85,3 +85,4 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 42    | [Geocoding Google API](https://github.com/Mannuel25/Python-project-Scripts/tree/main/Geocoding%20Google%20API)             | [Sherief Elsowiny](https://github.com/elsowiny)         |
 | 43    | [News Article Scraping](https://github.com/Mannuel25/Python-project-Scripts/tree/main/News_Article_Scraping)             | [SasiKalyan](https://github.com/KanakamSasikalyan)         |
 | 44    | [Sudoku Solver](https://github.com/Mannuel25/Python-project-Scripts/tree/main/SudokuSolver)             | [Ruben Grande Muñoz](https://github.com/RgrMz)         |
+| 45    |  [Image Divider](https://github.com/larymak/Python-project-Scripts/tree/main/ImageDivider)              | [Rajarshi Banerjee](https://github.com/GSAUC3)          |
