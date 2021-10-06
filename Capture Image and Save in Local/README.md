@@ -17,5 +17,5 @@ This snippet of code will allow you to capture images from your webcam and save 
 
 ## Code Output
 
-![How the webcam window will look](https://ibb.co/7v43fb0)
-![How the directory structure looks](https://ibb.co/y5S1wbm)
+![How the webcam window will look](https://drive.google.com/file/d/1mBp9I_gON3uY4PpOPrwvPWMcrhM8Z4Sn/view?usp=sharing)
+![How the directory structure looks](https://drive.google.com/file/d/1bL65lNivfNhgV1lhjuAqvgn_W5zcrXTx/view?usp=sharing)
