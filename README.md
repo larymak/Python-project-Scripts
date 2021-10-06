@@ -12,8 +12,8 @@
 ## This is a list of python scripts for beginner projects.
 
 ### Description  
-Welcome Onboard fellow Developer, This is where you will find Python scripts where you are free to contribute too.
-You can Contribute by giving your scripts written in python and you think are amazing for other people to see.
+Welcome Onboard fellow Developer! This is where you will find Python scripts where you are free to contribute too.
+You can contribute by giving your scripts written in Python and you think are amazing for other people to see your work.
 
 ### Contribution Guidelines
 The contribution guidelines are as per the guide [HERE](https://github.com/larymak/Python-project-Scripts/blob/main/CONTRIBUTING.md).
