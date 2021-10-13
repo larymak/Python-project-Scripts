@@ -88,3 +88,4 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 45    | [Duplicate File Remover](https://github.com/mas-designs/Python-project-Scripts/tree/main/Remove%20Duplicate%20Files%20in%20Folder)             | [Michael Stadler](https://github.com/mas-designs)         |
 | 46    |  [Image Divider](https://github.com/larymak/Python-project-Scripts/tree/main/ImageDivider)              | [Rajarshi Banerjee](https://github.com/GSAUC3)          |)
 | 47    |  [Morse Code Converter](https://github.com/HarshitRV/Python-project-Scripts/tree/main/Morse-Code-Converter)              | [HarshitRV](https://github.com/HarshitRV)          |)
+| 48    | [CLI Photo Watermark](https://github.com/odinmay/Python-project-Scripts/tree/main/CLI-Photo-Watermark)                                           | [Odin May](https://github.com/odinmay) 
