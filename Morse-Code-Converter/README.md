@@ -16,3 +16,12 @@ python3 main.py
  ```bash
  python3 converter_app.py
  ``` 
+ 
+# Here are the some screenshots of the program. 
+<br>
+Running the code in terminal<br><br>
+<img src="https://i.imgur.com/Wh39Po4.png">
+Tkinter UI <br><br>
+<img src="https://i.imgur.com/MaXjaY5.png?1">
+<br><br>
+<img src="https://i.imgur.com/yz1o7vl.png">
