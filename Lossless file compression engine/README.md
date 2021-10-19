@@ -7,15 +7,10 @@ This program is currently compressing a file that is named "foo.txt" which is a 
 This program compressed the original file by 43% from 175 KB to 78 KB
 
 
-# Code can be run via Python 3
+# Code can be run via Python 3 - https://www.python.org/downloads/
 
-Link: https://www.python.org/downloads/
-
-Needs bitstring and huffman modules
-
+```
 pip install bitstring
 
 pip install huffman
-
-Code and the example output of the console are attached at the end of the report. foo.txt is 175KB of text file. The compressed file that is created with my algorithm holds 78KB of hard drive space. And the decompressed file holds again 175KB of space and it is a text file without any corruption. 
-
+```
