@@ -89,3 +89,4 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 46    |  [Image Divider](https://github.com/larymak/Python-project-Scripts/tree/main/ImageDivider)              | [Rajarshi Banerjee](https://github.com/GSAUC3)          |)
 | 47    |  [Morse Code Converter](https://github.com/HarshitRV/Python-project-Scripts/tree/main/Morse-Code-Converter)              | [HarshitRV](https://github.com/HarshitRV)          |)
 | 48    | [CLI Photo Watermark](https://github.com/odinmay/Python-project-Scripts/tree/main/CLI-Photo-Watermark)                                           | [Odin May](https://github.com/odinmay) 
+| 49    | [Pomodoro App](https://github.com/HarshitRV/Python-project-Scripts/tree/main/Pomodoro-App)                                           | [HarshitRV](https://github.com/HarshitRV)
