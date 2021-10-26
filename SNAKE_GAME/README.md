@@ -1,0 +1,1 @@
+# Snack game in python using curses and random library
