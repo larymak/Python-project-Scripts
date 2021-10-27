@@ -14,4 +14,4 @@ print(number_list)
 random.shuffle(number_list)
 print(number_list)
 # Output [14, 21, 70, 28, 49, 35, 56, 7, 42, 63]
- Run
+
