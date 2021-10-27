@@ -89,6 +89,4 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 46    |  [Image Divider](https://github.com/larymak/Python-project-Scripts/tree/main/ImageDivider)              | [Rajarshi Banerjee](https://github.com/GSAUC3)          |)
 | 47    |  [Morse Code Converter](https://github.com/HarshitRV/Python-project-Scripts/tree/main/Morse-Code-Converter)              | [HarshitRV](https://github.com/HarshitRV)          |)
 | 48    | [CLI Photo Watermark](https://github.com/odinmay/Python-project-Scripts/tree/main/CLI-Photo-Watermark)                                           | [Odin May](https://github.com/odinmay) 
-| 49    | [Data Structure and Algorithm](https://github.com/oyerohabib/Python-project-Scripts/tree/main/Data%20Structures%20and%20Algorithms)                                           | [Oyero Habib](https://github.com/oyerohabib) 
-| 50    | [Turtle race game](https://github.com/oyerohabib/Python-project-Scripts/tree/oyerohabib/Turtle-Race-Game)                                           | [Oyero Habib](https://github.com/oyerohabib) 
-| 50    | [Snake game](https://github.com/oyerohabib/Python-project-Scripts/tree/oyerohabib-2/SNAKE_GAME)                                           | [Oyero Habib](https://github.com/oyerohabib) 
+| 49    | [Pomodoro App](https://github.com/HarshitRV/Python-project-Scripts/tree/main/Pomodoro-App)                                           | [HarshitRV](https://github.com/HarshitRV)
