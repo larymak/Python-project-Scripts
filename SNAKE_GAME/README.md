@@ -1,4 +1,6 @@
-# Snack game in built using python. the snake start with a small length and keeps growing as it keeps feeding on the food. The game is over when it hits the end of the terminal box or eats itself.
+# Snake Game
+
+### This is a simple snack game in built using python. the snake start with a small length and keeps growing as it keeps feeding on the food. The game is over when it hits the end of the terminal box or eats itself.
 
 ## Requirements
 -  curses
