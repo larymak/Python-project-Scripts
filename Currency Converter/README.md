@@ -29,14 +29,14 @@ List types of currencies
 
 # Abbreviations
 
-BTC - Bitcoin
-USD - US Dollar
-EUR - Euro
-INR - Indian Rupee
-GBP - British Pound Sterling
-AUD - Australian dollar
-CAD - Canadian dollar
-CHF - Swiss Franc
-RUB - Russian Ruble
-CNY - Chinese Yuan
+BTC - Bitcoin<br />
+USD - United States Dollar<br />
+EUR - Euro<br />
+INR - Indian Rupee<br />
+GBP - British Pound Sterling<br />
+AUD - Australian dollar<br />
+CAD - Canadian dollar<br />
+CHF - Swiss Franc<br />
+RUB - Russian Ruble<br />
+CNY - Chinese Yuan<br />
 JPY - Japanese Yen
