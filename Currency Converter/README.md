@@ -14,3 +14,7 @@ Make sure you have the following installed
 
 ```sudo apt-get install python-tk``` [For installing tkinter in Linux] <br />
 ```pip3 install forex-python Pillow```
+
+# DEMO
+
+![alt text](https://github.com/karthiks2611/Python-project-Scripts/blob/main/Currency%20Converter/Img1.PNG?raw=true)
