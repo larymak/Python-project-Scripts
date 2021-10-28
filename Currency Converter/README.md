@@ -16,5 +16,27 @@ Make sure you have the following installed
 ```pip3 install forex-python Pillow```
 
 # DEMO
+Currency Conversion
 
-![alt text](https://github.com/karthiks2611/Python-project-Scripts/blob/main/Currency%20Converter/Img1.PNG?raw=true)
+
+![image](https://raw.githubusercontent.com/skarthi2001/Images/main/Output.PNG)
+
+
+List types of currencies
+
+
+![image](https://raw.githubusercontent.com/skarthi2001/Images/main/Output2.PNG)
+
+# Abbreviations
+
+BTC - Bitcoin
+USD - US Dollar
+EUR - Euro
+INR - Indian Rupee
+GBP - British Pound Sterling
+AUD - Australian dollar
+CAD - Canadian dollar
+CHF - Swiss Franc
+RUB - Russian Ruble
+CNY - Chinese Yuan
+JPY - Japanese Yen
