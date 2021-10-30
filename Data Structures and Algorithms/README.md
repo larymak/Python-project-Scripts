@@ -18,6 +18,12 @@
 
 - Merge Sort
 
+- Bubble Sort
+
+- Heap Sort
+
+- Insertion Sort  
+
 - Quick Sort (for numbers)
 
 - Quick Sort (for strings)
