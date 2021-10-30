@@ -33,3 +33,5 @@
 - Recursive Binary Search
 
 - Selection Sort
+
+- Binary Tree 
