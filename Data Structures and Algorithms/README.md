@@ -34,4 +34,4 @@
 
 - Selection Sort
 
-- Binary Tree 
+- Binary Tree traversal
