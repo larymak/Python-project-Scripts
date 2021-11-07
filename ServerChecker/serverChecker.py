@@ -20,3 +20,4 @@ if __name__ == "__main__":
 
         if input("Would You like to check another website(Y/N)? ") in {'n', 'N'}:
             break
+            
