@@ -1,5 +1,5 @@
 # Description
-This returns whether or not a connecion to a given server could be established.
+The script can be used to check if a certain server is up or not.
 
 ## Steps for Execution
 1. Fork this repository
