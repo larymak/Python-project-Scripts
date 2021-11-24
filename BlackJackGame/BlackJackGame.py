@@ -6,7 +6,7 @@ pl = []
 dl = []
 
 # Check Blackjack__________________________________________
-def BlackJack(s):
+def check_Twenty_One(s):
     if s==21:
         return True
     else:
@@ -68,8 +68,13 @@ def playersTurn(s):
 
     s = check_sum(s)
 
-    if (BlackJack(s)):
-        print("Hurray......It's a BLACKJACK....You Won\n")
+    if (check_Twenty_One(s)):
+        #Check Blackjack_______________________________________
+        if len(pl) == 2:
+            print("Hurray......It's a BLACKJACK....You Won\n")
+        #Check if player made 21_______________________________
+        else:
+            print("Awesome!!!......You made 21!....You Won\n")
         return 2
     elif (Bust(s)):
         print("You got Bust.....You Lost\n")
@@ -123,8 +128,11 @@ if __name__ == '__main__':
             print(f"\nDealer's current hand: {dl}\n")
 
             s = check_sum(s)
-            if (BlackJack(s)):
-                print("Dealer got a BlackJack and won the Game\nYou Lost\n")
+            if (check_Twenty_One(s)):
+                if len(dl) == 2:
+                    print("Dealer got a BlackJack and won the Game\nYou Lost\n")
+                else:
+                    print("Dealer made 21 and won the Game\nBetter Luck Next Time!\n")
                 break
             elif (Bust(s)):
                 print("Dealer got Busted\nYou Won\n")
