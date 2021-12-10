@@ -92,3 +92,4 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 49    | [Pomodoro App](https://github.com/HarshitRV/Python-project-Scripts/tree/main/Pomodoro-App)                                           | [HarshitRV](https://github.com/HarshitRV)
 | 49    | [BullsAndCows](https://github.com/HarshitRV/Python-project-Scripts/tree/main/BullsAndCows)                                           | [JerryChen](https://github.com/jerrychen1990)
 | 50    | [Minesweeper AI](https://github.com/nrp114/Minsweeper_AI)                                           | [Nisarg Patel](https://github.com/nrp114)
+| 51    | [PDF Downloader](https://github.com/Sdccoding/PDF_Downloader)                                       | [Souhardya Das Chowdhury](https://github.com/Sdccoding)
