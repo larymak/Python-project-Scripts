@@ -41,13 +41,13 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 
 | SR No | Project                                                                                                                                | Author                                                  |
 | ----- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| 1     | [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/master/image-ascii)                                     | [Lary Mak](https://github.com/larymak)                  |
+| 1     | [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/main/image-ascii)                                     | [Lary Mak](https://github.com/larymak)                  |
 | 2     | [DigitalClock](https://github.com/larymak/Python-project-Scripts/tree/main/DigitalClock)                                               | [Logan Ozdyck](https://github.com/ozdyck3)              |
 | 3     | [Insta Spam Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstaSpamBot)                                             | [Lary Mak](https://github.com/larymak)                  |
-| 4     | [Pyjokes](https://github.com/larymak/Python-project-Scripts/tree/master/pyjokes)                                                       | [Lary Mak](https://github.com/larymak)                  |
-| 5     | [WhatsApp Spambot](https://github.com/larymak/Python-project-Scripts/tree/master/whatsapp-spam)                                        | [Lary Mak](https://github.com/larymak)                  |
+| 4     | [Pyjokes](https://github.com/larymak/Python-project-Scripts/tree/main/pyjokes)                                                       | [Lary Mak](https://github.com/larymak)                  |
+| 5     | [WhatsApp Spambot](https://github.com/larymak/Python-project-Scripts/tree/main/whatsapp-spam)                                        | [Lary Mak](https://github.com/larymak)                  |
 | 6     | [Instagram Bot](https://github.com/larymak/Python-project-Scripts/tree/main/InstagramBot)                                              | [Lary Mak](https://github.com/larymak)                  |
-| 7     | [Photo Editor App](https://github.com/larymak/Python-project-Scripts/tree/master/photo%20editor)                                       | [Lary Mak](https://github.com/larymak)                  |
+| 7     | [Photo Editor App](https://github.com/larymak/Python-project-Scripts/tree/main/photo%20editor)                                       | [Lary Mak](https://github.com/larymak)                  |
 | 8     | [Random Name Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomNameGen)                                     | [Lary Mak](https://github.com/larymak)                  |
 | 9     | [Web Scrapping](https://github.com/larymak/Python-project-Scripts/tree/main/WebScraping)                                               | [Lary Mak](https://github.com/larymak)                  |
 | 10    | [Random Password Generator](https://github.com/larymak/Python-project-Scripts/tree/main/RandomPassword)                                | [Gagan prajapatii](https://github.com/Gagan1111)        |
@@ -90,6 +90,6 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 47    |  [Morse Code Converter](https://github.com/HarshitRV/Python-project-Scripts/tree/main/Morse-Code-Converter)              | [HarshitRV](https://github.com/HarshitRV)          |)
 | 48    | [CLI Photo Watermark](https://github.com/odinmay/Python-project-Scripts/tree/main/CLI-Photo-Watermark)                                           | [Odin May](https://github.com/odinmay) 
 | 49    | [Pomodoro App](https://github.com/HarshitRV/Python-project-Scripts/tree/main/Pomodoro-App)                                           | [HarshitRV](https://github.com/HarshitRV)
-| 49    | [BullsAndCows](https://github.com/HarshitRV/Python-project-Scripts/tree/main/BullsAndCows)                                           | [JerryChen](https://github.com/jerrychen1990)
+| 49    | [BullsAndCows](https://github.com/larymak/Python-project-Scripts/tree/main/BullsAndCows)                                           | [JerryChen](https://github.com/jerrychen1990)
 | 50    | [Minesweeper AI](https://github.com/nrp114/Minsweeper_AI)                                           | [Nisarg Patel](https://github.com/nrp114)
 | 51    | [PDF Downloader](https://github.com/Sdccoding/Python-project-Scripts/tree/main/PDF_Downloader)                                       | [Souhardya Das Chowdhury](https://github.com/Sdccoding)
