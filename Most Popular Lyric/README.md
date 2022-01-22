@@ -1,4 +1,4 @@
-### Most Popular Lyric
+## Most Popular Lyric
 This Python script will find and return the most frequently appearing lyric of a song. 
 In the case where there is more than one lyric, it will return the lyric that appears first in the song. 
 
