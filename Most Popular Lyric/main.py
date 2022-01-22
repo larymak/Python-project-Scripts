@@ -14,5 +14,3 @@ with open(input("Please enter file name: "), 'r') as f:
 maxWord = max(wordsTallied, key=wordsTallied.get) #Gets the most lyric word of song
 maxCount = wordsTallied[maxWord] #Gets number of times the lyric appears
 print("\n" + "The most popular lyric is: '" + maxWord + "' \nIt appears " + str(maxCount) + " times in the song" ) #Prints most popular lyric and the number of occurences in the song
-
-# print(findMostPopularLyric(song.txt))
