@@ -93,5 +93,5 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 49    | [BullsAndCows](https://github.com/larymak/Python-project-Scripts/tree/main/BullsAndCows)                                           | [JerryChen](https://github.com/jerrychen1990)
 | 50    | [Minesweeper AI](https://github.com/nrp114/Minsweeper_AI)                                           | [Nisarg Patel](https://github.com/nrp114)
 | 51    | [PDF Downloader](https://github.com/Sdccoding/Python-project-Scripts/tree/main/PDF_Downloader)                                       | [Souhardya Das Chowdhury](https://github.com/Sdccoding)
-| 52    | [ConsoleSnake](https://github.com/Sdccoding/Python-project-Scripts/tree/main/ConsoleSnake)                                       | [tomimara52](https://github.com/tomimara52)
-| 52    | [ConsoleMinesweeper](https://github.com/Sdccoding/Python-project-Scripts/tree/main/ConsoleMinesweeper)                                       | [tomimara52](https://github.com/tomimara52)
+| 52    | [ConsoleSnake](https://github.com/larymak/Python-project-Scripts/tree/main/ConsoleSnake)                                       | [tomimara52](https://github.com/tomimara52)
+| 52    | [ConsoleMinesweeper](https://github.com/larymak/Python-project-Scripts/tree/main/ConsoleMinesweeper)                                       | [tomimara52](https://github.com/tomimara52)
