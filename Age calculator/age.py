@@ -1,8 +1,10 @@
+from datetime import datetime
+
 name = input("What is your name: ")
 
 Birth_Year = int(input("Enter your birth year: "))
 
-Current_time = 2022
+Current_time = datetime.now().year
 
 def age_caluu():
     Age_calculated = (Current_time - Birth_Year)
