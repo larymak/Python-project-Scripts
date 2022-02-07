@@ -95,4 +95,5 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 51    | [PDF Downloader](https://github.com/Sdccoding/Python-project-Scripts/tree/main/PDF_Downloader)                                       | [Souhardya Das Chowdhury](https://github.com/Sdccoding)
 | 52    | [ConsoleSnake](https://github.com/larymak/Python-project-Scripts/tree/main/ConsoleSnake)                                       | [tomimara52](https://github.com/tomimara52)
 | 52    | [ConsoleMinesweeper](https://github.com/larymak/Python-project-Scripts/tree/main/ConsoleMinesweeper)                                       | [tomimara52](https://github.com/tomimara52)
-| 53    | [Drink Water Reminder](https://github.com/larymak/Python-project-Scripts/tree/main/drink-water-reminder)                                       | [Tristán Hdez](https://github.com/tristanHdez18)
+
+| 53    | [Face_recognition](https://github.com/erastusnzula/Python-project-Scripts/tree/face_recognition/Face_recognition) |[erastusnzula](https://github.com/erastusnzula)
