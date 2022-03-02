@@ -1,9 +1,9 @@
-
-audio='speech.mp3'
 from gtts import gTTS
 from playsound import playsound
-lang='en'
+
+audio='speech.mp3'
 playsound(audio)
-sp.save(audio)
-sp=gTTS(text=text,lang=lang,slow=False)
+lang='en'
 text="hELLO, OPEN SOURCE!"
+sp=gTTS(text=text,lang=lang,slow=False)
+sp.save(audio)
