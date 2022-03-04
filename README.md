@@ -36,6 +36,7 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 - Celebrate, your first step into the open Source World and contribute more
 
 #### Note: When you Add a project Add it to the README for ease of finding it
+#### Note: Please do not put the project link to reference your local forked repo. Always link it to this repo after it's been merged with main.
 
 ## Projects
 
@@ -97,3 +98,4 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 52    | [ConsoleMinesweeper](https://github.com/larymak/Python-project-Scripts/tree/main/ConsoleMinesweeper)                                       | [tomimara52](https://github.com/tomimara52)
 | 53    | [Face_recognition](https://github.com/erastusnzula/Python-project-Scripts/tree/face_recognition/Face_recognition) | [erastusnzula](https://github.com/erastusnzula)
 | 52    | [Rain Alert](https://github.com/Puskchan/Python-project-Scripts/tree/main/Rain_Alert)                                       | [Puskchan](https://github.com/Puskchan)
+| 54    | [Brick Breaker Game](https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/Brick-Breaker_Game)        | [Kaustav Ganguly](https://github.com/kaustav202)
