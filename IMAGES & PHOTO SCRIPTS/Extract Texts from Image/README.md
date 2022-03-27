@@ -13,9 +13,9 @@ Download and install the required tesseract.exe file here: https://osdn.net/proj
 ## Steps To Execution
 - Fork this repo and navigate to Extract Text From Image folder in local folder
 - Edit `image-text.py` with the string for the images directory.
-- Run this code.py `$ python image-text.py`
+- Run this code like so; `$ python image-text.py`
 - In a short bit you'd have the .txt file with the texts extracted
-- Enjoy and goodluck on your freelancing copytyping jobs! (how the script idea came to be. Really couldn't type out text in TONS of image files lol)
+- Enjoy and goodluck on your freelancing copy-typing jobs! (how the script idea came to be. Really couldn't type out text in TONS of image files lol)
 
 ## Code Output
 `"IMAGE_TITLE" done` for each image in directory when text extraction is complete for said image
