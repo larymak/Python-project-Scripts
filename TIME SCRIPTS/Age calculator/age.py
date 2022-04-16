@@ -4,7 +4,7 @@ name = input("What is your name: ")
 
 Birth_Year = int(input("Enter your birth year: "))
 
-currentDateTime = datetime.datetime.now()
+currentDateTime = datetime.datetime.today()
 date = currentDateTime.date()
 year = date.strftime("%Y")
 
