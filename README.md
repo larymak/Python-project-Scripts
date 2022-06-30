@@ -10,12 +10,12 @@
 <img alt="Join us on Slack" src="https://raw.githubusercontent.com/netlify/netlify-cms/master/website/static/img/slack.png" width="165"/>
 </a>
 
-## This is a list of python scripts for beginner projects.
+## This is a list of Python scripts for beginner projects.
 
 ### Description
 
-Welcome Onboard fellow Developer, This is where you will find Python scripts where you are free to contribute too.
-You can Contribute by giving your scripts written in python and you think are amazing for other people to see.
+Welcome aboard fellow developer, this is where you will find Python scripts which you are free to contribute to.
+You can contribute by submitting your own scripts, also written in Python, which you think would be amazing for other people to see.
 
 ### Contribution Guidelines
 
@@ -23,17 +23,17 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 
 ### Instructions
 
-- Fork this Repository
+- Fork this repository
 - Clone your forked repository
 - Add your scripts
-- Commit & Push
+- Commit and push
 - Create a pull request
 - Star this repository
-- Wait for Pull Request to merge
-- Celebrate, your first step into the open Source World and contribute more
+- Wait for pull request to merge
+- Celebrate your first step into the open source world and contribute more
 
-#### Note: When you Add a project Add it to the README for ease of finding it
-#### Note: Please do not put the project link to reference your local forked repo. Always link it to this repo after it's been merged with main.
+#### Note: When you add a project, add it to the README for ease of finding it.
+#### Note: Please do not have the project link reference your local forked repository. Always link it to this repository after it has been merged with main.
 
 ## Projects
 
