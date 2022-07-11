@@ -1,0 +1,34 @@
+"""Barbut"""
+from random import randint
+
+
+def barbut():
+    while True:
+        score_pairs = [17, 16, 15, 14, 13, 12]  # values for pair-outcomes
+        user = [randint(1,6), randint(1, 6)]
+        bot = [randint(1, 6), randint(1, 6)]
+        scor_user = 0
+        scor_bot = 0
+
+        print(f"Your dice: {user[0]}, {user[1]} | Bot's dice: {bot[0]}, {bot[1]}. ")
+
+        if user[0] == user[1]:
+            scor_user = score_pairs[user[0] - 1]
+        else:
+            scor_user = user[0] + user[1]
+        if bot[0] == bot[1]:
+            scor_bot = score_pairs[bot[0] - 1]
+        else:
+            scor_bot = bot[0] + bot[1]
+
+        if scor_user > scor_bot:
+            print("+5$")
+            break
+        elif scor_user == scor_bot:
+            print("Play on")
+            continue  # If result is draw, play again
+        else:
+            print("-5$")
+            break
+
+barbut()
