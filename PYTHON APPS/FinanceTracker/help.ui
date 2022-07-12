@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Help</class>
+ <widget class="QDialog" name="Help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>763</width>
+    <height>613</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#Help{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 216, 155, 1), stop:1 rgba(25, 84, 123, 1));
+}</string>
+  </property>
+  <widget class="QLabel" name="explain">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>721</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Welcome to the finance tracker! This is made for your finnacial needs! Want to track your expenses? Visually view graphs on how your money is being spent? Maybe even see a pie chart of how you spend? Well &quot;imagine&quot; no more. This app is here to deliver all these needs to you. How do you use this app? Enter you expenses in your desired category. Simply press &quot;Enter Expense&quot; and your expenses will be tracked automatically. To delete a previous entered expense, press the delete previous button on the desired category. If you need to delete an entire category of expenses press the &quot;delete category&quot; button. To view individual graphs of each category, press the view graph button. To view a pie chart of your expenes press the &quot;view pie chart&quot; button. To enter a new budget, simply enter a new goal and press &quot;enter goal&quot;. To check how your total expenses press the &quot;view total expenses button&quot; To view expenses of an indivial cateogry press &quot;view expenses&quot; for that desired category. Lastly, if you want to check if you are over budget/under or close, press &quot;check goal&quot; button.   Some interesting features this app has, is you can change your background color, to a gradient color, with 3 choices. If you don't want a gradient color, there are sliders to set the desired baackground color. </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="homeButton1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color: rgb(255, 170, 255); font-size: 14pt; 
+border-radius: 20px;
+}
+
+QPushButton:hover{
+	background-color: rgb(255, 85, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
