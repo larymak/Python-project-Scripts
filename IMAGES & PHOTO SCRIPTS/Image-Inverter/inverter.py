@@ -10,7 +10,7 @@ def main():
 
  for file in sys.argv:
    # TODO: add a check that the files are jpg
-  file_name = os.path.splittext(file)
+  file_name = os.path.splitext(file)
   with Image.open(file) as image:
    inverted_image = ImageOps.invert(image)
    inverted_image.save(filename + "_inverted", "JPEG")
