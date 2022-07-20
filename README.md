@@ -95,3 +95,5 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 54    | [Face_recognition](https://github.com/erastusnzula/Python-project-Scripts/tree/face_recognition/Face_recognition) | [erastusnzula](https://github.com/erastusnzula)
 | 55    | [Rain Alert](https://github.com/Puskchan/Python-project-Scripts/tree/main/Rain_Alert)                                       | [Puskchan](https://github.com/Puskchan)
 | 56    | [Brick Breaker Game](https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/Brick-Breaker_Game)        | [Kaustav Ganguly](https://github.com/kaustav202)
+| 57    | [Finance App](https://github.com/larymak/Python-project-Scripts/tree/main/PYTHON%20APPS/FinanceTracker)        | [Aditya Tripuraneni](https://github.com/Aditya-Tripuraneni)
+| 58    | [Hand Painter](https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/VirtualHandPainter)        | [Aditya Tripuraneni](https://github.com/Aditya-Tripuraneni)
