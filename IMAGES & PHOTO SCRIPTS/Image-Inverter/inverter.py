@@ -11,19 +11,20 @@ def check_input():
   sys.exit(1)
 
 def main():
+ """ The main function """
  check_input()
 
  i = 0
- for file in sys.argv: 
-  # ignore the first parameter -> the script call
+ for file in sys.argv:
+  # To ignore the first parameter -> the script call
   if i == 0:
    i = i + 1
    continue
 
-  image_path, extension = os.path.splitext(file)
+  image_path_no_ext, extension = os.path.splitext(file)
 
   with Image.open(file) as image:
-   ImageOps.invert(image).save(image_path + "_inverted" +  extension)
+   ImageOps.invert(image).save(image_path_no_ext + "_inverted" +  extension)
 
   i = i + 1
 
