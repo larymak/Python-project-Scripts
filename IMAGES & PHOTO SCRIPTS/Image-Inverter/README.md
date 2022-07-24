@@ -1,4 +1,4 @@
-# ImageInverter
+# Image-Inverter
 
 ## Describtion
 This project is an implementaion of a CLI program that inverts image/set of images.
