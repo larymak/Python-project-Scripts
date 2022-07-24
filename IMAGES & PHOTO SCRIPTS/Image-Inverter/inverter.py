@@ -5,18 +5,22 @@ from PIL import ImageOps
 import sys, os
 
 def main():
+ # if the script is called with no input
  if len(sys.argv) == 1:
   print("Please provide files to operate on!")
   sys.exit(1)
 
- for file in sys.argv: # TODO: remove the sys.argv[0] from the loop! use index i and start from 1
-   # TODO: add a check that the files are jpg
+ i = 0
+ for file in sys.argv: 
+  # ignore the first parameter -> the script call
+  if i == 0:
+   i = i + 1
+   continue
+
   file_name = os.path.splitext(file)
   with Image.open(file) as image:
-   inverted_image = ImageOps.invert(image)
-   inverted_image.save(filename + "_inverted", "JPEG")
- 
- sys.exit(0)
+   ImageOps.invert(image).save(filename + "_inverted", "JPEG")
+  i = i + 1
 
 if __name__ == '__main__':
  main()
