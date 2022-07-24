@@ -4,11 +4,14 @@ from PIL import Image
 from PIL import ImageOps
 import sys, os
 
-def main():
- # if the script is called with no input
+def check_input():
+ """ Checks if the script is called with no input parameters. """
  if len(sys.argv) == 1:
-  print("Please provide files to operate on!")
+  print("Please provide image files to operate on!")
   sys.exit(1)
+
+def main():
+ check_input()
 
  i = 0
  for file in sys.argv: 
