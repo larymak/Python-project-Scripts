@@ -20,7 +20,7 @@ def main():
   image_path, extension = os.path.splitext(file)
 
   with Image.open(file) as image:
-   ImageOps.invert(image).save(image_path + "_inverted" +  extension, "JPEG")
+   ImageOps.invert(image).save(image_path + "_inverted" +  extension)
 
   i = i + 1
 
