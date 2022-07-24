@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-from PIL import Image, ImageOps
+from PIL import Image
+from PIL import ImageOps
 import sys, os
 
 def main():
@@ -8,7 +9,7 @@ def main():
   print("Please provide files to operate on!")
   sys.exit(1)
 
- for file in sys.argv:
+ for file in sys.argv: # TODO: remove the sys.argv[0] from the loop! use index i and start from 1
    # TODO: add a check that the files are jpg
   file_name = os.path.splitext(file)
   with Image.open(file) as image:
