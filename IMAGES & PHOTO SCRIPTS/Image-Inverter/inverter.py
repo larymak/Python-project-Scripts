@@ -17,12 +17,11 @@ def main():
    i = i + 1
    continue
 
-  file_name = os.path.splitext(file)
-  try:
-   with Image.open(file) as image:
-    ImageOps.invert(image).save(file_name + "_inverted", "JPEG")
-  except:
-   print("Couldn't convert " + file_name + "successfully!")
+  image_path, extension = os.path.splitext(file)
+
+  with Image.open(file) as image:
+   ImageOps.invert(image).save(image_path + "_inverted" +  extension, "JPEG")
+
   i = i + 1
 
 if __name__ == '__main__':
