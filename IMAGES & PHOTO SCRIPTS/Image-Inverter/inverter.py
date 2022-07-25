@@ -14,17 +14,24 @@ def main():
  """ The main function """
  check_input()
 
+ verbose_enabled = False
+ if ("-v" in sys.argv)  or ("--verbose" in sys.argv):
+  verbose_enabled = True
+
  i = 0
  for file in sys.argv:
-  # To ignore the first parameter -> the script call
-  if i == 0:
+  # To ignore the first parameter -> the script call + -v + --verbose
+  if i == 0 or sys.argv[i] == "-v" or sys.argv[i] == "--verbose":
    i = i + 1
    continue
 
   image_path_no_ext, extension = os.path.splitext(file)
 
   with Image.open(file) as image:
-   ImageOps.invert(image).save(image_path_no_ext + "_inverted" +  extension)
+   new_path_with_ext = image_path_no_ext + "_inverted" + extension
+   ImageOps.invert(image).save(new_path_with_ext)
+   if verbose_enabled:
+    print("Successfully inverted " + file + "\n" + new_path_with_ext + " is generated.\n")
 
   i = i + 1
 
