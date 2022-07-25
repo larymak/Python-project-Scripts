@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-from PIL import Image
-from PIL import ImageOps
+from PIL import Image, ImageOps, UnidentifiedImageError
 import sys, os
 
 def check_input():
@@ -27,12 +26,14 @@ def main():
 
   image_path_no_ext, extension = os.path.splitext(file)
 
-  with Image.open(file) as image:
-   new_path_with_ext = image_path_no_ext + "_inverted" + extension
-   ImageOps.invert(image).save(new_path_with_ext)
-   if verbose_enabled:
-    print("Successfully inverted " + file + "\n" + new_path_with_ext + " is generated.\n")
-
+  try:
+   with Image.open(file) as image:
+    new_path_with_ext = image_path_no_ext + "_inverted" + extension
+    ImageOps.invert(image).save(new_path_with_ext)
+    if verbose_enabled:
+     print("Successfully inverted " + file + "\n" + new_path_with_ext + " is generated.\n")
+  except UnidentifiedImageError:
+   print(file + " is not suppotred, please provide a supported file type.")
   i = i + 1
 
 if __name__ == '__main__':
