@@ -1,14 +1,14 @@
 ﻿# Python-project-Scripts.
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/larymak/Python-project-Scripts)
+<a href="https://join.slack.com/t/ngc-goz8665/shared_invite/zt-r01kumfq-dQUT3c95BxEP_fnk4yJFfQ">
+<img alt="Join us on Slack" src="https://raw.githubusercontent.com/netlify/netlify-cms/master/website/static/img/slack.png" width="165"/>
+</a>
+
 ![Contributors](https://img.shields.io/github/contributors/larymak/Python-project-Scripts?style=plastic)
 ![Forks](https://img.shields.io/github/forks/larymak/Python-project-Scripts)
 ![Stars](https://img.shields.io/github/stars/larymak/Python-project-Scripts)
 ![Licence](https://img.shields.io/github/license/larymak/Python-project-Scripts)
 ![Issues](https://img.shields.io/github/issues/larymak/Python-project-Scripts)
-<a href="https://join.slack.com/t/ngc-goz8665/shared_invite/zt-r01kumfq-dQUT3c95BxEP_fnk4yJFfQ">
-<img alt="Join us on Slack" src="https://raw.githubusercontent.com/netlify/netlify-cms/master/website/static/img/slack.png" width="165"/>
-</a>
 
 ## This is a list of Python scripts for beginner projects.
 
@@ -31,6 +31,13 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 - Star this repository
 - Wait for pull request to merge
 - Celebrate your first step into the open source world and contribute more
+
+## Additional tools to help you get Started with Open-Source Contribution
+
+* [How to Contribute to Open Source Projects – A Beginner's Guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/)
+* [How to Write a Good README File for Your GitHub Project](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+
+-----------
 
 #### Note: When you add a project, add it to the README for ease of finding it.
 #### Note: Please do not have the project link reference your local forked repository. Always link it to this repository after it has been merged with main.
@@ -97,4 +104,5 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 56    | [Brick Breaker Game](https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/Brick-Breaker_Game)        | [Kaustav Ganguly](https://github.com/kaustav202)
 | 57    | [Finance App](https://github.com/larymak/Python-project-Scripts/tree/main/PYTHON%20APPS/FinanceTracker)        | [Aditya Tripuraneni](https://github.com/Aditya-Tripuraneni)
 | 58    | [Hand Painter](https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/VirtualHandPainter)        | [Aditya Tripuraneni](https://github.com/Aditya-Tripuraneni)
-| 59    | [Snake Game](https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/Snake_Game(Using%20Turtle))        | [Aarya Chopkar](https://github.com/accodes21)
+| 59    | [Image-Inverter](https://github.com/larymak/Python-project-Scripts/tree/main/IMAGES%20%26%20PHOTO%20SCRIPTS/Image-Inverter)        | [Omar Eldanasoury](https://github.com/omar-danasoury)
+| 60    | [Snake Game](https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/Snake_Game(Using%20Turtle))        | [Aarya Chopkar](https://github.com/accodes21)
