@@ -97,4 +97,3 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 56    | [Brick Breaker Game](https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/Brick-Breaker_Game)        | [Kaustav Ganguly](https://github.com/kaustav202)
 | 57    | [Finance App](https://github.com/larymak/Python-project-Scripts/tree/main/PYTHON%20APPS/FinanceTracker)        | [Aditya Tripuraneni](https://github.com/Aditya-Tripuraneni)
 | 58    | [Hand Painter](https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/VirtualHandPainter)        | [Aditya Tripuraneni](https://github.com/Aditya-Tripuraneni)
-| 59    | [Snake Game](https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/Snake_Game(Using%20Turtle))        | [Aarya Chopkar](https://github.com/accodes21)
