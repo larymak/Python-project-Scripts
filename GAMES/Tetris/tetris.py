@@ -1,4 +1,3 @@
-from socket import gaierror
 import pygame
 import random
 pygame.init()
