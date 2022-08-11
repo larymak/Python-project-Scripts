@@ -134,3 +134,4 @@ cython_debug/
 !.vscode/extensions.json 
 .history
 .idea
+.DS_Store
