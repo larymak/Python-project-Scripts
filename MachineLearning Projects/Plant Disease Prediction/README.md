@@ -7,7 +7,8 @@ You can use the ipynb file to train your model and then you can use that model f
 
 ## Demo
 
-![output1](https://user-images.githubusercontent.com/78130964/167244940-90f492c3-afa3-4166-8f69-b96789238a32.png)
+![output1](https://user-images.githubusercontent.com/78130964/185595235-93111ca6-4277-4456-b0b8-a762c4bb41a0.png)
+
 
 ![output2](https://user-images.githubusercontent.com/78130964/167244958-fb800f61-fd35-4350-bdb8-abe913709bf4.png)
 
