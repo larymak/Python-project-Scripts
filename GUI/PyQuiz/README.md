@@ -6,4 +6,4 @@ It requires PySimpleGUI==4.60.1
 Tested on Python 3.10
 
 
-Eduardo C.
+Eduardo C. (https://github.com/ehcelino)
