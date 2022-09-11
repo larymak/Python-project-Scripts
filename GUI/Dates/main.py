@@ -2,6 +2,7 @@
 Dates - a simple graphic dates calculator
 Demonstrates the use of PySimpleGui as an interface
 and date arithmetics using module datetime and numpy.
+2022 Eduardo C. - https://github.com/ehcelino
 """
 from datetime import datetime
 import PySimpleGUI as sg

@@ -2,6 +2,7 @@
 PyQuiz - a simple graphical quiz software
 Demonstrates the use of PySimpleGui as an interface
 and simple dictionary interaction
+2022 Eduardo C. - https://github.com/ehcelino
 """
 import PySimpleGUI as sg
 

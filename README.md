@@ -108,3 +108,4 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 60    | [Snake Game](https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/Snake_Game(Using%20Turtle))                                        | [Aarya Chopkar](https://github.com/accodes21)
 | 61    | [PyQuiz](https://github.com/larymak/Python-project-Scripts/tree/main/GUI/PyQuiz)                                                                  | [Eduardo C.](https://github.com/ehcelino)
 | 62    | [Dates](https://github.com/larymak/Python-project-Scripts/tree/main/GUI/Dates)                                                                    | [Eduardo C.](https://github.com/ehcelino)
+| 63    | [QtQuiz](https://github.com/larymak/Python-project-Scripts/tree/main/GUI/QtQuiz)                                                                  | [Eduardo C.](https://github.com/ehcelino)
