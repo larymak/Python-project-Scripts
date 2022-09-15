@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% block title %}About{% endblock title %}
+{% block body %}
+{% if res %}
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>Success </strong>Concern submitted, our admin team will contact to you as soon as possible.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{% endif %}
+<div class="container-fluid my-0 px-0">
+    <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1000x200/?home,house" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1000x200/?buliding,cityscape" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1000x200/?universe,earth" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<div class="container nmy-3s">
+    <hr>
+    <p style="font-family: cursive;">A prediction, or forecast, is a statement about a future event. They are often, but
+        not always, based upon
+        experience or knowledge. There is no universal agreement about the exact difference from "estimation"; different
+        authors and disciplines ascribe different connotations.</p>
+    <p style="font-family: cursive;">We are using a advance machine learning model to predict the house price and rent
+        & we
+        love to solve the community
+        problems </p>
+    <hr>
+</div>
+<div class="container col-6 my-4">
+    <form action="/about" method="POST">
+        <div class="mb-3">
+            <label for="email" class="form-label" style="font-family: cursive;">Email address</label>
+            <input type="email" class="form-control" id="email" name="email"
+                placeholder="Enter your email address here">
+        </div>
+        <div class="mb-3">
+            <label for="con" class="form-label" style="font-family: cursive;">Enter Your Concern</label>
+            <textarea class="form-control" id="con" name="con" rows="3"
+                placeholder="Enter your concern here"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary my-3">Submit</button>
+    </form>
+</div>
+{% endblock body %}
