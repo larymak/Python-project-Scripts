@@ -1,0 +1,65 @@
+{% extends 'blood/adminbase.html' %}
+{% block content %}
+{% load widget_tweaks %}
+{%load static%}
+<br><br>
+<div class="container">
+    {% if requests %}
+    <H4 class="text-center">Blood Requested</H4><br>
+    {% if message %}
+   <h5 class="text-center" style="color: red;"> {{message}}</h5><br>
+{% else %}
+
+{% endif %}
+    <table class="table table-light table-hover table-bordered table-striped">
+        <thead class="bg-info">
+            <tr>
+                <th scope="col">Patient Name</th>
+                <th scope="col">Age</th>
+                
+                <th scope="col">Reason</th>
+                <th scope="col">Blood Group</th>
+                <th scope="col">Unit (in ml)</th>
+                <th scope="col">Date</th>
+                <th scope="col">Status</th>
+                <th class="text-right">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for t in requests %}
+            <tr>
+                <td> {{t.patient_name}}</td>
+                <td>{{t.patient_age}}</td>
+                
+                
+                <td>{{t.reason}}</td>
+                <td>{{t.bloodgroup}}</td>
+                <td>{{t.unit}}</td>
+                <td>{{t.date}}</td>
+                <td>{{t.status}}</td>
+                
+                
+                <td class="text-right">
+                   
+                    <button class="btn btn-primary badge-pill" style="width: 100px;"><a  style="text-decoration: none;color: white;" href="{% url 'update-approve-status' t.id  %}">Approve</a> </button>
+                    <button class="btn btn-danger badge-pill" style="width: 80px;"><a  style="text-decoration: none;color: white;" href="{% url 'update-reject-status' t.id  %}">Reject</a> </button>
+                    
+                </td>
+            </tr>
+            {% endfor %}
+
+        </tbody>
+    
+    </table>
+{% else %}
+<h5>No Blood Request By Patient / Donor !</h5>
+{% endif %}
+
+</div>
+<!--
+developed By : sumit kumar
+facebook : fb.com/sumit.luv
+youtube : youtube.com/lazycoders
+-->
+
+{% endblock content %}

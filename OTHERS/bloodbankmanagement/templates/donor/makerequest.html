@@ -1,0 +1,104 @@
+{% extends 'donor/donorbase.html' %}
+{% block content %}
+{% load widget_tweaks %}
+{%load static%}
+<head>
+        <!-- Font special for pages-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+        <!-- Main CSS-->
+    
+        <link href="{% static "css/main.css" %}"rel="stylesheet" media="all">
+</head>
+<div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+    <div class="wrapper wrapper--w790">
+      
+        <div style="margin-left: 70px;" class="card card-5">
+            <div class="card-heading">
+                <h2 class="title">MAKE BLOOD REQUEST</h2>
+            </div>
+            <div class="card-body">
+                <form method="POST" autocomplete="off" enctype="multipart/form-data">
+                    {% csrf_token %}
+
+                    <div class="form-row">
+                        <div class="name">Patient Name</div>
+                        <div class="value">
+                            <div class="input-group">
+                                {% render_field request_form.patient_name|attr:'required:true'  class="input--style-5"  %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="name">Patient Age</div>
+                        <div class="value">
+                            <div class="input-group">
+                                {% render_field request_form.patient_age|attr:'required:true'  class="input--style-5"  %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="name">Reason</div>
+                        <div class="value">
+                            <div class="input-group">
+                                {% render_field request_form.reason|attr:'required:true'  class="input--style-5"  %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="name">Blood Group</div>
+                        <div class="value">
+                            <div class="input-group">
+                                <div class="rs-select2 js-select-simple select--no-search">
+                                    <select name="bloodgroup">
+                                        <option disabled="disabled" selected="selected">Choose option</option>
+                                        <option>O+</option>
+                                        <option>O-</option>
+                                        <option>A+</option>
+                                        <option>A-</option>
+                                        <option>B+</option>
+                                        <option>B-</option>
+                                        <option>AB+</option>
+                                        <option>AB-</option>
+                                    </select>
+                                    <div class="select-dropdown"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="name">Unit (in ml)</div>
+                        <div class="value">
+                            <div class="input-group">
+                                {% render_field request_form.unit|attr:'required:true'  class="input--style-5"  %}
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+
+
+
+                    <div>
+                        <button class="btn btn--radius-2 btn-danger" type="submit">REQUEST</button>
+                    </div>
+                </form>
+                <br>
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+<!--
+developed By : sumit kumar
+facebook : fb.com/sumit.luv
+youtube : youtube.com/lazycoders
+-->

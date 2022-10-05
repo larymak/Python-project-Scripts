@@ -1,0 +1,77 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        .logo{
+      
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+        }
+    </style>
+  </head>
+  <body>
+    {% include "blood/navbar.html" %}
+    <br><br><br><br><br><br>
+<div class="container"> 
+    
+    <!-- Middle Content Start -->
+    
+    <div class="vd_content-wrapper" style="min-height: 8px;">
+      <div class="vd_container" style="min-height: 8px;">
+        <div class="vd_content clearfix">
+          <div class="vd_content-section clearfix">
+            <div class="vd_register-page">
+              <div class="heading clearfix">
+                <div class="logo">
+                  <h2><img src="{% static "image/logout.png" %}" alt="logo"></h2>
+                </div>
+              </div>
+              <div class="panel widget">
+                <div class="panel-body">
+                  <div class="login-icon"> <i class="fa fa-sign-out"></i> </div>
+                  <h1 class="font-semibold text-center" style="font-size:52px">You Have Been Logged Out</h1>
+                  <form class="form-horizontal" action="#" role="form">
+                    <div class="form-group">
+                      <div class="col-md-12">
+                        <h4 class="text-center mgbt-xs-20">Thank you for using our website</h4>
+                       
+
+                      </div>
+                    </div>
+                   
+                  </form>
+                </div>
+              </div>
+              <!-- Panel Widget -->
+              
+            </div>
+            <!-- vd_login-page --> 
+            
+          </div>
+          <!-- .vd_content-section --> 
+          
+        </div>
+        <!-- .vd_content --> 
+      </div>
+      <!-- .vd_container --> 
+    </div>
+    <!-- .vd_content-wrapper --> 
+    
+    <!-- Middle Content End --> 
+    
+  </div>
+<br><br><br>
+<br><br><br>
+{% include "blood/footer.html" %}
+
+  </body>
+</html>
+<!--
+developed By : sumit kumar
+facebook : fb.com/sumit.luv
+youtube : youtube.com/lazycoders
+-->
