@@ -1,0 +1,48 @@
+Alice Clark 
+AI / Machine Learning 
+ 
+Delhi, India Email me on Indeed 
+• 
+20+ years of experience in data handling, design, and development 
+• 
+Data Warehouse: Data analysis, star/snow flake scema data modelling and design specific to 
+data warehousing and business intelligence 
+• 
+Database: Experience in database designing, scalability, back-up and recovery, writing and 
+optimizing SQL code and Stored Procedures, creating functions, views, triggers and indexes. 
+Cloud platform: Worked on Microsoft Azure cloud services like Document DB, SQL Azure, 
+Stream Analytics, Event hub, Power BI, Web Job, Web App, Power BI, Azure data lake 
+analytics(U-SQL) 
+Willing to relocate anywhere 
+ 
+WORK EXPERIENCE 
+Software Engineer 
+Microsoft – Bangalore, Karnataka 
+January 2000 to Present 
+1. Microsoft Rewards Live dashboards: 
+Description: - Microsoft rewards is loyalty program that rewards Users for browsing and shopping 
+online. Microsoft Rewards members can earn points when searching with Bing, browsing with 
+Microsoft Edge and making purchases at the Xbox Store, the Windows Store and the Microsoft 
+Store. Plus, user can pick up bonus points for taking daily quizzes and tours on the Microsoft 
+rewards website. Rewards live dashboards gives a live picture of usage world-wide and by 
+markets like US, Canada, Australia, new user registration count, top/bottom performing rewards 
+offers, orders stats and weekly trends of user activities, orders and new user registrations. the 
+PBI tiles gets refreshed in different frequencies starting from 5 seconds to 30 minutes. 
+Technology/Tools used 
+ 
+EDUCATION 
+Indian Institute of Technology – Mumbai 
+2001 
+ 
+SKILLS 
+Machine Learning, Natural Language Processing, and Big Data Handling 
+ 
+ADDITIONAL INFORMATION 
+Professional Skills 
+• Excellent analytical, problem solving, communication, knowledge transfer and interpersonal 
+skills with ability to interact with individuals at all the levels 
+• Quick learner and maintains cordial relationship with project manager and team members and 
+good performer both in team and independent job environments 
+• Positive attitude towards superiors &amp; peers 
+• Supervised junior developers throughout project lifecycle and provided technical assistance 
+

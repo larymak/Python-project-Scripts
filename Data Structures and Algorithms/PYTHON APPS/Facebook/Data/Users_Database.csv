@@ -1,0 +1,11 @@
+ID,first_name,last_name,email_or_phone,password,gender,dob,about,city,education,Workplace,relationship_status,privacy_status
+2,Ayesha,Aftab,ayesha25@gmail.com,as5,Female,05-07-2005,Don't start.,Lahore,FSC,Not Working Yet.,Single,False
+3,Ayesha,Noor,ayesha67@gmail.com,ash8,Female,22-03-2007,Keep Smiling,Washington,Electrical Engineer,Tesla,Single,False
+4,laiba,iqbal,laiba@gmail.com,la7,Female,03-09-2005,Glucose Intolerant,Lahore,BSCS,IIT,Married,False
+7,Ayesha,Malik,ayesha98@gmail.com,ash8,Female,24-09-1987,Namalite.,Mianwali,BSCS,Namal,Single,False
+8,Ali,Rehman,ali@gmail.com,al8,Male,26-09-1999,You can't beat me.,Islamabad,BSCS,Microsoft,Single,True
+13,Malik,Jahan,malik@gmail.com,mal8,Male,23-11-2008,I teach tech,Islamabad,MSCS,Namal,Married,False
+14,Ayesha,Gull,ayesha@gmail.com,ash8,Female,,Momentous Volatile Dynamite,Mianwali,BSCS,Namal,Confused,False
+15,Alexa,Bliss,alexa@gmail.com,alex1,Female,5/22/20,Can't bother me.,NewYork,Highschool,WWE,Single,False
+16,rayzen,ford,rayzen@gmail.com,ray1,Male,5/22/20,I teach tech,Islamabad,MSCS,Namal,Married,False
+17,Ietazaz,Aslam,ietazaz@gmail.com,ie1,Male,6/9/01,Ayesha's BestFriend,Khushab,BSCS,Namal,Shadid Single,False

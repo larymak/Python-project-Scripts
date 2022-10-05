@@ -1,0 +1,157 @@
+{% extends 'base.html' %}
+{% block head %}
+<!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}"> -->
+<link rel="stylesheet" href="{{ url_for('static', filename='bg.css') }}">
+{% endblock head %}
+{% block title %}Form{% endblock title %}
+{% block body %}
+<div id="bg" class="back my-0 py-0">
+    <div class="my-0 container" style="border-top: 1px solid black;">
+        <div class="container-fluid">
+            <h2 class="text-center my-3" style="font-family: cursive; color: black;">Rent Predictor</h2>
+            <form id="forminp" action="/formRent" method="POST">
+                <div class="mb-3">
+                    <label for="bhk" class="form-label">BHK</label>
+                    <input type="text" required class="inpstyle form-control" id="bhk" placeholder="1 or 2 or 3"
+                        name="bhk">
+                </div>
+                <div class="mb-3">
+                    <label for="floor" class="form-label">Floor No.</label>
+                    <input type="text" class="inpstyle form-control" id="floor"
+                        placeholder="For Rural 5-10 & For Urabn 10-29" name="floor">
+                </div>
+                <div class="mb-3">
+                    <label for="age" class="form-label">Age of House</label>
+                    <input type="text" class="inpstyle form-control" id="age" placeholder="From 1-20" name="age">
+                </div>
+                <div class="mb-3">
+                    <label for="school" class="form-label">School's Distance</label>
+                    <select class="form-select" aria-label="Default select example" name="school" id="school">
+                        <option value="1">Select here</option>
+                        <option value="1">Inside 1KM</option>
+                        <option value="2">Inside 2KM</option>
+                        <option value="3">Inside 3KM</option>
+                        <option value="4">Inside 4KM</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="health" class="form-label">Hospital's Distance</label>
+                    <select class="form-select" aria-label="Default select example" name="health" id="health">
+                        <option value="1">Select here</option>
+                        <option value="1">Inside 1KM</option>
+                        <option value="2">Inside 2KM</option>
+                        <option value="3">Inside 3KM</option>
+                        <option value="4">Inside 4KM</option>
+                        <option value="5">Inside 5KM</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="park" class="form-label">Park Nearby?</label>
+                    <select class="form-select" aria-label="Default select example" name="park" id="park">
+                        <option value="1">Select here</option>
+                        <option value="1">Inside 1KM</option>
+                        <option value="2">Inside 2KM</option>
+                        <option value="3">Inside 3KM</option>
+                        <option value="4">Inside 4KM</option>
+                        <option value="5">Inside 5KM</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="pool" class="form-label">Is Swimming pool is required?</label>
+                    <select class="form-select" aria-label="Default select example" name="pool" id="pool">
+                        <option value="1">Select here</option>
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="tax" class="form-label">Tax Range</label>
+                    <select class="form-select" aria-label="Default select example" name="tax" id="tax">
+                        <option value="2600">Select here</option>
+                        <option value="2500">2000-3500</option>
+                        <option value="4100">3500-5000</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="train" class="form-label">Train Station's Presence</label>
+                    <select class="form-select" aria-label="Default select example" name="train" id="train">
+                        <option value="2">Select here</option>
+                        <option value="1">Inside 1KM</option>
+                        <option value="2">Inside 2KM</option>
+                        <option value="3">Inside 3KM</option>
+                        <option value="4">Inside 4KM</option>
+                        <option value="5">Inside 5KM</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="bus" class="form-label">Bus Stop's Presence</label>
+                    <select class="form-select" aria-label="Default select example" name="bus" id="bus">
+                        <option value="1">Select here</option>
+                        <option value="1">Inside 100M</option>
+                        <option value="2">Inside 200M</option>
+                        <option value="3">Inside 300M</option>
+                        <option value="4">Inside 400M</option>
+                        <option value="5">Inside 500M</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="market" class="form-label">Local Market</label>
+                    <select class="form-select" aria-label="Default select example" name="market" id="market">
+                        <option value="1">Select here</option>
+                        <option value="1">Inside 1KM</option>
+                        <option value="2">Inside 2KM</option>
+                        <option value="3">Inside 3KM</option>
+                        <option value="4">Inside 4KM</option>
+                        <option value="5">Inside 5KM</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="bank" class="form-label">Bank Presence</label>
+                    <select class="form-select" aria-label="Default select example" name="bank" id="bank">
+                        <option value="1">Select here</option>
+                        <option value="3">Inside 3KM</option>
+                        <option value="4">Inside 4KM</option>
+                        <option value="5">Inside 5KM</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="police_Station" class="form-label">Police Station's Presence</label>
+                    <select class="form-select" aria-label="Default select example" name="police_Station"
+                        id="police_Station">
+                        <option value="1">Select here</option>
+                        <option value="1">Inside 1KM</option>
+                        <option value="2">Inside 2KM</option>
+                        <option value="3">Inside 3KM</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="worship" class="form-label">Worship place's in Range</label>
+                    <input type="text" class="inpstyle form-control" id="worship" placeholder="From 1-1200 Meters"
+                        name="worship">
+                </div>
+
+                <div class="mb-3">
+                    <label for="area" class="form-label">Type of Area</label>
+                    <select class="form-select" aria-label="Default select example" name="area" id="area">
+                        <option value="1">Select here</option>
+                        <option value="1">Urban</option>
+                        <option value="0">Rural</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="mall" class="form-label">Mall should be in</label>
+                    <select class="form-select" aria-label="Default select example" name="mall" id="mall">
+                        <option value="1">Select here</option>
+                        <option value="1">Inside 1KM</option>
+                        <option value="2">Inside 2KM</option>
+                        <option value="3">Inside 3KM</option>
+                    </select>
+                </div>
+                <button id="submitbtn" type="submit" class="btn btn-primary my-5 py-2">Get Price</button>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}

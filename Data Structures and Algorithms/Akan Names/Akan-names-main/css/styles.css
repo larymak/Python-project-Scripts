@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* color: black; */
+}
+header{
+  background-color: #000000;
+}
+section{
+  background: beige;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-brand{
+  color: #a52a2a;
+  font-family: 'Indie Flower', cursive;
+  font-size: 55px;
+  transition: ease-in 0.5s;
+}
+.navbar-header a:hover {
+  color: #a52a2a;
+  font-size: 60px;
+  transition: ease-in-out 0.5s;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 1100px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+  position: relative;
+
+}
+.left {
+  width: 50%;
+  min-height: 600px;
+  background-color: #a52a2a;
+  border-radius: 5px;
+  padding-left: 10px;
+  color: white;  
+}
+.left>.jumbotron{
+  background-color: transparent;
+  margin-right: 40px;
+  padding-left: 10px;
+}
+.left>.jumbotron p{
+  font-size: 19px;
+}
+.right {
+  width: 50%;
+  min-height: 400px;
+  background-color: #303137;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  margin-left: -70px;
+  transition: ease-in-out 0.5s;
+}
+.right>.jumbotron{
+  background-color: transparent;
+  text-align: center;
+}
+#birth-form p{
+  padding: 10px;
+  font-size: 20px;
+}
+input[type=button]{
+  padding: 5px;
+  width: 100px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #a52a2a;
+}
+input[type=number]::placeholder{
+  text-align: center;
+}
+input[type=button]:hover{
+  background-color: #ffffff;
+  padding: 8px;
+  width: 110px;
+  color: #a52a2a;
+}
+#birthday{
+  padding: 20px;
+}
+.fa{
+  font-size: 30px;
+  transition: ease-in-out 0.3s;
+
+}
+.fa:hover{
+  font-size: 40px;
+  transition: step-start;
+}
+.akannames{
+  background-color: #303137;
+  border-radius: 10px;
+  margin-top: -40px;
+  margin-right: 300px;
+  margin-left: -250px;
+  text-align: left;
+  transition: ease-in 0.5s;
+}
+.akannames>.jumbotron{
+  background-color: transparent;
+}
+#akan{
+  text-align: center;
+  background: #a52a2a;
+  border-radius: 10px;
+  padding: 2px;
+  font-size: 25px;
+}
+#b-day{
+  transition: ease-in-out 3sec;
+  font-size: 25px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #a52a2a;
+  background-color: #000000;
+}
+footer>.social{
+  background-color: transparent;
+}
+footer>.social ol{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+footer>.social ol li>.fa {
+  padding: 5px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #a52a2a;
+}
+footer>.social ol li>.fa:hover{
+  font-size: 35px;
+  color: #ffffff;
+  transition: ease-in 0.5s;
+}
+
+footer>.footer_info p{
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .akannames{
+    margin-top: -40px;
+    margin-right: 50px;
+    margin-left: -100px;
+    text-align: center;
+  }
+  .akannames>.row{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .akannames{
+    margin-top: -40px;
+    margin-right: 10px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .akannames>.row{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-fluid {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+  }
+  .navbar-brand{
+    font-size: 45px;
+    transition: ease-in 0.5s;
+  }
+  .container-fluid{
+    margin-top: 10px;
+  }
+  .left {
+    width: 100%;
+    min-height: 450px;
+  }
+  .right {
+    width: 95%;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+    min-height: 300px;
+    margin-bottom: 50px;
+  }
+
+  .left>.jumbotron{
+    padding: 5px;
+    text-align: center;
+    margin-right: 0px;
+    padding-left: 0px;
+  }
+  #birth-form p{
+    padding: 5px;
+    font-size: 20px;
+  }
+  .akannames{
+    margin-top: -40px;
+    margin-right: 10px;
+    margin-left: 0;
+    text-align: center;
+  }
+  input[type=date]{
+    padding: 10px;
+  }
+  input[type=button]{
+    padding: 5px;
+    width: 80px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  
+  #birthday{
+    padding: 5px;
+  }
+}
+

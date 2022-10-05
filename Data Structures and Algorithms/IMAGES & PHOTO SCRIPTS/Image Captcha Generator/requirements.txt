@@ -1,0 +1,1 @@
+django_recaptcha==2.0.6
