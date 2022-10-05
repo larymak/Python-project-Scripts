@@ -1,0 +1,18 @@
+{
+  "beam_width":1,
+  "beam_density":0.0,
+  "beam_update_prob":1.0,
+  "cnn_maxout_pieces":3,
+  "nr_feature_tokens":6,
+  "nr_class":46,
+  "hidden_depth":1,
+  "token_vector_width":96,
+  "hidden_width":64,
+  "maxout_pieces":2,
+  "pretrained_vectors":null,
+  "bilstm_depth":0,
+  "self_attn_depth":0,
+  "conv_depth":4,
+  "conv_window":1,
+  "embed_size":2000
+}
