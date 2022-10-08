@@ -77,7 +77,7 @@ class LinkedList:
             current = self.head
 
             while position > 1:
-                current = node.next_node
+                current = current.next_node
                 position -= 1
 
             prev_node = current
@@ -139,3 +139,21 @@ class LinkedList:
 
             current = current.next_node
         return "->".join(nodes)
+    
+    def reverse(self):
+        """
+        reverses the complete linked list
+        returns the linked list
+        the time complexity of it is 0(n) time.
+        """
+        first = self.head
+        second = self.head.next_node
+
+        while(second != None):
+            store_rest_list = second.next_node
+            second.next_node = first
+            first = second
+            second = store_rest_list
+        self.head.next_node = None
+        self.head = first
+        return self
