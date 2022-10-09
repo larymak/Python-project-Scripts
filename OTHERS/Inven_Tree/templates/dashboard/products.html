@@ -1,0 +1,59 @@
+{% extends 'partials/base.html' %}
+{% block title %}Products Page{% endblock %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+{% include 'partials/topside.html' %}
+<div class="row my-4">
+    <div class="col-md-4">
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+        <div class="card card-body">
+            <h5>Add New Products</h5>
+            <hr>
+            <form method="POST">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <input class="btn btn-success btn-block" type="submit" value="Add">
+            </form>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <table class="table bg-white">
+            <thead class="bg-info text-white">
+                <tr>
+                    <th scope="col">Product</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Sub Category</th>
+                    <th scope="col">Brand</th>
+                    <th scope="col">Sale Price</th>
+                    <th scope="col">Market Price</th>
+                    <th scope="col">Product Type</th>
+                    <th scope="col">Rating</th>
+                    <th scope="col">Total Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for product in product %}
+                <tr>
+                    <td>{{ product.product }}</td>
+                    <td>{{ product.category }}</td>
+                    <td>{{ product.sub_category }}</td>
+                    <td>{{ product.brand }}</td>
+                    <td>{{ product.sale_price }}</td>
+                    <td>{{ product.market_price }}</td>
+                    <td>{{ product.product_type }}</td>
+                    <td>{{ product.rating }}</td>
+                    <td>{{ product.total_quantity }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
