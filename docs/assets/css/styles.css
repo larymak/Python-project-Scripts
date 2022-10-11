@@ -1,0 +1,19 @@
+body
+{
+    text-align: center;
+}
+
+.card
+{
+    display:inline-block;
+    margin: 5%;
+    border: 3px black solid;
+    width: 200px;
+    height:200px;
+}
+
+img
+{
+    width: 50%;
+    height: 50%;
+}

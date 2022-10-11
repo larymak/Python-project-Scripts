@@ -1,0 +1,318 @@
+---
+- SR: 1
+  name: "Ascii Image Converter"
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/ART%20SCRIPTS/image-ascii
+  author: Lary Mak
+  author_url: https://github.com/larymak
+- SR: 2
+  name: DigitalClock
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/TIME%20SCRIPTS/DigitalClock
+  author: Logan Ozdyck
+  author_url: https://github.com/ozdyck3
+- SR: 3
+  name: Insta Spam Bot
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/BOTS/InstaSpamBot
+  author: Lary Mak
+  author_url: https://github.com/larymak
+- SR: 4
+  name: Pyjokes
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/OTHERS/pyjokes
+  author: Lary Mak
+  author_url: https://github.com/larymak
+- SR: 5
+  name: WhatsApp Spambot
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/BOTS/whatsapp-spam
+  author: Lary Mak
+  author_url: https://github.com/larymak
+- SR: 6
+  name: Instagram Bot
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/BOTS/InstagramBot
+  author: Lary Mak
+  author_url: https://github.com/larymak
+- SR: 7
+  name: Photo Editor App
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/IMAGES%20%26%20PHOTO%20SCRIPTS/photo%20editor
+  author: Lary Mak
+  author_url: https://github.com/larymak
+- SR: 8
+  name: Random Name Generator
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/OTHERS/RandomNameGen
+  author: Lary Mak
+  author_url: https://github.com/larymak
+- SR: 9
+  name: Web Scrapping
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/WEB%20SCRAPING/WebScraping
+  author: Lary Mak
+  author_url: https://github.com/larymak
+- SR: 10
+  name: Random Password Generator
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/PASSWORD%20RELATED/RandomPassword
+  author: Gagan prajapatii
+  author_url: https://github.com/Gagan1111
+- SR: 11
+  name: YouTube Video Downloader
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/OTHERS/YoutubeDownloader
+  author: Kinathany
+  author_url: https://github.com/jkinathan
+- SR: 12
+  name: Text to Audio
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/AUDIO%20RELATED%20SCRIPTS/texttoaudio
+  author: Azmine Toushik
+  author_url: https://github.com/azminewasi
+- SR: 13
+  name: Sending Emails
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/AUTOMATION/Sending-Emails
+  author: Dhrumil Gohel
+  author_url: https://github.com/Dhrumil-Zion
+- SR: 14
+  name: Shorten Links
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/CONVERSION%20SCRIPTS/ShortenLinks
+  author: Dhrumil Gohel
+  author_url: https://github.com/Dhrumil-Zion
+- SR: 15
+  name: Python Dictionary
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/WEB%20SCRAPING/PYDICTIONARY
+  author: Kinathany
+  author_url: https://github.com/jkinathan
+- SR: 16
+  name: Image Captcha Generator
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/IMAGES%20%26%20PHOTO%20SCRIPTS/Image%20Captcha%20Generator
+  author: Dhrumil Gohel
+  author_url: https://github.com/Dhrumil-Zion
+- SR: 17
+  name: Audio Captcha Generator
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/AUDIO%20RELATED%20SCRIPTS/Audio%20Captcha%20Generator
+  author: Dhrumil Gohel
+  author_url: https://github.com/Dhrumil-Zion
+- SR: 18
+  name: Compress Image
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/IMAGES%20%26%20PHOTO%20SCRIPTS/Compress%20Image
+  author: Xolani
+  author_url: https://github.com/xolanigumbi
+- SR: 19
+  name: Image Grayscalling
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/IMAGES%20%26%20PHOTO%20SCRIPTS/Image%20Grayscalling
+  author: Dhrumil Gohel
+  author_url: https://github.com/Dhrumil-Zion
+- SR: 20
+  name: Weather Forcasting
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/WEB%20SCRAPING/Weather%20Forcasting
+  author: Dhrumil Gohel
+  author_url: https://github.com/Dhrumil-Zion
+- SR: 21
+  name: Pywhatkit
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/BOTS/pywhatkit
+  author: SasiKalyan
+  author_url: https://github.com/KanakamSasikalyan
+- SR: 22
+  name: Wikipedia
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/WEB%20SCRAPING/wikipedia
+  author: SasiKalyan
+  author_url: https://github.com/KanakamSasikalyan
+- SR: 23
+  name: Auto Move Files
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/AUTOMATION/AutoMoveFiles
+  author: Hisham Khalil
+  author_url: https://github.com/HishamKhalil1990
+- SR: 24
+  name: Working with CSV Files
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/CSV_files
+  author: Mahmoud alzoubi
+  author_url: https://github.com/Mahmoud-alzoubi95
+- SR: 25
+  name: Getting files and folders sizes
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/AUTOMATION/Getting%20Files%20and%20Folders%20sizes
+  author: Saeedahmadi
+  author_url: https://github.com/Saeedahmadi7714
+- SR: 26
+  name: Contact management system
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/OTHERS/Contact-management
+  author: Gagan prajapati
+  author_url: https://github.com/Gagan1111
+- SR: 27
+  name: Countdown Timer
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/TIME%20SCRIPTS/Countdown%20Timer
+  author: Emmanuel Tanimowo
+  author_url: https://github.com/Mannuel25
+- SR: 28
+  name: Simple Flask Calculator
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/FLASK%20PROJECTS/FlaskSimpleCalculator
+  author: Devnamrits
+  author_url: https://github.com/devnamrits
+- SR: 29
+  name: Hex to Base64 Converter
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/CONVERSION%20SCRIPTS/Hex%20to%20Base64%20Converter
+  author: Dev M
+  author_url: https://github.com/devmgardner
+- SR: 30
+  name: Notifications Alert
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/OTHERS/Notification
+  author: Lary Mak
+  author_url: https://github.com/larymak
+- SR: 31
+  name: Qr Code Generator
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/OTHERS/QrCodeGen
+  author: Lary Mak
+  author_url: https://github.com/larymak
+- SR: 32
+  name: User Hash Generator
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/FLASK%20PROJECTS/User%20Hash%20Generator
+  author: Samed Kahyaoglu
+  author_url: https://github.com/urtuba
+- SR: 33
+  name: Weather Updates
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/WEB%20SCRAPING/Weather%20Updates
+  author: Harshad Bhere
+  author_url: https://github.com/harshadbhere
+- SR: 34
+  name: Custom Clock
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/TIME%20SCRIPTS/current_time
+  author: Saeedahmadi
+  author_url: https://github.com/Saeedahmadi7714
+- SR: 35
+  name: Image to ASCII
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/ART%20SCRIPTS/image-ascii
+  author: Lary Mak
+  author_url: https://github.com/larymak
+- SR: 36
+  name: Password Validator
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/PASSWORD%20RELATED/password-validator
+  author: Emmanuel Tanimowo
+  author_url: https://github.com/Mannuel25
+- SR: 37
+  name: Number Guessing Game
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/guess-the-number
+  author: Emmanuel Tanimowo
+  author_url: https://github.com/Mannuel25
+- SR: 38
+  name: Web Dev with python Flask
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/FLASK%20PROJECTS/Web%20Dev%20with%20Flask
+  author: Deepak Sai Pendyala
+  author_url: https://github.com/deepaksaipendyala
+- SR: 39
+  name: password breach checker
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/PASSWORD%20RELATED/passwordbreachchecker
+  author: Deepak Sai Pendyala
+  author_url: https://github.com/deepaksaipendyala
+- SR: 40
+  name: Audio Book
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/AUDIO%20RELATED%20SCRIPTS/AudioBuk
+  author: Lary Mak
+  author_url: https://github.com/larymak
+- SR: 41
+  name: Geocoding Google API
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/OTHERS/Geocoding%20Google%20API
+  author: Sherief Elsowiny
+  author_url: https://github.com/elsowiny
+- SR: 42
+  name: News Article Scraping
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/WEB%20SCRAPING/News_Article_Scraping
+  author: SasiKalyan
+  author_url: https://github.com/KanakamSasikalyan
+- SR: 43
+  name: Sudoku Solver
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/SudokuSolver
+  author: Ruben Grande Muñoz
+  author_url: https://github.com/RgrMz
+- SR: 44
+  name: Duplicate File Remover
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/AUTOMATION/Remove%20Duplicate%20Files%20in%20Folder
+  author: Michael Stadler
+  author_url: https://github.com/mas-designs
+- SR: 45
+  name: Image Divider
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/IMAGES%20%26%20PHOTO%20SCRIPTS/ImageDivider
+  author: Rajarshi Banerjee
+  author_url: https://github.com/GSAUC3
+- SR: 46
+  name: Morse Code Converter
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/CONVERSION%20SCRIPTS/Morse-Code-Converter
+  author: HarshitRV
+  author_url: https://github.com/HarshitRV
+- SR: 47
+  name: CLI Photo Watermark
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/IMAGES%20%26%20PHOTO%20SCRIPTS/CLI-Photo-Watermark
+  author: Odin May
+  author_url: https://github.com/odinmay
+- SR: 48
+  name: Pomodoro App
+  project_link: https://github.com/HarshitRV/Python-project-Scripts/tree/main/Pomodoro-App
+  author: HarshitRV
+  author_url: https://github.com/HarshitRV
+- SR: 49
+  name: BullsAndCows
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/BullsAndCows
+  author: JerryChen
+  author_url: https://github.com/jerrychen1990
+- SR: 50
+  name: Minesweeper AI
+  project_link: https://github.com/nrp114/Minsweeper_AI
+  author: Nisarg Patel
+  author_url: https://github.com/nrp114
+- SR: 51
+  name: PDF Downloader
+  project_link: https://github.com/Sdccoding/Python-project-Scripts/tree/main/PDF_Downloader
+  author: Souhardya Das Chowdhury
+  author_url: https://github.com/Sdccoding
+- SR: 52
+  name: ConsoleSnake
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/ConsoleSnake
+  author: tomimara52
+  author_url: https://github.com/tomimara52
+- SR: 53
+  name: ConsoleMinesweeper
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/ConsoleMinesweeper
+  author: tomimara52
+  author_url: https://github.com/tomimara52
+- SR: 54
+  name: Face_recognition
+  project_link: https://github.com/erastusnzula/Python-project-Scripts/tree/face_recognition/Face_recognition
+  author: erastusnzula
+  author_url: https://github.com/erastusnzula
+- SR: 55
+  name: Rain Alert
+  project_link: https://github.com/Puskchan/Python-project-Scripts/tree/main/Rain_Alert
+  author: Puskchan
+  author_url: https://github.com/Puskchan
+- SR: 56
+  name: Brick Breaker Game
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/Brick-Breaker_Game
+  author: Kaustav Ganguly
+  author_url: https://github.com/kaustav202
+- SR: 57
+  name: Finance App
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/PYTHON%20APPS/FinanceTracker
+  author: Aditya Tripuraneni
+  author_url: https://github.com/Aditya-Tripuraneni
+- SR: 58
+  name: Hand Painter
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/VirtualHandPainter
+  author: Aditya Tripuraneni
+  author_url: https://github.com/Aditya-Tripuraneni
+- SR: 59
+  name: Image-Inverter
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/IMAGES%20%26%20PHOTO%20SCRIPTS/Image-Inverter
+  author: Omar Eldanasoury
+  author_url: https://github.com/omar-danasoury
+- SR: 60
+  name: Snake Game
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/GAMES/Snake_Game(Using%20Turtle
+  author: Aarya Chopkar
+  author_url: https://github.com/accodes21
+- SR: 61
+  name: PyQuiz
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/GUI/PyQuiz
+  author: Eduardo C.
+  author_url: https://github.com/ehcelino
+- SR: 62
+  name: Dates
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/GUI/Dates
+  author: Eduardo C.
+  author_url: https://github.com/ehcelino
+- SR: 63
+  name: QtQuiz
+  project_link: https://github.com/larymak/Python-project-Scripts/tree/main/GUI/QtQuiz
+  author: Eduardo C.
+  author_url: https://github.com/ehcelino
+
+
