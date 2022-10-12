@@ -6,10 +6,12 @@ body
 .card
 {
     display:inline-block;
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom : 5%;
     border: 3px black solid;
-    width: 200px;
-    height:200px;
+    width: 250px;
+    height:250px;
 }
 
 img
