@@ -1,0 +1,69 @@
+{% extends 'shop/basic.html' %}
+
+{% block title%} {{product.product_name}} -My Favourite Cart{% endblock %}
+{% block body %}
+<div class="container my-4">
+    <div class="row">
+    <div class="col-md-4">
+    <div class="row">
+        <img src="/media/{{product.image}}" width="233px" height="385px">
+    </div>
+        <div class="row">
+            <button class="btn btn-primary">Buy Now</button>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+
+    </div>
+
+    <div class="col-md-8">
+        <h5>{{product.product_name}}</h5>
+        <p><b>Rs.{{product.price}} </b></p>
+        <p>{{product.desc}}</p>
+
+
+    </div>
+        </div>
+
+
+</div>
+
+
+
+{% endblock %}
+
+
+{% block js %}
+<script>
+ console.log('working');
+
+ if(localStorage.getItem('cart') == null){
+ var cart = {};
+ }
+
+ else
+ {
+ cart = JSON.parse(localStorage.getItem('cart'));
+ document.getElementById('cart').innerHTML = Object.keys(cart).length;
+ }
+
+ $('.cart').click(function(){
+
+ console.log('clicked');
+ var idstr = this.id.toString();
+ console.log(idstr);
+ if (cart[idstr] !=undefined){
+ cart[idstr] = cart[idstr] + 1;
+ }
+ else
+ {
+ cart[idstr] = 1;
+ }
+ console.log(cart);
+ localStorage.setItem('cart', JSON.stringify(cart));
+ document.getElementById('cart').innerHTML = Object.keys(cart).length;
+ });
+$('#popcart').popover();
+
+document.getElementById("popcart").setAttribute('data-content', '<h5>Cart for your items in my shopping cart</h5>');
+</script>
+{% endblock %}
