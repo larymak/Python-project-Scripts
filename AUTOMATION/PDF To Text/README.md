@@ -5,7 +5,8 @@ Create a new folder and create a pdfToText.py file in it. Copy and paste the cod
 Open the Terminal:
 
 ```py
-    pip install pdfminer.six
+pip install pdfminer.six
+
 ```
 
 In the same folder, add the pdf from which you want to extract text (Here the pdf used is test.pdf). Provide this pdf as a command line argument.
@@ -13,7 +14,8 @@ In the same folder, add the pdf from which you want to extract text (Here the pd
 Run the script using:
 
 ```py
-    python3 pdfToText.py test.pdf
+python3 pdfToText.py test.pdf
+
 ```
 
 The extracted text will be available in converted_pdf.txt
