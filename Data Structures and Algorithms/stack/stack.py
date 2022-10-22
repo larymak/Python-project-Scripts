@@ -17,8 +17,8 @@ class stack:
 		print(self.items)
 
 stack1=stack()
-stack1.push(5)
-stack1.pop()
+stack1.push(5) #allows the user to add items to the stack
+stack1.pop() #allows one to remove items to the stack
 stack1.print_stack()
 
 
