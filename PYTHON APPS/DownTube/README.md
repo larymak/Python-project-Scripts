@@ -33,3 +33,7 @@ Refer [requirements.txt](requirements.txt) for python packages used to develop t
 * This program was tested on Windows machines and works completely fine. But it may or may not work on other operating system platforms like(Linux or MacOS, etc.,).
 
 ---
+
+## Sample GUI
+
+![sample UI](/PYTHON%20APPS/DownTube/Props/sample_GUI.jpg)
