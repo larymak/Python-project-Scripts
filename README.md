@@ -110,3 +110,4 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 62    | [Dates](https://github.com/larymak/Python-project-Scripts/tree/main/GUI/Dates)                                                                    | [Eduardo C.](https://github.com/ehcelino)
 | 63    | [QtQuiz](https://github.com/larymak/Python-project-Scripts/tree/main/GUI/QtQuiz)                                                                  | [Eduardo C.](https://github.com/ehcelino)
 | 64    | [Umbrella Reminder](https://github.com/larymak/Python-project-Scripts/tree/main/AUTOMATION/Umbrella%20Reminder)                                        | [Edula Vinay Kumar Reddy](https://github.com/vinayedula)
+| 65    | [KeyLogger](https://github.com/larymak/Python-project-Scripts/tree/main/OTHERS/KeyLogger)                                                                    | [Akhil](https://github.com/akhil-chagarlamudi)
