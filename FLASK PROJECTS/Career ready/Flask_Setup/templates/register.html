@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container p-5">
+    <h1 class="text-center">Register Form</h1>
+<form method="post" class="container hire-login-container p-5 align-text-center text-center">
+    <div class="py-3">
+        <label for="email">Email Id:</label>
+        <input type="email" name="email" id="email" />
+    </div>
+    <div class="py-3">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+    </div>
+    <input type="submit" class="hire-login-submit p-2 w-100" value="submit" />
+    <small>Already have an account? <a href="login">login!</a></small>
+</form>
+
+</div>
+{% endblock body %}
