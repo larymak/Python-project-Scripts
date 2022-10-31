@@ -1,0 +1,38 @@
+.hire-login{
+    background: linear-gradient(270deg, hsl(0, 60%, 78%) 0%,#C99999  100%);
+    
+}
+.hire-login-container{
+    background: rgba(255, 255, 255, 0.45);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    width:400px;
+}
+.hire-login-title{
+    color: #C99999;
+
+}
+.hire-login-subtitle{
+    color: #C99999;
+}
+.hire-login-submit{
+    background: #C99999;
+border-radius: 10px;
+color:#ffffff;
+border: none;
+
+}
+
+@media screen and (max-width:480px){
+    .hire-login-container{
+        width: 250px;
+    }
+    
+}
+@media screen and (max-width:280px) {
+    .hire-login-container{
+        width: 200px;
+    }
+    
+}
