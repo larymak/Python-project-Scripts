@@ -1,0 +1,1 @@
+Key.backspace Key.backspace Key.backspace Key.backspace Key.backspace s Key.backspace Key.backspace s d Key.backspace Key.backspace s d d Key.backspace Key.backspace s d d d Key.backspace Key.backspace s d d d Key.backspace Key.backspace Key.backspace s d d d Key.backspace Key.ctrl Key.backspace Key.backspace s d d d Key.backspace Key.ctrl c 
