@@ -1,4 +1,4 @@
-﻿# Python-project-Scripts.
+# Python-project-Scripts.
 
 <a href="https://join.slack.com/t/ngc-goz8665/shared_invite/zt-r01kumfq-dQUT3c95BxEP_fnk4yJFfQ">
 <img alt="Join us on Slack" src="https://raw.githubusercontent.com/netlify/netlify-cms/master/website/static/img/slack.png" width="165"/>
@@ -112,4 +112,5 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 63    | [QtQuiz](https://github.com/larymak/Python-project-Scripts/tree/main/GUI/QtQuiz)                                                                  | [Eduardo C.](https://github.com/ehcelino)                   |
 | 64    | [Umbrella Reminder](https://github.com/larymak/Python-project-Scripts/tree/main/AUTOMATION/Umbrella%20Reminder)                                   | [Edula Vinay Kumar Reddy](https://github.com/vinayedula)    |
 | 65    | [Image to PDF](https://github.com/larymak/Python-project-Scripts/tree/main/IMAGES%20%26%20PHOTO%20SCRIPTS/Image%20to%20PDF)                       | [Vedant Chainani](https://github.com/Envoy-VC)              |
-| 66    | [Weight Converter](https://github.com/larymak/Python-project-Scripts/tree/main/CONVERSION%20SCRIPTS/Weight%20Converter)                       | [KOTHA V V S AAKASH](https://github.com/AakashKotha)              |
+| 66    | [KeyLogger](https://github.com/larymak/Python-project-Scripts/tree/main/OTHERS/KeyLogger)                                                         | [Akhil](https://github.com/akhil-chagarlamudi)              |
+| 67    | [Weight Converter](https://github.com/larymak/Python-project-Scripts/tree/main/CONVERSION%20SCRIPTS/Weight%20Converter)                           | [KOTHA V V S AAKASH](https://github.com/AakashKotha)        |
