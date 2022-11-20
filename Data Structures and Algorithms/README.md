@@ -36,4 +36,7 @@
 
 - Binary Tree traversal
 
-- Radix Sort
+- Radix Sort (for numbers) using Counting Sort
+1. Find the largest number int given array. It has n digits. Therefore, the loop should go up to hundreds place (n times)
+2. It is stable sorting algorithm
+3. Sort the elements based on the unit place digits, then tenth place digits ... nTh place digits
