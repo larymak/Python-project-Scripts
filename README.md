@@ -15,27 +15,29 @@
 ### Description
 
 Welcome aboard fellow developer, this is where you will find Python scripts which you are free to contribute to.
-You can contribute by submitting your own scripts, also written in Python, which you think would be amazing for other people to see.
+You can contribute by submitting your own scripts, also written in Python, which you think would be amazing for other
+people to see.
 
 ### Contribution Guidelines
 
-The contribution guidelines are as per the guide [HERE](https://github.com/larymak/Python-project-Scripts/blob/main/CONTRIBUTING.md).
+The contribution guidelines are as per the
+guide [HERE](https://github.com/larymak/Python-project-Scripts/blob/main/CONTRIBUTING.md).
 
 ### Instructions
 
--   Fork this repository
--   Clone your forked repository
--   Add your scripts
--   Commit and push
--   Create a pull request
--   Star this repository
--   Wait for pull request to merge
--   Celebrate your first step into the open source world and contribute more
+- Fork this repository
+- Clone your forked repository
+- Add your scripts
+- Commit and push
+- Create a pull request
+- Star this repository
+- Wait for pull request to merge
+- Celebrate your first step into the open source world and contribute more
 
 ## Additional tools to help you get Started with Open-Source Contribution
 
--   [How to Contribute to Open Source Projects – A Beginner's Guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/)
--   [How to Write a Good README File for Your GitHub Project](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+- [How to Contribute to Open Source Projects – A Beginner's Guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/)
+- [How to Write a Good README File for Your GitHub Project](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
 
 ---
 
@@ -46,7 +48,7 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 ## Projects
 
 | SR No | Project                                                                                                                                           | Author                                                      |
-| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | 1     | [Ascii Image Converter](https://github.com/larymak/Python-project-Scripts/tree/main/ART%20SCRIPTS/image-ascii)                                    | [Lary Mak](https://github.com/larymak)                      |
 | 2     | [DigitalClock](https://github.com/larymak/Python-project-Scripts/tree/main/TIME%20SCRIPTS/DigitalClock)                                           | [Logan Ozdyck](https://github.com/ozdyck3)                  |
 | 3     | [Insta Spam Bot](https://github.com/larymak/Python-project-Scripts/tree/main/BOTS/InstaSpamBot)                                                   | [Lary Mak](https://github.com/larymak)                      |
@@ -113,4 +115,3 @@ The contribution guidelines are as per the guide [HERE](https://github.com/larym
 | 64    | [Umbrella Reminder](https://github.com/larymak/Python-project-Scripts/tree/main/AUTOMATION/Umbrella%20Reminder)                                   | [Edula Vinay Kumar Reddy](https://github.com/vinayedula)    |
 | 65    | [Image to PDF](https://github.com/larymak/Python-project-Scripts/tree/main/IMAGES%20%26%20PHOTO%20SCRIPTS/Image%20to%20PDF)                       | [Vedant Chainani](https://github.com/Envoy-VC)              |
 | 66    | [KeyLogger](https://github.com/larymak/Python-project-Scripts/tree/main/OTHERS/KeyLogger)                                                         | [Akhil](https://github.com/akhil-chagarlamudi)              |
-| 67    | [Weight Converter](https://github.com/larymak/Python-project-Scripts/tree/main/CONVERSION%20SCRIPTS/Weight%20Converter)                           | [KOTHA V V S AAKASH](https://github.com/AakashKotha)        |
