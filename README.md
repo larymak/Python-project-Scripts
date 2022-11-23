@@ -115,4 +115,3 @@ guide [HERE](https://github.com/larymak/Python-project-Scripts/blob/main/CONTRIB
 | 64    | [Umbrella Reminder](https://github.com/larymak/Python-project-Scripts/tree/main/AUTOMATION/Umbrella%20Reminder)                                   | [Edula Vinay Kumar Reddy](https://github.com/vinayedula)    |
 | 65    | [Image to PDF](https://github.com/larymak/Python-project-Scripts/tree/main/IMAGES%20%26%20PHOTO%20SCRIPTS/Image%20to%20PDF)                       | [Vedant Chainani](https://github.com/Envoy-VC)              |
 | 66    | [KeyLogger](https://github.com/larymak/Python-project-Scripts/tree/main/OTHERS/KeyLogger)                                                         | [Akhil](https://github.com/akhil-chagarlamudi)              |
-| 67    | [Face-detecting](https://github.com/azamtoiri/Python-project-Scripts/tree/main/MachineLearning%20Projects/Face-detecting)                         | [Azam Toiri](https://github.com/azamtoiri)                  |
