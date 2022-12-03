@@ -15,23 +15,23 @@
 			<div class="row">
 			<div class="col-md-4"></div>
 			<div class="col-md-4">
-				<form class="form-horizontal" action={{ url_for('result') }}  method="post">
+				<form class="form-horizontal" action="/results"  method="post">
 					<div class="form-group">
 						<label class="control-label col-xs-3" for="operand_1">OPERAND 1:</label>
 						<div class="col-xs-7">
-							<input type="number" class="form-control" name="operand_1" placeholder="&nbsp;0&nbsp;">
+							<input type="number" class="form-control" name="operand_1" placeholder="&nbsp;0&nbsp;" required="required">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-xs-3" for="operand_1">OPERAND 2:</label>
 						<div class="col-xs-7">
-							<input type="number" class="form-control" name="operand_2" placeholder="&nbsp;0&nbsp;">
+							<input type="number" class="form-control" name="operand_2" placeholder="&nbsp;0&nbsp;" required="required">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-xs-3">OPERATOR:</label>
 						<div class="col-xs-5">
-							<select class="form-control" name="operator">
+							<select class="form-control" name="operator" required="required">
 								<option>Addition</option>
 								<option>Subtraction</option>
 								<option>Multiplication</option>
@@ -46,6 +46,9 @@
 						</div>
 					</div>
 				</form>
+				<br>
+				<br>
+				{{prediction_text}}
 			</div>
 			<div class="col-md-4"></div></div>
 		</div>
