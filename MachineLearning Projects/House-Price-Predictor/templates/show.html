@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %} Result {% endblock title %}
+
+{% block body %}
+<div class="container" style="background-color: aquamarine;">
+    <h2 class="text-center mt-5 py-3">House Price Predictor</h2>
+    <div class="container">
+        <p><strong> {{ str }} for the house is: {{ inf }} {{ tag }}</strong></p>
+        <p>Thanks for using our service</p>
+        <a href="/">
+            <button class="btn btn-outline-success mb-5" type="submit"><strong>Go Back</strong></button>
+        </a>
+    </div>
+</div>
+{% endblock body %}

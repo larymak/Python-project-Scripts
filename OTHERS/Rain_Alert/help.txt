@@ -1,0 +1,24 @@
+Project - You will recieve a text message whenever the weather prediction in your area shows rain.
+
+Needs-
+1.For this project you need to have a Twilio account, make a free account- it gives you $15 credit.
+2.Install OS and requests module with pip
+
+Woking-
+It starts with getting all the information regarding your location from openweathermap.com, extracts data from it using requests module and proceeds to check whether it'll rain or not. If yes then it sends a text to your mobile using twilio services and if not it stops for the day.(You need to run this script with pythonanywhere.com)
+
+API-
+1. https://www.twilio.com/docs/usage/api
+2. https://openweathermap.org/api
+3. https://docs.python-requests.org/en/latest/
+
+
+P.S.
+If you're a total begineer and don't get stuff in here, check out some of these links:
+1. https://www.mulesoft.com/resources/api/what-is-an-api
+2. https://www.dataquest.io/blog/python-api-tutorial/
+3. https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa
+
+
+This will be enough to get you going!
+Enjoy!

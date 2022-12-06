@@ -1,0 +1,2 @@
+forex_python==1.6
+Pillow==8.4.0

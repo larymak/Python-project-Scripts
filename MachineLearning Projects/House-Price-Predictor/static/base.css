@@ -1,0 +1,85 @@
+.back{
+    /* background-color: aquamarine; */
+    background: url(form1.jpg) no-repeat center center fixed;
+    background-size: cover; 
+}
+.back .container{ 
+    color: white;
+    /* position: absolute; */
+    top: 25%;
+    left: 40%; 
+}
+.back .container-fluid h2{
+    font-family: 'Heebo', sans-serif;
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+
+.inpstyle {
+    background:none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    outline:none;
+    color: white;
+
+}
+/* .inpstyle:hover {
+    background-color: white;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    outline:none;
+    color: white;
+
+} */
+/* labelling design */
+label{
+    color: blueviolet;
+    font-size: 25px;
+}
+
+/* Select and option tag */
+#forminp select{
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    color: white;
+    border: 1px solid white;
+
+}
+#forminp option{
+    background: none;
+    color: black;
+}
+
+/* Submit button */
+#submitbtn{
+        color: white;
+        cursor: pointer;
+        outline: none; 
+        margin: 12px 0;
+        padding: 10px 21px;
+        border: 2px solid purple;
+        border-radius: 10px;
+        font-size: 18px;
+        background: none;
+        font-weight: bold;
+}
+#submitbtn:hover{
+        opacity: 0.5;
+        color: whitesmoke; 
+        background: rgb(245, 8, 8); 
+}
+
+
+#home:hover{
+    color: darkred;
+}

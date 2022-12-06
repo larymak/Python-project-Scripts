@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Birthday Akan Name</title>
+</head>
+<body>
+  <!-- header section  -->
+  <header>
+    <nav class="navbar navbar--expand-md">
+      <div class="container ">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand align-md-center">AKAN NAME</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- main section  -->
+  <section id="main"> 
+    <div class="container-fluid">
+      <div class="left">
+        <div class="jumbotron">
+          <h1 class="text-md-center">AKAN NAMES</h1>
+          <p>According to The Ghana Culture, They name their children according to the day they were born. The given name Corresponding to the day of the week they were born.</p>
+          <p>Lets Give It a try You Input your Birthday date on to the form and let's have a look Of Your <strong>Akan Name</strong>  <i class="fa fa-hand-o-right"></i></p>
+        </div>
+        <div class="akannames">
+          <div class="jumbotron row">
+            <div class="col-md-6">
+              <h3><span>Male</span></h3>
+              <p><span>Sunday: Kwasi</span></p>
+              <p><span>Monday: Kwadwo</span></p>
+              <p><span>Tuesday: Kwabena</span></p>
+              <p><span>Wednesday: Kwaku</span></p>
+              <p><span>Thursday:&nbsp; Yaw</span></p>
+              <p><span>Friday: Kofi</span></p>
+              <p><span>Saturday: Kwame</span></p>
+            </div>
+            <div class="col-md-6">
+              <h3><span>Female</span></h3>
+              <p><span>Sunday: Akosua</span></p>
+              <p><span>Monday: Adwoa</span></p>
+              <p><span>Tuesday: Abenaa</span></p>
+              <p><span>Wednesday: Akua</span></p>
+              <p><span>Thursday:&nbsp; Yaa</span></p>
+              <p><span>Friday: Afua</span></p>
+              <p><span>Saturday: Ama</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+
+        <div class="jumbotron">
+          <form action="#" id="birth-form">
+            <div class="form-group">
+              <label>Day</label>
+              <input type="number" class="form-control" min="1" max="31" name="day" id="day" placeholder="Day">
+              <label>Month</label>
+              <input type="number" class="form-control" min="1" max="12" name="month" id="month" placeholder="Month eg (01 or 12)">
+              <label>Year</label>
+              <input type="number" class="form-control" min="1950" max="2030" name="year" id="year" placeholder="Year eg (1997)">
+              <p>Gender</p>
+              <input type="radio" name="gender" id="male"> Male
+              <input type="radio" name="gender" id="female"> Female
+              <p>Click to see your Akan Name</p>
+              <input type="button" value="Check" onclick="display();">
+              <input type="button" value="Reset" onclick="reset();">
+            </div>
+            <div id="akan">
+              <p id="b-day"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- footer section  -->
+  <footer>
+    <h4>Social Media</h4>
+		<div class="social">
+			<ol>
+				<li><a href="#" class="fa fa-facebook"></a></li>
+				<li><a href="#" class="fa fa-twitter"></a></li>
+				<li><a href="#" class="fa fa-linkedin"></a></li>
+				<li><a href="#" class="fa fa-instagram"></a></li>
+				<li><a href="#" class="fa fa-github"></a></li>
+				<li><a href="#" class="fa fa-whatsapp"></a></li>
+			</ol>
+		</div>
+		<div class="footer_info">
+			<p>Created By Dominic Yeboah &copy; 2022</p>
+		</div>
+  </footer>
+  <script src="js/script.js"></script>
+
+</body>
+</html>

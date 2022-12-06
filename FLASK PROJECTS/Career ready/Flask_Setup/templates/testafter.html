@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% block head %}
+  <link href="{{ url_for('static', filename='chart.css') }}" rel="stylesheet" media="all">
+  
+  <link href="{{ url_for('static', filename='css1/bootstrap.min.css') }}" rel="stylesheet" media="all">
+  
+  <link href="{{ url_for('static', filename='css1/font-awesome.min.css') }}" rel="stylesheet" media="all">
+  
+  <link href="{{ url_for('static', filename='css1/s.css') }}" rel="stylesheet" media="all">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+  {% endblock head %}
+  {% block body %}
+<body>
+<!--Header-->
+<!-- <b><h1>Hey! The top job roles that matched your skills.....</h1><br><br></b>
+   <br><br><br><br><br><br><br>
+   {%for key, value in final_res.items(): %}
+	{%if job0!=job_dict[value]%}
+   
+   <h2 >{{job_dict[value]}}</h2>
+   {%endif%}
+   {%endfor%} -->
+   <!-- <div class="graph-cont"> -->
+   <h1 class="text-center">You can be a great:</h1>
+   <div class="bar bar1 text-center" ><font>{{ job0 }}</font></div><br>
+	
+		
+		
+	  
+	 
+	 {%for key, value in final_res.items(): %}
+		{%if job0!=job_dict[value]%}
+		 <div class="bar bar2 text-center"><font>{{job_dict[value]}}</font></div><br>
+          <!-- <p>{{job_dict[value]}}</p>
+	 
+	  -->
+	 
+		
+		
+					<!--<div class="bar bar2"><a href="#" style="text-decoration: none;"><font color="white">{{job_dict[value]|e}}</a></font></div><br> --> 
+		              
+
+		<!--	<div class="bar bar2"><a href="#" style="text-decoration: none;"><font color="white">{{job_dict[value]}}</a></font></div><br>  
+		
+		-->
+		{%endif%}
+	 {%endfor%}
+	 
+	
+	<i><h2><p class="text-center">All the best!</p></h2></i>
+	 
+	 
+	 
+	 
+	
+	 
+	 
+	 
+      
+   <!--<div class="bar bar2"><a href="#" style="text-decoration: none;"><font color="white">{{ job1 }}</a></font></div><br>
+   <div class="bar bar3" ><a href="#" style="text-decoration: none;"><font color="white">{{ job2 }}</a></font></div><br>
+   <div class="bar bar4"><a href="#" style="text-decoration: none;"><font color="white">{{ job3 }}</a></font></div><br>-->
+	
+  </div>
+ 
+
+</body>
+{% endblock body %}
+<!--
+           
+      #print(jobs_dict[predictions[0]])
+      job = {}
+      #job[0] = jobs_dict[predictions[0]]
+      index = 1
+     #
+-->
+

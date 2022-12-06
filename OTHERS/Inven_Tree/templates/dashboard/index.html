@@ -1,0 +1,53 @@
+{% extends 'partials/base.html' %}
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated and user.is_staff and user.is_superuser %}
+{% include 'partials/topside.html' %}
+<div class="row ">
+    <div class="col-md-8 my-4 mx-auto">
+        <div class="bg-white">
+            <div class="card-body">
+                <canvas id="myChart" width="400" height="300"></canvas>
+                <script>
+                    var ctx = document.getElementById('myChart').getContext('2d');
+                    var myChart = new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: [{% for order in order %} '{{order.auto_increment_id}}',{% endfor %}],
+                            datasets: [{
+                                label: 'Orders',
+                                data: [{% for order in order %} {{ order.order_quantity }}, {% endfor %}],
+                                backgroundColor: [
+                                    {% for order in order %}
+                                    'rgba(255, 162, 23, 1)',
+                                    {% endfor %}
+                                ],
+                                    borderColor: [
+                                    {% for order in order %}
+                                    'rgba(255, 162, 23, 1)',
+                                    {% endfor %}
+                                    ],
+                                        borderWidth: 1
+                            }]
+                        },
+                    options: {
+                        scales: {
+                            yAxes: [{
+                                ticks: {
+                                    beginAtZero: true
+                                }
+                            }]
+                        }
+                    }
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+{% include 'dashboard/customer_index.html' %}
+{% endif%}
+
+{% endblock %}

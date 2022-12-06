@@ -1,0 +1,979 @@
+Parsed hex pair 49
+Parsed hex pair 27
+Parsed hex pair 6d
+Parsed hex pair 20
+Parsed hex pair 6b
+Parsed hex pair 69
+Parsed hex pair 6c
+Parsed hex pair 6c
+Parsed hex pair 69
+Parsed hex pair 6e
+Parsed hex pair 67
+Parsed hex pair 20
+Parsed hex pair 79
+Parsed hex pair 6f
+Parsed hex pair 75
+Parsed hex pair 72
+Parsed hex pair 20
+Parsed hex pair 62
+Parsed hex pair 72
+Parsed hex pair 61
+Parsed hex pair 69
+Parsed hex pair 6e
+Parsed hex pair 20
+Parsed hex pair 6c
+Parsed hex pair 69
+Parsed hex pair 6b
+Parsed hex pair 65
+Parsed hex pair 20
+Parsed hex pair 61
+Parsed hex pair 20
+Parsed hex pair 70
+Parsed hex pair 6f
+Parsed hex pair 69
+Parsed hex pair 73
+Parsed hex pair 6f
+Parsed hex pair 6e
+Parsed hex pair 6f
+Parsed hex pair 75
+Parsed hex pair 73
+Parsed hex pair 20
+Parsed hex pair 6d
+Parsed hex pair 75
+Parsed hex pair 73
+Parsed hex pair 68
+Parsed hex pair 72
+Parsed hex pair 6f
+Parsed hex pair 6f
+Parsed hex pair 6d
+----List of parsed hex pairs is ['49', '27', '6d', '20', '6b', '69', '6c', '6c', '69', '6e', '67', '20', '79', '6f', '75', '72', '20', '62', '72', '61', '69', '6e', '20', '6c', '69', '6b', '65', '20', '61', '20', '70', '6f', '69', '73', '6f', '6e', '6f', '75', '73', '20', '6d', '75', '73', '68', '72', '6f', '6f', '6d']
+	Lowercase pair list is ['4', '9']
+	Reversed list is ['9', '4']
+		9 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 9 * 1
+----Running total is 9
+		4 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 4 * 16
+----Running total is 73
+		----73 is decimal conversion
+	Lowercase pair list is ['2', '7']
+	Reversed list is ['7', '2']
+		7 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 7 * 1
+----Running total is 7
+		2 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 2 * 16
+----Running total is 39
+		----39 is decimal conversion
+	Lowercase pair list is ['6', 'd']
+	Reversed list is ['d', '6']
+		13 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 13 * 1
+----Running total is 13
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 109
+		----109 is decimal conversion
+	Lowercase pair list is ['2', '0']
+	Reversed list is ['0', '2']
+		0 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 0 * 1
+----Running total is 0
+		2 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 2 * 16
+----Running total is 32
+		----32 is decimal conversion
+	Lowercase pair list is ['6', 'b']
+	Reversed list is ['b', '6']
+		11 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 11 * 1
+----Running total is 11
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 107
+		----107 is decimal conversion
+	Lowercase pair list is ['6', '9']
+	Reversed list is ['9', '6']
+		9 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 9 * 1
+----Running total is 9
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 105
+		----105 is decimal conversion
+	Lowercase pair list is ['6', 'c']
+	Reversed list is ['c', '6']
+		12 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 12 * 1
+----Running total is 12
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 108
+		----108 is decimal conversion
+	Lowercase pair list is ['6', 'c']
+	Reversed list is ['c', '6']
+		12 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 12 * 1
+----Running total is 12
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 108
+		----108 is decimal conversion
+	Lowercase pair list is ['6', '9']
+	Reversed list is ['9', '6']
+		9 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 9 * 1
+----Running total is 9
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 105
+		----105 is decimal conversion
+	Lowercase pair list is ['6', 'e']
+	Reversed list is ['e', '6']
+		14 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 14 * 1
+----Running total is 14
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 110
+		----110 is decimal conversion
+	Lowercase pair list is ['6', '7']
+	Reversed list is ['7', '6']
+		7 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 7 * 1
+----Running total is 7
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 103
+		----103 is decimal conversion
+	Lowercase pair list is ['2', '0']
+	Reversed list is ['0', '2']
+		0 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 0 * 1
+----Running total is 0
+		2 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 2 * 16
+----Running total is 32
+		----32 is decimal conversion
+	Lowercase pair list is ['7', '9']
+	Reversed list is ['9', '7']
+		9 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 9 * 1
+----Running total is 9
+		7 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 7 * 16
+----Running total is 121
+		----121 is decimal conversion
+	Lowercase pair list is ['6', 'f']
+	Reversed list is ['f', '6']
+		15 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 15 * 1
+----Running total is 15
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 111
+		----111 is decimal conversion
+	Lowercase pair list is ['7', '5']
+	Reversed list is ['5', '7']
+		5 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 5 * 1
+----Running total is 5
+		7 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 7 * 16
+----Running total is 117
+		----117 is decimal conversion
+	Lowercase pair list is ['7', '2']
+	Reversed list is ['2', '7']
+		2 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 2 * 1
+----Running total is 2
+		7 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 7 * 16
+----Running total is 114
+		----114 is decimal conversion
+	Lowercase pair list is ['2', '0']
+	Reversed list is ['0', '2']
+		0 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 0 * 1
+----Running total is 0
+		2 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 2 * 16
+----Running total is 32
+		----32 is decimal conversion
+	Lowercase pair list is ['6', '2']
+	Reversed list is ['2', '6']
+		2 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 2 * 1
+----Running total is 2
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 98
+		----98 is decimal conversion
+	Lowercase pair list is ['7', '2']
+	Reversed list is ['2', '7']
+		2 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 2 * 1
+----Running total is 2
+		7 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 7 * 16
+----Running total is 114
+		----114 is decimal conversion
+	Lowercase pair list is ['6', '1']
+	Reversed list is ['1', '6']
+		1 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 1 * 1
+----Running total is 1
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 97
+		----97 is decimal conversion
+	Lowercase pair list is ['6', '9']
+	Reversed list is ['9', '6']
+		9 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 9 * 1
+----Running total is 9
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 105
+		----105 is decimal conversion
+	Lowercase pair list is ['6', 'e']
+	Reversed list is ['e', '6']
+		14 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 14 * 1
+----Running total is 14
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 110
+		----110 is decimal conversion
+	Lowercase pair list is ['2', '0']
+	Reversed list is ['0', '2']
+		0 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 0 * 1
+----Running total is 0
+		2 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 2 * 16
+----Running total is 32
+		----32 is decimal conversion
+	Lowercase pair list is ['6', 'c']
+	Reversed list is ['c', '6']
+		12 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 12 * 1
+----Running total is 12
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 108
+		----108 is decimal conversion
+	Lowercase pair list is ['6', '9']
+	Reversed list is ['9', '6']
+		9 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 9 * 1
+----Running total is 9
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 105
+		----105 is decimal conversion
+	Lowercase pair list is ['6', 'b']
+	Reversed list is ['b', '6']
+		11 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 11 * 1
+----Running total is 11
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 107
+		----107 is decimal conversion
+	Lowercase pair list is ['6', '5']
+	Reversed list is ['5', '6']
+		5 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 5 * 1
+----Running total is 5
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 101
+		----101 is decimal conversion
+	Lowercase pair list is ['2', '0']
+	Reversed list is ['0', '2']
+		0 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 0 * 1
+----Running total is 0
+		2 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 2 * 16
+----Running total is 32
+		----32 is decimal conversion
+	Lowercase pair list is ['6', '1']
+	Reversed list is ['1', '6']
+		1 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 1 * 1
+----Running total is 1
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 97
+		----97 is decimal conversion
+	Lowercase pair list is ['2', '0']
+	Reversed list is ['0', '2']
+		0 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 0 * 1
+----Running total is 0
+		2 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 2 * 16
+----Running total is 32
+		----32 is decimal conversion
+	Lowercase pair list is ['7', '0']
+	Reversed list is ['0', '7']
+		0 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 0 * 1
+----Running total is 0
+		7 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 7 * 16
+----Running total is 112
+		----112 is decimal conversion
+	Lowercase pair list is ['6', 'f']
+	Reversed list is ['f', '6']
+		15 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 15 * 1
+----Running total is 15
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 111
+		----111 is decimal conversion
+	Lowercase pair list is ['6', '9']
+	Reversed list is ['9', '6']
+		9 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 9 * 1
+----Running total is 9
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 105
+		----105 is decimal conversion
+	Lowercase pair list is ['7', '3']
+	Reversed list is ['3', '7']
+		3 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 3 * 1
+----Running total is 3
+		7 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 7 * 16
+----Running total is 115
+		----115 is decimal conversion
+	Lowercase pair list is ['6', 'f']
+	Reversed list is ['f', '6']
+		15 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 15 * 1
+----Running total is 15
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 111
+		----111 is decimal conversion
+	Lowercase pair list is ['6', 'e']
+	Reversed list is ['e', '6']
+		14 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 14 * 1
+----Running total is 14
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 110
+		----110 is decimal conversion
+	Lowercase pair list is ['6', 'f']
+	Reversed list is ['f', '6']
+		15 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 15 * 1
+----Running total is 15
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 111
+		----111 is decimal conversion
+	Lowercase pair list is ['7', '5']
+	Reversed list is ['5', '7']
+		5 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 5 * 1
+----Running total is 5
+		7 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 7 * 16
+----Running total is 117
+		----117 is decimal conversion
+	Lowercase pair list is ['7', '3']
+	Reversed list is ['3', '7']
+		3 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 3 * 1
+----Running total is 3
+		7 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 7 * 16
+----Running total is 115
+		----115 is decimal conversion
+	Lowercase pair list is ['2', '0']
+	Reversed list is ['0', '2']
+		0 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 0 * 1
+----Running total is 0
+		2 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 2 * 16
+----Running total is 32
+		----32 is decimal conversion
+	Lowercase pair list is ['6', 'd']
+	Reversed list is ['d', '6']
+		13 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 13 * 1
+----Running total is 13
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 109
+		----109 is decimal conversion
+	Lowercase pair list is ['7', '5']
+	Reversed list is ['5', '7']
+		5 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 5 * 1
+----Running total is 5
+		7 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 7 * 16
+----Running total is 117
+		----117 is decimal conversion
+	Lowercase pair list is ['7', '3']
+	Reversed list is ['3', '7']
+		3 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 3 * 1
+----Running total is 3
+		7 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 7 * 16
+----Running total is 115
+		----115 is decimal conversion
+	Lowercase pair list is ['6', '8']
+	Reversed list is ['8', '6']
+		8 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 8 * 1
+----Running total is 8
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 104
+		----104 is decimal conversion
+	Lowercase pair list is ['7', '2']
+	Reversed list is ['2', '7']
+		2 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 2 * 1
+----Running total is 2
+		7 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 7 * 16
+----Running total is 114
+		----114 is decimal conversion
+	Lowercase pair list is ['6', 'f']
+	Reversed list is ['f', '6']
+		15 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 15 * 1
+----Running total is 15
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 111
+		----111 is decimal conversion
+	Lowercase pair list is ['6', 'f']
+	Reversed list is ['f', '6']
+		15 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 15 * 1
+----Running total is 15
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 111
+		----111 is decimal conversion
+	Lowercase pair list is ['6', 'd']
+	Reversed list is ['d', '6']
+		13 is index of character in hda list
+		0 is index of character in input
+	----1 is 16 to the power of the index of the character in the input
+----Equation will be 13 * 1
+----Running total is 13
+		6 is index of character in hda list
+		1 is index of character in input
+	----16 is 16 to the power of the index of the character in the input
+----Equation will be 6 * 16
+----Running total is 109
+		----109 is decimal conversion
+____['73', '39', '109', '32', '107', '105', '108', '108', '105', '110', '103', '32', '121', '111', '117', '114', '32', '98', '114', '97', '105', '110', '32', '108', '105', '107', '101', '32', '97', '32', '112', '111', '105', '115', '111', '110', '111', '117', '115', '32', '109', '117', '115', '104', '114', '111', '111', '109'] is list of decimal conversions
+01001001 is binary conversion of decimal
+00100111 is binary conversion of decimal
+01101101 is binary conversion of decimal
+00100000 is binary conversion of decimal
+01101011 is binary conversion of decimal
+01101001 is binary conversion of decimal
+01101100 is binary conversion of decimal
+01101100 is binary conversion of decimal
+01101001 is binary conversion of decimal
+01101110 is binary conversion of decimal
+01100111 is binary conversion of decimal
+00100000 is binary conversion of decimal
+01111001 is binary conversion of decimal
+01101111 is binary conversion of decimal
+01110101 is binary conversion of decimal
+01110010 is binary conversion of decimal
+00100000 is binary conversion of decimal
+01100010 is binary conversion of decimal
+01110010 is binary conversion of decimal
+01100001 is binary conversion of decimal
+01101001 is binary conversion of decimal
+01101110 is binary conversion of decimal
+00100000 is binary conversion of decimal
+01101100 is binary conversion of decimal
+01101001 is binary conversion of decimal
+01101011 is binary conversion of decimal
+01100101 is binary conversion of decimal
+00100000 is binary conversion of decimal
+01100001 is binary conversion of decimal
+00100000 is binary conversion of decimal
+01110000 is binary conversion of decimal
+01101111 is binary conversion of decimal
+01101001 is binary conversion of decimal
+01110011 is binary conversion of decimal
+01101111 is binary conversion of decimal
+01101110 is binary conversion of decimal
+01101111 is binary conversion of decimal
+01110101 is binary conversion of decimal
+01110011 is binary conversion of decimal
+00100000 is binary conversion of decimal
+01101101 is binary conversion of decimal
+01110101 is binary conversion of decimal
+01110011 is binary conversion of decimal
+01101000 is binary conversion of decimal
+01110010 is binary conversion of decimal
+01101111 is binary conversion of decimal
+01101111 is binary conversion of decimal
+01101101 is binary conversion of decimal
+-Parsed 6-bit word 010010
+-Parsed 6-bit word 010010
+-Parsed 6-bit word 011101
+-Parsed 6-bit word 101101
+-Parsed 6-bit word 001000
+-Parsed 6-bit word 000110
+-Parsed 6-bit word 101101
+-Parsed 6-bit word 101001
+-Parsed 6-bit word 011011
+-Parsed 6-bit word 000110
+-Parsed 6-bit word 110001
+-Parsed 6-bit word 101001
+-Parsed 6-bit word 011011
+-Parsed 6-bit word 100110
+-Parsed 6-bit word 011100
+-Parsed 6-bit word 100000
+-Parsed 6-bit word 011110
+-Parsed 6-bit word 010110
+-Parsed 6-bit word 111101
+-Parsed 6-bit word 110101
+-Parsed 6-bit word 011100
+-Parsed 6-bit word 100010
+-Parsed 6-bit word 000001
+-Parsed 6-bit word 100010
+-Parsed 6-bit word 011100
+-Parsed 6-bit word 100110
+-Parsed 6-bit word 000101
+-Parsed 6-bit word 101001
+-Parsed 6-bit word 011011
+-Parsed 6-bit word 100010
+-Parsed 6-bit word 000001
+-Parsed 6-bit word 101100
+-Parsed 6-bit word 011010
+-Parsed 6-bit word 010110
+-Parsed 6-bit word 101101
+-Parsed 6-bit word 100101
+-Parsed 6-bit word 001000
+-Parsed 6-bit word 000110
+-Parsed 6-bit word 000100
+-Parsed 6-bit word 100000
+-Parsed 6-bit word 011100
+-Parsed 6-bit word 000110
+-Parsed 6-bit word 111101
+-Parsed 6-bit word 101001
+-Parsed 6-bit word 011100
+-Parsed 6-bit word 110110
+-Parsed 6-bit word 111101
+-Parsed 6-bit word 101110
+-Parsed 6-bit word 011011
+-Parsed 6-bit word 110111
+-Parsed 6-bit word 010101
+-Parsed 6-bit word 110011
+-Parsed 6-bit word 001000
+-Parsed 6-bit word 000110
+-Parsed 6-bit word 110101
+-Parsed 6-bit word 110101
+-Parsed 6-bit word 011100
+-Parsed 6-bit word 110110
+-Parsed 6-bit word 100001
+-Parsed 6-bit word 110010
+-Parsed 6-bit word 011011
+-Parsed 6-bit word 110110
+-Parsed 6-bit word 111101
+-Parsed 6-bit word 101101
+18	is decimal conversion of 6-bit word 010010
+18	is decimal conversion of 6-bit word 010010
+29	is decimal conversion of 6-bit word 011101
+45	is decimal conversion of 6-bit word 101101
+8	is decimal conversion of 6-bit word 001000
+6	is decimal conversion of 6-bit word 000110
+45	is decimal conversion of 6-bit word 101101
+41	is decimal conversion of 6-bit word 101001
+27	is decimal conversion of 6-bit word 011011
+6	is decimal conversion of 6-bit word 000110
+49	is decimal conversion of 6-bit word 110001
+41	is decimal conversion of 6-bit word 101001
+27	is decimal conversion of 6-bit word 011011
+38	is decimal conversion of 6-bit word 100110
+28	is decimal conversion of 6-bit word 011100
+32	is decimal conversion of 6-bit word 100000
+30	is decimal conversion of 6-bit word 011110
+22	is decimal conversion of 6-bit word 010110
+61	is decimal conversion of 6-bit word 111101
+53	is decimal conversion of 6-bit word 110101
+28	is decimal conversion of 6-bit word 011100
+34	is decimal conversion of 6-bit word 100010
+1	is decimal conversion of 6-bit word 000001
+34	is decimal conversion of 6-bit word 100010
+28	is decimal conversion of 6-bit word 011100
+38	is decimal conversion of 6-bit word 100110
+5	is decimal conversion of 6-bit word 000101
+41	is decimal conversion of 6-bit word 101001
+27	is decimal conversion of 6-bit word 011011
+34	is decimal conversion of 6-bit word 100010
+1	is decimal conversion of 6-bit word 000001
+44	is decimal conversion of 6-bit word 101100
+26	is decimal conversion of 6-bit word 011010
+22	is decimal conversion of 6-bit word 010110
+45	is decimal conversion of 6-bit word 101101
+37	is decimal conversion of 6-bit word 100101
+8	is decimal conversion of 6-bit word 001000
+6	is decimal conversion of 6-bit word 000110
+4	is decimal conversion of 6-bit word 000100
+32	is decimal conversion of 6-bit word 100000
+28	is decimal conversion of 6-bit word 011100
+6	is decimal conversion of 6-bit word 000110
+61	is decimal conversion of 6-bit word 111101
+41	is decimal conversion of 6-bit word 101001
+28	is decimal conversion of 6-bit word 011100
+54	is decimal conversion of 6-bit word 110110
+61	is decimal conversion of 6-bit word 111101
+46	is decimal conversion of 6-bit word 101110
+27	is decimal conversion of 6-bit word 011011
+55	is decimal conversion of 6-bit word 110111
+21	is decimal conversion of 6-bit word 010101
+51	is decimal conversion of 6-bit word 110011
+8	is decimal conversion of 6-bit word 001000
+6	is decimal conversion of 6-bit word 000110
+53	is decimal conversion of 6-bit word 110101
+53	is decimal conversion of 6-bit word 110101
+28	is decimal conversion of 6-bit word 011100
+54	is decimal conversion of 6-bit word 110110
+33	is decimal conversion of 6-bit word 100001
+50	is decimal conversion of 6-bit word 110010
+27	is decimal conversion of 6-bit word 011011
+54	is decimal conversion of 6-bit word 110110
+61	is decimal conversion of 6-bit word 111101
+45	is decimal conversion of 6-bit word 101101
+	18 is decimal in list to convert using base64 table
+	----S is final character in base64 list using decimal conversion of 6-bit binary word as index
+	18 is decimal in list to convert using base64 table
+	----S is final character in base64 list using decimal conversion of 6-bit binary word as index
+	29 is decimal in list to convert using base64 table
+	----d is final character in base64 list using decimal conversion of 6-bit binary word as index
+	45 is decimal in list to convert using base64 table
+	----t is final character in base64 list using decimal conversion of 6-bit binary word as index
+	8 is decimal in list to convert using base64 table
+	----I is final character in base64 list using decimal conversion of 6-bit binary word as index
+	6 is decimal in list to convert using base64 table
+	----G is final character in base64 list using decimal conversion of 6-bit binary word as index
+	45 is decimal in list to convert using base64 table
+	----t is final character in base64 list using decimal conversion of 6-bit binary word as index
+	41 is decimal in list to convert using base64 table
+	----p is final character in base64 list using decimal conversion of 6-bit binary word as index
+	27 is decimal in list to convert using base64 table
+	----b is final character in base64 list using decimal conversion of 6-bit binary word as index
+	6 is decimal in list to convert using base64 table
+	----G is final character in base64 list using decimal conversion of 6-bit binary word as index
+	49 is decimal in list to convert using base64 table
+	----x is final character in base64 list using decimal conversion of 6-bit binary word as index
+	41 is decimal in list to convert using base64 table
+	----p is final character in base64 list using decimal conversion of 6-bit binary word as index
+	27 is decimal in list to convert using base64 table
+	----b is final character in base64 list using decimal conversion of 6-bit binary word as index
+	38 is decimal in list to convert using base64 table
+	----m is final character in base64 list using decimal conversion of 6-bit binary word as index
+	28 is decimal in list to convert using base64 table
+	----c is final character in base64 list using decimal conversion of 6-bit binary word as index
+	32 is decimal in list to convert using base64 table
+	----g is final character in base64 list using decimal conversion of 6-bit binary word as index
+	30 is decimal in list to convert using base64 table
+	----e is final character in base64 list using decimal conversion of 6-bit binary word as index
+	22 is decimal in list to convert using base64 table
+	----W is final character in base64 list using decimal conversion of 6-bit binary word as index
+	61 is decimal in list to convert using base64 table
+	----9 is final character in base64 list using decimal conversion of 6-bit binary word as index
+	53 is decimal in list to convert using base64 table
+	----1 is final character in base64 list using decimal conversion of 6-bit binary word as index
+	28 is decimal in list to convert using base64 table
+	----c is final character in base64 list using decimal conversion of 6-bit binary word as index
+	34 is decimal in list to convert using base64 table
+	----i is final character in base64 list using decimal conversion of 6-bit binary word as index
+	1 is decimal in list to convert using base64 table
+	----B is final character in base64 list using decimal conversion of 6-bit binary word as index
+	34 is decimal in list to convert using base64 table
+	----i is final character in base64 list using decimal conversion of 6-bit binary word as index
+	28 is decimal in list to convert using base64 table
+	----c is final character in base64 list using decimal conversion of 6-bit binary word as index
+	38 is decimal in list to convert using base64 table
+	----m is final character in base64 list using decimal conversion of 6-bit binary word as index
+	5 is decimal in list to convert using base64 table
+	----F is final character in base64 list using decimal conversion of 6-bit binary word as index
+	41 is decimal in list to convert using base64 table
+	----p is final character in base64 list using decimal conversion of 6-bit binary word as index
+	27 is decimal in list to convert using base64 table
+	----b is final character in base64 list using decimal conversion of 6-bit binary word as index
+	34 is decimal in list to convert using base64 table
+	----i is final character in base64 list using decimal conversion of 6-bit binary word as index
+	1 is decimal in list to convert using base64 table
+	----B is final character in base64 list using decimal conversion of 6-bit binary word as index
+	44 is decimal in list to convert using base64 table
+	----s is final character in base64 list using decimal conversion of 6-bit binary word as index
+	26 is decimal in list to convert using base64 table
+	----a is final character in base64 list using decimal conversion of 6-bit binary word as index
+	22 is decimal in list to convert using base64 table
+	----W is final character in base64 list using decimal conversion of 6-bit binary word as index
+	45 is decimal in list to convert using base64 table
+	----t is final character in base64 list using decimal conversion of 6-bit binary word as index
+	37 is decimal in list to convert using base64 table
+	----l is final character in base64 list using decimal conversion of 6-bit binary word as index
+	8 is decimal in list to convert using base64 table
+	----I is final character in base64 list using decimal conversion of 6-bit binary word as index
+	6 is decimal in list to convert using base64 table
+	----G is final character in base64 list using decimal conversion of 6-bit binary word as index
+	4 is decimal in list to convert using base64 table
+	----E is final character in base64 list using decimal conversion of 6-bit binary word as index
+	32 is decimal in list to convert using base64 table
+	----g is final character in base64 list using decimal conversion of 6-bit binary word as index
+	28 is decimal in list to convert using base64 table
+	----c is final character in base64 list using decimal conversion of 6-bit binary word as index
+	6 is decimal in list to convert using base64 table
+	----G is final character in base64 list using decimal conversion of 6-bit binary word as index
+	61 is decimal in list to convert using base64 table
+	----9 is final character in base64 list using decimal conversion of 6-bit binary word as index
+	41 is decimal in list to convert using base64 table
+	----p is final character in base64 list using decimal conversion of 6-bit binary word as index
+	28 is decimal in list to convert using base64 table
+	----c is final character in base64 list using decimal conversion of 6-bit binary word as index
+	54 is decimal in list to convert using base64 table
+	----2 is final character in base64 list using decimal conversion of 6-bit binary word as index
+	61 is decimal in list to convert using base64 table
+	----9 is final character in base64 list using decimal conversion of 6-bit binary word as index
+	46 is decimal in list to convert using base64 table
+	----u is final character in base64 list using decimal conversion of 6-bit binary word as index
+	27 is decimal in list to convert using base64 table
+	----b is final character in base64 list using decimal conversion of 6-bit binary word as index
+	55 is decimal in list to convert using base64 table
+	----3 is final character in base64 list using decimal conversion of 6-bit binary word as index
+	21 is decimal in list to convert using base64 table
+	----V is final character in base64 list using decimal conversion of 6-bit binary word as index
+	51 is decimal in list to convert using base64 table
+	----z is final character in base64 list using decimal conversion of 6-bit binary word as index
+	8 is decimal in list to convert using base64 table
+	----I is final character in base64 list using decimal conversion of 6-bit binary word as index
+	6 is decimal in list to convert using base64 table
+	----G is final character in base64 list using decimal conversion of 6-bit binary word as index
+	53 is decimal in list to convert using base64 table
+	----1 is final character in base64 list using decimal conversion of 6-bit binary word as index
+	53 is decimal in list to convert using base64 table
+	----1 is final character in base64 list using decimal conversion of 6-bit binary word as index
+	28 is decimal in list to convert using base64 table
+	----c is final character in base64 list using decimal conversion of 6-bit binary word as index
+	54 is decimal in list to convert using base64 table
+	----2 is final character in base64 list using decimal conversion of 6-bit binary word as index
+	33 is decimal in list to convert using base64 table
+	----h is final character in base64 list using decimal conversion of 6-bit binary word as index
+	50 is decimal in list to convert using base64 table
+	----y is final character in base64 list using decimal conversion of 6-bit binary word as index
+	27 is decimal in list to convert using base64 table
+	----b is final character in base64 list using decimal conversion of 6-bit binary word as index
+	54 is decimal in list to convert using base64 table
+	----2 is final character in base64 list using decimal conversion of 6-bit binary word as index
+	61 is decimal in list to convert using base64 table
+	----9 is final character in base64 list using decimal conversion of 6-bit binary word as index
+	45 is decimal in list to convert using base64 table
+	----t is final character in base64 list using decimal conversion of 6-bit binary word as index
+SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t is base64 conversion of 49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d

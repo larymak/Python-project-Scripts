@@ -1,0 +1,50 @@
+<div class="row">
+    <div class="col-md-4 mt-4">
+        <div class="card">
+            <div class="card-header bg-info text-white">
+                Information
+            </div>
+            <div class="card-body">
+                <marquee behavior="" direction="">
+                    <h3 class="my-4"><span id='date-time'></span></h3>
+                </marquee>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-7 mt-4">
+        <div class="card">
+            <div class="card-header bg-info text-white">
+                Dashboard Statistics
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a class="text-decoration-none text-dark" href="{% url 'dashboard-products' %}">
+                            <div class="card my-card shadow">
+                                <div class="card-body text-center">
+                                    <h4>Products <i class="fas fa-box"></i></h4>
+                                    <h3>{{ product_count }}</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a class="text-decoration-none text-dark" href="{% url 'dashboard-order' %}">
+                            <div class="card my-card shadow">
+                                <div class="card-body text-center">
+                                    <h4>Orders <i class="fas fa-shipping-fast"></i></h4>
+                                    <h3>{{ order_count }}</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var dt = new Date();
+    document.getElementById('date-time').innerHTML=dt;
+</script>
