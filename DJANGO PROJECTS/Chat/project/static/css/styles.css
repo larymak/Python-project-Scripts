@@ -1,0 +1,60 @@
+.in{
+    border-radius: 30px;
+}
+.gap-in{
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+}
+.card{
+    background-color: #5DADE2;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    border-radius: 20px;
+    margin-top: 5vh;
+}
+.new-btn{
+    width: 50%;
+    margin: 0 auto;
+}
+.user-card{
+    margin-top: 20px;
+    height: 60vh;
+    gap: 10px;
+}
+.head{
+    margin:  2vh;
+    text-align: center;
+}
+.fixed-card{
+    width: 100%;
+    min-height: 40vh;
+    margin-bottom: 1em;
+}
+.mini-card{
+    width: 100%;
+    background-color: #AED6F1;
+    padding: 0;
+    padding-left: 10px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 3px;
+   
+}
+.msg{
+    width: 80%;
+    border-radius: 30px;
+    background-color: #AED6F1;
+    border-style: none;
+}
+.register-card{
+    text-align: left;
+    width: 40%;
+}
+.create{
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+}
