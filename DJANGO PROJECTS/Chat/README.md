@@ -12,6 +12,6 @@ You can test it creating two accounts and opening one in browser and other in pr
 3.channels == 3.0.4
 
 ## Screenshot
-![Screenshot](static/images/pic.png)
+<img src="static/images/pic.png" alt="Screenshot">
 
 
