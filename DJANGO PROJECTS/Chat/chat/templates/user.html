@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}User Detail{% endblock %}
+
+{% block content %}
+<div class="container user-card card">
+    <h1>User Detail</h1>
+    <h5>Username : {{ user.username }}</h5> 
+    <h5>Email : {{ user.email }}</h5> 
+    <a href="{% url 'logout' %}"><input type="submit" value="Log Out" class="btn btn-dark in new-btn"></a>
+</div>
+
+{% endblock %}
