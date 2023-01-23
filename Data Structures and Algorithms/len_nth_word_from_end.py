@@ -30,7 +30,6 @@ def len_nth_word_from_end_1(str, num):
 # checks the length of the nth word from the end using split
 def len_nth_word_from_end_2(str, num):
   ls = str.split(" ")
-  print(ls)
   plc = -1
   word_num = 0
   while plc >= -1 * len(ls):
