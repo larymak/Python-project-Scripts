@@ -46,5 +46,5 @@ def len_nth_word_from_end_2(str, num):
 
 s = "fly  me  to    the moon "
 
-print(len_nth_word_from_end_len_1(s, 5))
-print(len_nth_word_from_end_len_2(s, 3))
+print(len_nth_word_from_end_1(s, 5))
+print(len_nth_word_from_end_2(s, 3))
