@@ -1,0 +1,17 @@
+click==8.1.3
+colorama==0.4.5
+et-xmlfile==1.1.0
+flashtext==2.7
+Flask==2.1.3
+importlib-metadata==4.12.0
+itsdangerous==2.1.2
+Jinja2==3.1.2
+joblib==1.1.0
+MarkupSafe==2.1.1
+numpy==1.23.1
+openpyxl==3.0.10
+scikit-learn==1.1.1
+scipy==1.8.1
+threadpoolctl==3.1.0
+Werkzeug==2.1.2
+zipp==3.8.1
