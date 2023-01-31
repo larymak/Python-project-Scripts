@@ -8,6 +8,8 @@
 
 - Bogo Sort
 
+- Counting Sort
+
 - Linear search (for numbers)
 
 - Linear search (for strings)
@@ -27,6 +29,8 @@
 - Quick Sort (for numbers)
 
 - Quick Sort (for strings)
+
+- Radix Sort
 
 - Recursion
 
