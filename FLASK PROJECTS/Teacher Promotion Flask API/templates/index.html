@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <title>Promotion Prediction System</title>
+  </head>
+  <body>
+  
+
+  <div class="d-lg-flex half">
+    <div class="bg order-1 order-md-2" style="background-image: url('static/images/bg_1.jpg');"></div>
+    <div class="contents order-2 order-md-1">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-7 py-5">
+            <div class="text-center">
+            <h1 style="color: rgb(255, 153, 0);">Promotion Prediction System</h1>
+            <h6 class="mb-4">Kindly enter the mentioned details to find the eligibility for Promotion</h6>
+          </div>
+            <form action="result" method="post">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="fname">First Name</label>
+                    <input type="text" class="form-control" placeholder="First Name" name="fname" id="fname" required="required">
+                  </div>    
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="lname">Last Name</label>
+                    <input type="text" class="form-control" placeholder="Last Name" name="lname" id="lname" required="required">
+                  </div>    
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="age">Age</label>
+                    <input type="number" class="form-control" placeholder="Age" name="age" id="age" required="required">
+                  </div>    
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="experience">Experience</label>
+                    <input type="number" class="form-control" placeholder="Experience" name="experience" id="experience" required="required">
+                  </div>    
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="grade">Grade</label>
+                    <input type="number" class="form-control" placeholder="Grade" name="grade" id="grade" required="required">
+                  </div>    
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="lpromotion">Last Promotion</label>
+                    <input type="number" class="form-control" placeholder="Last Promotion" name="lpromotion" id="lpromotion" required="required">
+                  </div>    
+                </div>
+              </div>
+
+
+              <div class="row">
+                &nbsp; &nbsp; &nbsp; <label >Promotion 1</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <div class="col-sm-2">
+                  
+                  <div class="form-group first">
+                   
+                    <input type="radio"  name="promo1" id="promo1M" value="M" checked> &nbsp;
+                   <label for="M">M</label>
+                    
+                  </div>    
+                </div>
+                <div class="col-sm-2">
+                  <div class="form-group first">
+                    <input type="radio" name="promo1" id="promo1E" value="E"> &nbsp;
+                    <label for="E">E</label> 
+                  </div>    
+                </div>
+
+                <div class="col-sm-2">
+                  <div class="form-group first">
+                    <input type="radio"  name="promo1" id="promo1E+" value="E+"> &nbsp;
+                    <label for="E+">E+</label>
+                  </div>    
+                </div>
+                <div class="col-sm-2">
+                  <div class="form-group first">
+                    <input type="radio" name="promo1" id="promo1S" value="S"> &nbsp;
+                    <label for="S">S</label>
+                  </div>    
+                </div>
+              </div>
+
+              <div class="row">
+                &nbsp; &nbsp; &nbsp; <label >Promotion 2</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <div class="col-sm-2">
+                  
+                  <div class="form-group first">
+                   
+                    <input type="radio"  name="promo2" id="promo2M" value="M" checked> &nbsp;
+                   <label for="M">M</label>
+                    
+                  </div>    
+                </div>
+                <div class="col-sm-2">
+                  <div class="form-group first">
+                    <input type="radio" name="promo2" id="promo2E" value="E"> &nbsp;
+                    <label for="E">E</label> 
+                  </div>    
+                </div>
+
+                <div class="col-sm-2">
+                  <div class="form-group first">
+                    <input type="radio"  name="promo2" id="promo2E+" value="E+"> &nbsp;
+                    <label for="E+">E+</label>
+                  </div>    
+                </div>
+                <div class="col-sm-2">
+                  <div class="form-group first">
+                    <input type="radio" name="promo2" id="promo2S" value="S"> &nbsp;
+                    <label for="S">S</label>
+                  </div>    
+                </div>
+              </div>
+
+
+              <div class="row">
+                &nbsp; &nbsp; &nbsp; <label >Promotion 3</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <div class="col-sm-2">
+                  
+                  <div class="form-group first">
+                   
+                    <input type="radio"  name="promo3" id="promo3M" value="M" checked> &nbsp;
+                   <label for="M">M</label>
+                    
+                  </div>    
+                </div>
+                <div class="col-sm-2">
+                  <div class="form-group first">
+                    <input type="radio" name="promo3" id="promo3E" value="E"> &nbsp;
+                    <label for="E">E</label> 
+                  </div>    
+                </div>
+
+                <div class="col-sm-2">
+                  <div class="form-group first">
+                    <input type="radio"  name="promo3" id="promo3E+" value="E+"> &nbsp;
+                    <label for="E+">E+</label>
+                  </div>    
+                </div>
+                <div class="col-sm-2">
+                  <div class="form-group first">
+                    <input type="radio" name="promo3" id="promo3S" value="S"> &nbsp;
+                    <label for="S">S</label>
+                  </div>    
+                </div>
+              </div>
+              <br> 
+             <div class="text-center">
+              <input type="submit" value="Predict Promotion" class="btn px-5 btn-primary">
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+    
+    
+
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    <script src="static/js/popper.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+pip install -r requirements.txt
+
+1) open the terminal
+2) change the working directory to the flask_api
+3) execute the below commands
+	pip3 install pipenv
+	pipenv install
+	pipenv shell
+ 
+4) install the following packages 
+	pip install -r requirements.txt
+
+5) execute the following commands
+	set FLASK_APP=main.py
+ 	set FLASK_ENV=development
+ 	flask run
