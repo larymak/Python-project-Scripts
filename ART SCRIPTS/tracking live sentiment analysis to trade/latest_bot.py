@@ -26,13 +26,13 @@ import re
 
 reddit = praw.Reddit(
     client_id=config.REDDIT_ID,
-    client_secret=config.REDDIT_SECRET,
+    client_secret=config.REDDIT_SEC,
     password=config.REDDIT_PASS,
     user_agent="USERAGENT",
     username=config.REDDIT_USER,
 )
 #Connecting to binance api
-client = Client(config.BINANCE_kEY, config.BINANCE_SECRET)
+client = Client(config.BINANCE_kEY, config.BINANCE_SEC)
 
 
 #Variables for Bot
