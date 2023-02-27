@@ -1,0 +1,3 @@
+[submodule "WEB-BASED PROJECTS/django-url-shortner"]
+	path = WEB-BASED PROJECTS/django-url-shortner
+	url = https://github.com/yeboahd24/django-url-shortner.git
