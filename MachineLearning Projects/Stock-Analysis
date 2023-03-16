@@ -1,0 +1,2 @@
+Program to compare and display stock prices against itself on today,yesterday,lastmonth and lastyear and plot it. 
+It can accept tickers explicitly or allow fetching for n stocks based on S&P index.
