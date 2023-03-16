@@ -55,7 +55,7 @@ try:
     data.plot()
 
     print(data.head())
-except ValueError:
+except:
       print("Error occured while processing. Please try again.") 
 
 
