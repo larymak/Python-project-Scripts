@@ -1,12 +1,29 @@
-import string #String module will import all the nessary ascii character
-import random #random module help us to import functions needed to generate random element.
+import string
+import secrets
 
-passwrd = string.ascii_letters+string.digits+string.punctuation #This will generate a string consist of all ascii character.
+# Define the set of characters to be used in the password
+CHARACTER_SET = string.ascii_letters + string.digits + string.punctuation
 
-numPass = int(input("How many passwords do you need to be generated? "))
-length = int(input("Enter the length of the password(s): "))
+def generate_password(length):
+    """Generate a random password of the specified length."""
+    password = ''.join(secrets.choice(CHARACTER_SET) for i in range(length))
+    return password
 
-print("List(s) of Generated passwords: ")
+def main():
+    # Prompt the user for the number of passwords to generate and their length
+    while True:
+        try:
+            num_pass = int(input("How many passwords do you want to generate? "))
+            password_length = int(input("Enter the length of the password(s): "))
+            break
+        except ValueError:
+            print("Please enter a valid integer.")
 
-for _ in range(numPass):
-    print(''.join(random.sample(passwrd, k=length))) #sample() generates an array of random characters of length k
+    # Generate the specified number of passwords and print them to the console
+    print("Generated passwords:")
+    for i in range(num_pass):
+        password = generate_password(password_length)
+        print(f"{i+1}. {password}")
+
+if __name__ == "__main__":
+    main()
