@@ -1,0 +1,4 @@
+# Required dependencies for the Password Generator script
+python_version >= 3.6
+tkinter >= 8.6
+pyperclip >= 1.8.2
