@@ -17,9 +17,13 @@ job_details = html_soup.find('div', class_='ResultsContainer-sc-1rtv0xy-2')
 # Pulling out the needed tags
 job_titles =job_details.find_all(['h2','li','dl'])
 
+company_name =job_details.find_all('div', class_='sc-fzoiQi')
+
+total_job_info = job_titles + company_name
+
 # Printing out the content of the tags
 
-for job_title in job_titles:
+for job_title in total_job_info:
     print(job_title.text)
 
 
