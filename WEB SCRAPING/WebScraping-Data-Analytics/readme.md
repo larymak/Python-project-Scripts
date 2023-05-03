@@ -10,12 +10,15 @@ This program is able to fetch the:
 * salary
 
 ### User Story 
-As a data analyst I want to be able to get web large information in csv
+As a data analyst I want to be able to get web large information in csv file.
 
-#  Acceptance Criteria
+###  Acceptance Criteria
 Acceptance Criteria 
 
-- It is done when I can make a request to a specified url It is done when I get response from that url It is done when I get the target content from the url It is done when that content is saved in csv file.
+- It is done when I can make a request to a specified url.
+- It is done when I get response from that url.
+- It is done when I get the target content from the url.
+- It is done when that content is saved in csv file.
 
 
 #### Sample Output
@@ -36,7 +39,7 @@ Acceptance Criteria
 - Execute the program by running the pydatanalytics.py file using `$ python  pydatanalytics.py`
 - The program will then fetch the information and put the information into a csv file.
 
-# Team Members
+### Team Members
 - [@gideonclottey](https://github.com/gideonclottey)
 - [@Dev-Godswill](https://github.com/Dev-Godswill)
 - [@ozomata](https://github.com/ozomata)
