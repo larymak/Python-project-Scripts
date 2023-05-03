@@ -23,10 +23,11 @@ total_job_info = job_titles + company_name
 with open('job_data_2.csv', mode='w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['Job Title', 'Location', 'Salary', 'Company Name']) # header row
-    for i in range(0, len(job_titles), 3):
+    min_length = min(len(job_titles), len(company_name))
+    for i in range(0, min_length - 3):
         job_title = job_titles[i].text.strip()
         location = job_titles[i+1].text.strip()
         salary = job_titles[i+2].text.strip()
-        company = company_name[i//3].text.strip()
+        company = company_name[i+3].text.strip()
         writer.writerow([job_title, location, salary, company])
-        print(job_title)
+       # print(job_title)
