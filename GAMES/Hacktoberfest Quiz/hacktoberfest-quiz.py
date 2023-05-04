@@ -117,7 +117,7 @@ w1_label.pack()
 
 w2_label = Label(root,text="Question 2: Is one of the values of Hacktoberfest 2022 'EVERYONE IS WELCOME' ?",font=("arial",10),width=100,height=4)
 w2_label.pack()
-question_two = ttk.Combobox(root,value=["Yes","No"])
+question_two = ttk.Combobox(root,value=["Yes","No"]) 
 question_two.current(0)
 question_two.pack()
 
