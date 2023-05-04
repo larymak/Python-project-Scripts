@@ -110,7 +110,7 @@ class Quiz:
         self.validate_question_three(question_three_value=question_three_value)
         
         question_four_value = question_four.get()
-        self.validate_question_four(question_three_value=question_four_value)
+        self.validate_question_four(question_four_value=question_four_value)
 
 
         print('Thankyou for Playing the Hacktoberfest quiz game, you attempted',self.score,"questions correctly!")
