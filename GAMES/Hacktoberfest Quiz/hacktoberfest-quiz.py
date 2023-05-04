@@ -58,7 +58,12 @@ class Quiz:
         print('Marks obtained:',mark)
         print('BYE!')
 
+    def get_score(self):
+        return self.score
+
     def evaluate(self):
+        self.score = 0
+
         question_one_value = question_one.get()
         if question_one_value.lower()=='python':
             self.score += 1
@@ -91,6 +96,11 @@ class Quiz:
             print('Wrong Answer4')
             print('correct answer is yes ')
 
+        print('Thankyou for Playing the Hacktoberfest quiz game, you attempted',self.score,"questions correctly!")
+        mark=(self.score/self.total_questions)*100
+        my_label.config(text = "Your score is " + str(mark) +"%")
+        print('Marks obtained:',mark)
+
         
         
 
@@ -98,7 +108,7 @@ quiz = Quiz()
 
 w1_label = Label(root,text="Question 1: What programming language was this quiz created in? Hint: Java, C++, Python ?",font=("arial",10),width=100,height=4)
 w1_label.pack()
-question_one = ttk.Combobox(root,value=["Pyhon","Java","C++"])
+question_one = ttk.Combobox(root,value=["Python","Java","C++"])
 question_one.current(0)
 question_one.pack()
 
@@ -138,7 +148,10 @@ button = Button(root,text="Submit",font=("bell mt",10), command=quiz.evaluate)
 button.pack()
 
 
-
+# w6_label = Label(root,font=("arial",10),width=100,height=4, textvariable=quiz.get_score())
+my_label = Label(root,
+                 text = "Score:")
+my_label.pack()
 
 
 root.mainloop()
