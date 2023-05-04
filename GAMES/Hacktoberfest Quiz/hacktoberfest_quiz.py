@@ -61,40 +61,57 @@ class Quiz:
     def get_score(self):
         return self.score
 
-    def evaluate(self):
-        self.score = 0
-
-        question_one_value = question_one.get()
+    def validate_question_one(self, question_one_value = ''):
         if question_one_value.lower()=='python':
             self.score += 1
             print('correct')
         else:
             print('Wrong Answer1')
             print('correct answer is python ')
-
-        question_two_value = question_two.get()
+        return True if question_one_value.lower()=='python' else False
+        
+    def validate_question_two(self, question_two_value):
         if question_two_value.lower()=='yes':
             self.score += 1
             print('correct')
         else:
             print('Wrong Answer2')
             print('correct answer is yes ')
+        return True if question_two_value.lower()=='yes' else False
 
-        question_three_value = question_three.get()
+    def validate_question_three(self, question_three_value):
         if question_three_value.lower()=='no':
             self.score += 1
             print('correct')
         else:
-            print('Wrong Answer3')
-            print('correct answer is no ')
+            print('Wrong Answer2')
+            print('correct answer is no')
+        return True if question_three_value.lower()=='no' else False
 
-        question_four_value = question_four.get()
+    def validate_question_four(self, question_four_value):
         if question_four_value.lower()=='yes':
             self.score += 1
             print('correct')
         else:
-            print('Wrong Answer4')
-            print('correct answer is yes ')
+            print('Wrong Answer2')
+            print('correct answer is yes')
+        return True if question_four_value.lower()=='yes' else False
+
+    def evaluate(self):
+        self.score = 0
+
+        question_one_value = question_one.get()
+        self.validate_question_one(question_one_value=question_one_value)
+
+        question_two_value = question_two.get()
+        self.validate_question_two(question_two_value=question_two_value)
+
+        question_three_value = question_three.get()
+        self.validate_question_three(question_three_value=question_three_value)
+        
+        question_four_value = question_four.get()
+        self.validate_question_four(question_three_value=question_four_value)
+
 
         print('Thankyou for Playing the Hacktoberfest quiz game, you attempted',self.score,"questions correctly!")
         mark=(self.score/self.total_questions)*100
