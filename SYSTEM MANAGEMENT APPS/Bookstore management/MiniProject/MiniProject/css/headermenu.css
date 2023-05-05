@@ -1,0 +1,94 @@
+/* To Menu */
+.custom-nav{
+    background: transparent;   
+}
+.custom-link{
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border-bottom: solid 0px white;
+    transition: border-width 0.2s linear;
+}
+.custom-link:hover{
+    color: white;
+    /* font-size: 21px; */
+    border-width: 5px;
+    transition: 0.2s linear;
+
+}
+.custom-link:visited{
+    color: white;
+}
+.active{
+    color: white;
+    border-bottom: 5px solid white;
+}
+.custom-link:active{
+    color: white;
+}
+.nav-bg{
+    height: 90px;
+    background-color: #313a46;
+    /* background-color: rgb(199, 196, 196); */
+}
+#login-link{
+    border-radius: 5px;
+    color: white;
+    background-color: #198754;
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+#login-link:hover{
+    border: 1px solid #198754;
+    background: transparent;
+    color: white;
+}
+.dropdown-item{
+    color: #f8f9fa;
+    font-size: 14px;
+}
+.dropdown-item:hover{
+    background-color: white;
+    color: black;
+}
+.dropdown-item:visited{
+    background-color: white;
+    
+}
+.dropdown-item:active{
+    background-color: white;
+    color: black;
+}
+.dropdown-menu{
+    background-color: #313a46;
+}
+.logoutbtn{
+    border: none;
+    background: none;
+}
+.dropdownactive{
+    background-color: white;
+    color: black;
+}
+.active-d{
+    background-color: white;
+    color: black;
+}
+
+.form-control:focus{
+    border-color: grey;
+    box-shadow: 0 0 0 0.2rem rgba(128, 120, 128, 0.25);
+}
+.acc-btn{
+    text-decoration: none;
+    color: white;
+}
+.form-check-input:focus{
+    border-color: grey;
+    box-shadow: 0 0 0 0.2rem rgba(128, 120, 128, 0.25);
+}

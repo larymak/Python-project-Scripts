@@ -1,0 +1,226 @@
+.single-view{
+    box-shadow: 2px 2px 5px 2px grey;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.jobtitle{
+    font-size: 20px;
+    color: black;
+}
+.jobdetails{
+    color: black;
+}
+.pricediv{
+    display: none;
+}
+
+#apply-btn:hover{
+    background-color: white;
+    color: red;
+}
+.know-more-btn{
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    color: #008BDC;
+}
+.know-more-btn:hover{
+    background-color: white;
+    color: red;
+}
+.micro-job{
+    width: fit-content;
+    padding: 7px;
+    border: 1px solid #186fc9;
+    border-radius: 50px;
+    color: #186fc9;
+    background-color: #f1f7fc;
+    font-weight: bold;
+}
+.micro-job2{
+    width: fit-content;
+    padding: 7px;
+    border: 1px solid #186fc9;
+    border-radius: 50px;
+    color: #186fc9;
+    background-color: #f1f7fc;
+    font-weight: bold;
+    animation: animateactive 1.5s infinite;
+}
+.internship{
+    width: fit-content;
+    padding: 7px;
+    border: 1px solid #53b427;
+    border-radius: 50px;
+    color: #53b427;
+    background-color: #f5fbf2;
+    font-weight: bold;
+}
+.part-time-job{
+    width: fit-content;
+    padding: 7px;
+    border: 1px solid #dc0c28;
+    border-radius: 50px;
+    color: #dc0c28;
+    background-color: #fdf2f3;
+    font-weight: bold;
+}
+
+.m_uname{
+    width: fit-content;
+    padding: 7px;
+    border: 1px solid #313a46;
+    border-radius: 50px;
+    color: #313a46;
+    background-color: #f1f6fc;
+    font-weight: bold;
+}
+.dropdownactive{
+    background-color: white;
+    color: black;
+}
+.form-control:focus{
+    border-color: grey;
+    box-shadow: 0 0 0 0.2rem rgba(128, 120, 128, 0.25);
+}
+.form-select:focus{
+    border-color: grey;
+    box-shadow: 0 0 0 0.2rem rgba(128, 120, 128, 0.25);
+}
+.fragment-nav-link{
+    color: black;
+}
+.fragment-nav-link:hover{
+    background-color: #3d4755;
+    color: white;
+}
+.single-view-admin{
+    box-shadow: 2px 2px 5px 2px grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+#confirm:hover{
+    background-color: white;
+    color: red;
+}
+#uploadbtn:hover{
+    background-color: white;
+    color: red;
+}
+
+.custom-button-success:hover{
+    background: transparent;
+}
+.hover-success:hover{
+    color: green;
+    background: transparent;
+}
+.hover-secondary{
+    color: grey;
+    background: transparent;
+}
+.chat-bod-pc{
+    width: 30%;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.chat-bod-mob{
+    display: none;
+}
+.recived-message-div{
+    text-align: left;
+}
+.recived-message{
+    text-align: left;
+    color: black;
+    /* background-color: #313a46; */
+}
+.send-message{
+    text-align: right;
+    color: black;
+}
+.topbar{
+    background-color: #313a46;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+.back-btn{
+    text-decoration: none;
+    color: white;
+}
+.back-btn:hover{
+    color: white;
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .single-view{
+        width: 40vw;
+    }
+    .chat-bod-pc{
+        display: block;
+    }
+    .chat-bod-mob{
+        display: none;
+    }
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .single-view{
+        width: 40vw;
+    }
+    .chat-bod-pc{
+        display: block;
+    }
+    .chat-bod-mob{
+        display: none;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .single-view{
+        width: 40vw;
+    }
+    .chat-bod-pc{
+        display: block;
+    }
+    .chat-bod-mob{
+        display: none;
+    }
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .chat-bod-pc{
+        display: none;
+    }
+    .chat-bod-mob{
+        display: block;
+        width: 90%;
+    }
+    .micro-job,.internship,.part-time-job,.know-more-btn,.jobdetails{
+        font-size: 10px
+    }
+    .jobtitle{
+        font-size: 14px;
+    }
+    .fragment-nav-link{
+        font-size: 12px;
+    }
+    .fragment-nav-link:hover{
+        font-size: 13px;
+    }
+}
+@keyframes animateactive {
+    0% {
+        color: #186fc9;
+    }
+    50% {
+        color: red; 
+    }
+    100% {
+        color: #186fc9; 
+    }
+}

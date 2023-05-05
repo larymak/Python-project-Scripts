@@ -1,0 +1,166 @@
+/* Background Image */
+body{
+    /* background-image: url( Resources/auth-bg.jpg );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center; */
+    background-color: rgb(241, 241, 241);
+}
+
+/* Log In */
+
+.head-msg{
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+.login-bod{
+    position: relative;
+    top: 150px;
+    background-color: rgb(84,89,95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px 3px grey;
+    width: 400px;
+    text-align: center;
+}
+
+#login-btn:hover{
+    background-color: white;
+    color: red;
+}
+.log-msg{
+    font-size: 12px;
+}
+.form-check-label{
+    color: white;
+}
+
+/* Form Effect */
+
+.form-control:focus{
+    border-color: grey;
+    box-shadow: 0 0 0 0.2rem rgba(128, 120, 128, 0.25);
+}
+.acc-btn{
+    text-decoration: none;
+    color: white;
+}
+.form-check-input:focus{
+    border-color: grey;
+    box-shadow: 0 0 0 0.2rem rgba(128, 120, 128, 0.25);
+}
+/* 
+.acc-btn:hover{
+    color: red;
+    font-size: 15px;
+    transition: 0.4s ease-in-out;
+} */
+.acc-btn:visited{
+    color: white;
+}
+
+/* Sign IN */
+
+.reg-bod{
+    
+    background-color: rgb(84,89,95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px 3px grey;
+    width: 400px;
+    text-align: center;
+}
+#verify-otp-btn{
+    border-radius: 8px;
+    padding: 15px;
+}
+#verify-otp-btn:hover{
+    background-color: white;
+    color: red;
+}
+#reg-btn{
+    border-radius: 8px;
+    padding: 15px;
+}
+#reg-btn:hover{
+    background-color: white;
+    color: red;
+}
+.reg-msg{
+    font-size: 12px;
+}
+.otp-msg{
+    font-size: 12px;
+}
+.footer{
+    height: 20px;
+    /* background-color: red; */
+}
+#back-btn{
+    text-decoration: none;
+    color: white;
+}
+#back-btn:hover{
+    color: red;
+    font-size: 15px;
+    transition: 0.4s ease-in-out;
+}
+#mobile-input-reg{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.iti.iti--allow-dropdown {
+    display: block;
+}
+.otp-bod{
+    display: none;
+    position: relative;
+    top: 150px;
+    background-color: rgb(84,89,95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px grey;
+    width: 400px;
+    text-align: center;
+}
+.otp-bodni{
+    display: none;
+    position: relative;
+    top: 150px;
+    background-color: rgb(84,89,95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px grey;
+    width: 400px;
+    text-align: center;
+}
+.showpassword-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    text-align: center;
+    padding: 18px 10px;
+}
+
+@media (max-width: 575.98px) {
+    .login-bod,.reg-bod,.otp-bod,.otp-bodni{
+        width: 300px;   
+    }
+    .login-bod{
+        top: 140px;
+    }
+}
+#verify-otp-onmail-btn{
+    border-radius: 8px;
+    padding: 15px;
+}
+#verify-otp-onmail-btn:hover{
+    background-color: white;
+    color: red;
+}
+.otp-e-msg{
+    font-size: 12px;
+}
