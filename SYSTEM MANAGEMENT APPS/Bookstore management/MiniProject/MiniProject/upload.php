@@ -101,19 +101,6 @@
                 <div class="col"></div>
             </div>
             <br>
-            <!-- <ul class="nav nav-pills nav-fill">
-                <li class="nav-item" >
-                    <a class="nav-link fragment-nav-link" id="internship-fragment" style="border-left: 1px solid rgb(221, 221, 221); background-color:#3d4755; color:white;" href="index.php">Internships</a>
-                </li>
-               
-                <li class="nav-item">
-                    <a class="nav-link fragment-nav-link" id="mj-fragment" style="border-left: 1px solid rgb(221, 221, 221);" href="indexmicrojobs.php">Micro-Jobs</a>
-                </li>
-           
-                <li class="nav-item">
-                    <a class="nav-link fragment-nav-link" id="ft-fragment" href="indexfulltime.php" style="border-left: 1px solid rgb(221, 221, 221); border-right: 1px solid rgb(221, 221, 221);">Full-Time Internships</a>
-                </li>
-            </ul> -->
         </div>  
         <div class="container internship-bod">
             
@@ -154,11 +141,6 @@
                                         <label for="price">Price</label>
                                     </div>
                                 </div>
-                                <!-- <div class="col">
-                                    <button class="btn btn-danger know-more-btn" type="button" data-bs-toggle="collapse" data-bs-target="#my<?=$idnum?>" aria-expanded="false" aria-controls="collapseExample">
-                                        View Details 
-                                    </button> 
-                                </div> -->
                             </div>
                             <div class="row">
                                 <div class="col"></div>

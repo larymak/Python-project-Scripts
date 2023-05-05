@@ -86,19 +86,6 @@
                 </form>
                     
             </div>
-            <!-- <ul class="nav nav-pills nav-fill">
-                <li class="nav-item" >
-                    <a class="nav-link fragment-nav-link" id="internship-fragment" style="border-left: 1px solid rgb(221, 221, 221); background-color:#3d4755; color:white;" href="index.php">Internships</a>
-                </li>
-               
-                <li class="nav-item">
-                    <a class="nav-link fragment-nav-link" id="mj-fragment" style="border-left: 1px solid rgb(221, 221, 221);" href="indexmicrojobs.php">Micro-Jobs</a>
-                </li>
-           
-                <li class="nav-item">
-                    <a class="nav-link fragment-nav-link" id="ft-fragment" href="indexfulltime.php" style="border-left: 1px solid rgb(221, 221, 221); border-right: 1px solid rgb(221, 221, 221);">Full-Time Internships</a>
-                </li>
-            </ul> -->
         </div>  
 
         <br><br>
