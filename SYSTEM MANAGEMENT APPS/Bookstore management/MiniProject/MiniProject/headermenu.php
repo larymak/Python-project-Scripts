@@ -49,7 +49,7 @@
                             <?=$_COOKIE['email']?>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" id="profile-link" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" id="profile-link" href="profile.php">Profile</a></li>
                             <li>
                             <form method="post">
                                 <input name="logout" type="hidden" value="logout">
