@@ -8,10 +8,10 @@ And the other one is where you have a bot-mode where a bot will be your rival th
 You could play the game untill you get tired of it just by running the script once<br /><br />
 Oh and, you could also switch modes after the game has ended <br />
 
-# Input for the program #
-This part is a lil tricky but hey!, I have got some examples<br />
-You have to use co-ordinate system for a 3 X 3 matrix <br /><br />
-For a matrix like this(which will also be our game board..),<br />
+# Input for the program:
+* This part is a lil tricky but hey!, I have got some examples<br />
+* You have to use co-ordinate system for a 3 X 3 matrix <br /><br />
+* For a matrix like this(which will also be our game board..),<br />
   ---------
   | _ _ _ | <br />
   | _ _ _ |<br />
