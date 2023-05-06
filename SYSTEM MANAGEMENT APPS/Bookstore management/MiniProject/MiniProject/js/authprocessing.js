@@ -67,8 +67,9 @@ var iti = window.intlTelInput(input, {
 // console.log(iti.isValidNumber());
 
 $("#reg-btn").click(function(){
-    var mobilenumber,email,pass,repass;
-
+    var mobilenumber,email,pass,repass,fname;
+    
+    fname = $("#fname-input-reg").val()
     mobilenumber = $("#mobile-input-reg").val()
     email = $("#email-input-reg").val()
     pass = $("#password-input-reg").val()

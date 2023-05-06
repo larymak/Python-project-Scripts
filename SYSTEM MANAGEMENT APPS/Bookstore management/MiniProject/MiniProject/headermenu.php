@@ -39,6 +39,7 @@
                     if(!isset($_COOKIE["email"])){
                         ?>
                             <a class="nav-link" id="login-link" href="login.php" aria-current="page">Login</a>
+                            <a class="nav-link" id="login-link" href="signin.php" aria-current="page">Register</a>
                             
                         <?php
                     }
