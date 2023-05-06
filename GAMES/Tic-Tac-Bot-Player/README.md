@@ -1,20 +1,21 @@
 # Just a Tic-Tac-Toe
 
 These are not-a-new-thing python scripts for the game Tic Tac Toe<br />
-But, this edition has two modes to play the Tic-Tac-Toe game<br />
-One of them is a casual mode in which you can invite a friend over to play the game as your rival!
-And the other one is where you have a bot-mode where a bot will be your rival this time <br />
-You could play the game untill you get tired of it just by running the script once<br />
+<br />
+But, this edition has two modes to play the Tic-Tac-Toe game<br /><br />
+One of them is a casual mode in which you can invite a friend over to play the game as your rival!<br /><br />
+And the other one is where you have a bot-mode where a bot will be your rival this time <br /><br />
+You could play the game untill you get tired of it just by running the script once<br /><br />
 Oh and, you could also switch modes after the game has ended <br />
 
-#Input for the program
+# Input for the program #
 This part is a lil tricky but hey!, I have got some examples<br />
 You have to use co-ordinate system for a 3 X 3 matrix <br /><br />
 For a matrix like this(which will also be our game board..),<br />
   ---------
-  | _ _ _ |
-  | _ _ _ |
-  | _ _ _ |
+  | _ _ _ | <br />
+  | _ _ _ |<br />
+  | _ _ _ |<br />
   ---------
  <br />
 * If you want to take the top-right corner:
