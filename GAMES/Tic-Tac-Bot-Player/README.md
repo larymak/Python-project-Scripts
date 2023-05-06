@@ -23,6 +23,7 @@ Oh and, you could also switch modes after the game has ended <br />
   * You have to enter: "1 *space* 3"
   * The input implies: *1st row's 3rd box*
 <br />
+
 * If you want to take the middle box:
     * Enter: "2 *space* 2"
     * The input implies: *2nd row's 2nd box*
