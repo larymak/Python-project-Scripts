@@ -12,12 +12,13 @@ Oh and, you could also switch modes after the game has ended <br />
 * This part is a lil tricky but hey!, I have got some examples<br />
 * You have to use co-ordinate system for a 3 X 3 matrix <br /><br />
 * For a matrix like this(which will also be our game board..),<br />
-  *---------
+  *--------- <br />
   | _ _ _ | <br />
   | _ _ _ |<br />
   | _ _ _ |<br />
   ---------*
  <br />
+
 * If you want to take the top-right corner:
   * You have to enter: "1 *space* 3
   * The input implies: *1st row's 3rd box*
