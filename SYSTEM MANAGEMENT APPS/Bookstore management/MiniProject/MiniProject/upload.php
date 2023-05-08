@@ -131,7 +131,7 @@
                             
                                 </div>
                                 <div class="col">
-                                    <p class="jobdetails">Price in Rs:</p>
+                                    <p class="jobdetails">Price in &#x20AC;:</p>
                                     <select class="form-select mb-4" id="myselect" aria-label="Default select example" onchange="priceToggle()">
                                         <option value="1" selected>Donate</option>
                                         <option value="2" >Sell</option>

@@ -275,7 +275,7 @@
                                                         }
                                                         else{
                                                         ?>
-                                                            <p class="part-time-job"><?=$books['availability']?></p>
+                                                            <p class="part-time-job"><del><?=$books['availability']?></del></p>
                                                         <?php
                                                         }
                                                     ?>
@@ -290,7 +290,7 @@
                                                         }
                                                         else{
                                                             ?>
-                                                                <p class="micro-job">Rs: <?=$books['price']?></p>
+                                                                <p class="micro-job">&#x20AC;: <?=$books['price']?></p>
                                                             <?php
                                                         }
                                                     ?>

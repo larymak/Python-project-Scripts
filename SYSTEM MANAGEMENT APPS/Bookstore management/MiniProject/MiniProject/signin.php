@@ -17,9 +17,6 @@
         else if(preg_match($mailpattern, $_POST["mobilenumber"])){
             $msg = '<div class="alert alert-danger alert-dismissible fade show" role="alert"><strong>Oops! </strong>Please Enter Valid Mobile Number<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>';
         }
-        else if(empty($_POST["name"])){
-            $msg = '<div class="alert alert-danger alert-dismissible fade show" role="alert"><strong>Oops! </strong>Please Enter your Name<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>';
-        }
         else if(empty($_POST["email"])){
             $msg = '<div class="alert alert-danger alert-dismissible fade show" role="alert"><strong>Oops! </strong>Please Enter Your E-Mail ID<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>';
         }
@@ -49,15 +46,16 @@
                 
                 if($row == null){
                     
-                    $fname = $_POST["fname"];
+                   
                     $mobileno = $_POST["mobilenumber"];
                     $email = $_POST["email"];
                     $password = md5($_POST["password"]); 
+                    echo $fname;
         
-                    $query = $link->prepare('INSERT INTO `users` (`fname`,`email`,`mobile_number`,`password`) VALUES (?,?,?,?)');
+                    $query = $link->prepare('INSERT INTO `users` (`email`,`mobile_number`,`password`) VALUES (?,?,?)');
                     
-                    // $query = "INSERT INTO `users` (`fname`,`mobile_number`,`email`,`password`) VALUES ('$fname','$mobileno','$email','$password')"
-                    $query->bind_param($fname,"sss",$email,$mobileno,$password);
+                    // $query = "INSERT INTO `users` (`mobile_number`,`email`,`password`) VALUES ('$mobileno','$email','$password')"
+                    $query->bind_param("sss",$email,$mobileno,$password);
         
                     if($query->execute()){
                         
@@ -131,9 +129,7 @@
             </div>
             <form id="signin-form" method="post">
             
-                <div class="form-floating mb-4">
-                        <input type="text" id="fname-input-reg" class="form-control" name="name" placeholder="Enter Full Name" required="required">
-                </div>
+               
     
                 <div class="form-floating mb-4">
                     <input type="tel" id="mobile-input-reg" class="form-control" name="mobilenumber" required="required">
