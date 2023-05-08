@@ -67,7 +67,7 @@ class Quiz:
             print('correct')
         else:
             print('Wrong Answer1')
-            print('correct answer is python ')
+            print('correct answer is python. ')
         return True if question_one_value.lower()=='python' else False
         
     def validate_question_two(self, question_two_value):
@@ -76,7 +76,7 @@ class Quiz:
             print('correct')
         else:
             print('Wrong Answer2')
-            print('correct answer is application of engineering principle to the design a software ')
+            print('correct answer is application of engineering principle to the design a software. It is the Application of engineering principles to the design,development, and support of software and it helps to solve the challenges of low- quality software project. ')
         return True if question_two_value.lower()=='application of engineering principle to the design a software' else False
 
     def validate_question_three(self, question_three_value):
@@ -85,7 +85,7 @@ class Quiz:
             print('correct')
         else:
             print('Wrong Answer2')
-            print('correct answer is software development life cycle')
+            print('correct answer is software development life cycle. it is a method for designing, developing, and testing high-quality softwarte.')
         return True if question_three_value.lower()=='software development life cycle' else False
 
     def validate_question_four(self, question_four_value):
@@ -94,7 +94,7 @@ class Quiz:
             print('correct')
         else:
             print('Wrong Answer2')
-            print('correct answer is requirement ananlysis')
+            print('correct answer is requirement ananlysis, as based on it developer design and developed the software.')
         return True if question_four_value.lower()=='requirement ananlysis' else False
 
     def evaluate(self):
