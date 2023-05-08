@@ -3,7 +3,7 @@ from tkinter import ttk
 
 root = Tk()
 
-root.geometry("500x500")
+root.geometry("800x800")
 
 root.title("Hacktoberfest Quiz")
 
@@ -24,7 +24,7 @@ class Quiz:
         answer=input('Are you ready to play the Quiz ? (yes/no) :')
 
         if answer.lower()=='yes':
-            answer=input('Question 1: What programming language was this quiz created in? Hint: Java, C++, Python')
+            answer=input('Question 1: What programming language was this quiz created in?')
             if answer.lower()=='python':
                 self.score += 1
                 print('correct')
@@ -32,22 +32,22 @@ class Quiz:
                 print('Wrong Answer :(')
         
         
-            answer=input('Question 2: Is one of the values of Hacktoberfest 2022 "EVERYONE IS WELCOME" ? ')
-            if answer.lower()=='yes':
+            answer=input('Question 2: What is software Engineering?')
+            if answer.lower()=='application of engineering principle to the design a software':
                 self.score += 1
                 print('correct')
             else:
                 print('Wrong Answer :(')
         
-            answer=input('Question 3: Does Hacktoberfest end on December 31?')
-            if answer.lower()=='no':
+            answer=input('Question 3: what does SDLC stand for?')
+            if answer.lower()=='software Development Life Cycle':
                 self.score += 1
                 print('correct')
             else:
                 print('Wrong Answer :(')
        
-            answer=input('Question 3: Does Hacktoberfest have a discord server?')
-            if answer.lower()=='yes':
+            answer=input('Question 4: First phase of software development is:')
+            if answer.lower()=='requirement ananlysi':
                 self.score += 1
                 print('correct')
             else:
@@ -67,35 +67,35 @@ class Quiz:
             print('correct')
         else:
             print('Wrong Answer1')
-            print('correct answer is python ')
+            print('correct answer is python. ')
         return True if question_one_value.lower()=='python' else False
         
     def validate_question_two(self, question_two_value):
-        if question_two_value.lower()=='yes':
+        if question_two_value.lower()=='application of engineering principle to the design a software':
             self.score += 1
             print('correct')
         else:
             print('Wrong Answer2')
-            print('correct answer is yes ')
-        return True if question_two_value.lower()=='yes' else False
+            print('correct answer is application of engineering principle to the design a software. It is the Application of engineering principles to the design,development, and support of software and it helps to solve the challenges of low- quality software project. ')
+        return True if question_two_value.lower()=='application of engineering principle to the design a software' else False
 
     def validate_question_three(self, question_three_value):
-        if question_three_value.lower()=='no':
+        if question_three_value.lower()=='software development life cycle':
             self.score += 1
             print('correct')
         else:
             print('Wrong Answer2')
-            print('correct answer is no')
-        return True if question_three_value.lower()=='no' else False
+            print('correct answer is software development life cycle. it is a method for designing, developing, and testing high-quality softwarte.')
+        return True if question_three_value.lower()=='software development life cycle' else False
 
     def validate_question_four(self, question_four_value):
-        if question_four_value.lower()=='yes':
+        if question_four_value.lower()=='requirement ananlysis':
             self.score += 1
             print('correct')
         else:
             print('Wrong Answer2')
-            print('correct answer is yes')
-        return True if question_four_value.lower()=='yes' else False
+            print('correct answer is requirement ananlysis, as based on it developer design and developed the software.')
+        return True if question_four_value.lower()=='requirement ananlysis' else False
 
     def evaluate(self):
         self.score = 0
@@ -123,41 +123,42 @@ class Quiz:
 
 quiz = Quiz()
 
-w1_label = Label(root,text="Question 1: What programming language was this quiz created in? Hint: Java, C++, Python ?",font=("arial",10),width=100,height=4)
+w1_label = Label(root,text="Question 1: What programming language was this quiz created in?",font=("arial",10),width=100,height=4)
 w1_label.pack()
-question_one = ttk.Combobox(root,value=["Python","Java","C++"])
+question_one = ttk.Combobox(root,value=["Python","Java","C++"],width=50,height=4)
+w1_label.pack()
 question_one.current(0)
 question_one.pack()
 
-w1_label = Label(root,text="",font=("arial",10),width=100,height=4)
+w1_label = Label(root,text="",font=("arial",10),width=200,height=4)
 w1_label.pack()
 
-w2_label = Label(root,text="Question 2: Is one of the values of Hacktoberfest 2022 'EVERYONE IS WELCOME' ?",font=("arial",10),width=100,height=4)
+w2_label = Label(root,text="Question 2:What is software Engineering?",font=("arial",10),width=200,height=4)
 w2_label.pack()
-question_two = ttk.Combobox(root,value=["Yes","No"])
+question_two = ttk.Combobox(root,width=50,height=4,value=["Designing a software","Testing a software","Application of engineering principle to the design a software","None of the above"])
 question_two.current(0)
 question_two.pack()
 
-w2_label = Label(root,text="",font=("arial",10),width=100,height=4)
+w2_label = Label(root,text="",font=("arial",10),width=200,height=4)
 w2_label.pack()
 
 
-w3_label = Label(root,text="Question 3: Does Hacktoberfest end on December 31?",font=("arial",10),width=100,height=4)
+w3_label = Label(root,text="Question 3:what does SDLC stand for?",font=("arial",10),width=200,height=4)
 w3_label.pack()
-question_three = ttk.Combobox(root,value=["Yes","No"])
+question_three = ttk.Combobox(root,width=50,height=4,value=["System Design Life Cycle","Software Design Life Cycle","System Development Life Cycle","Software Development Life Cycle"])
 question_three.current(0)
 question_three.pack()
 
-w3_label = Label(root,text="",font=("arial",10),width=100,height=4)
+w3_label = Label(root,text="",font=("arial",10),width=200,height=4)
 w3_label.pack()
 
-w4_label = Label(root,text="Question 4: Does Hacktoberfest have a discord server?",font=("arial",10),width=50,height=4)
+w4_label = Label(root,text="Question 4: First phase of software development is:",font=("arial",10),width=200,height=4)
 w4_label.pack()
-question_four = ttk.Combobox(root,value=["Yes","No"])
+question_four = ttk.Combobox(root,width=50,height=4,value=["Coding","Testing","Design","Requirement ananlysis"])
 question_four.current(0)
 question_four.pack()
 
-w4_label = Label(root,text="",font=("arial",10),width=50,height=4)
+w4_label = Label(root,text="",font=("arial",10),width=200,height=4)
 w4_label.pack()
 
 
