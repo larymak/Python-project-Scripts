@@ -7,6 +7,8 @@ root.geometry("800x800")
 
 root.title("Hacktoberfest Quiz")
 
+scrollbar = Scrollbar(root)
+scrollbar.pack( side = RIGHT, fill = Y )
 
 label = Label(root,text="Hacktoberfest Quiz ",width = 20,height=4,font=("algerian",15))
 label.pack()
