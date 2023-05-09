@@ -39,6 +39,7 @@
                     if(!isset($_COOKIE["email"])){
                         ?>
                             <a class="nav-link" id="login-link" href="login.php" aria-current="page">Login</a>
+                            <a class="nav-link" id="login-link" href="signin.php" aria-current="page">Register</a>
                             
                         <?php
                     }
@@ -49,7 +50,7 @@
                             <?=$_COOKIE['email']?>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" id="profile-link" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" id="profile-link" href="profile.php">Profile</a></li>
                             <li>
                             <form method="post">
                                 <input name="logout" type="hidden" value="logout">

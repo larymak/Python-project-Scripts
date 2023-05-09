@@ -112,10 +112,6 @@
     </head>
 
     <body class="bg-1">
-        <!-- <br><br>
-        <div class="container head-msg">
-            <h1 class="display-5">Welcome To ADC-Internship</h1>
-        </div> -->
 
 
         

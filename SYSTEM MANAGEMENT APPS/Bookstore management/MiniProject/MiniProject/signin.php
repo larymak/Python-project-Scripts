@@ -45,9 +45,12 @@
                 $row = mysqli_fetch_array($res);
                 
                 if($row == null){
+                    
+                   
                     $mobileno = $_POST["mobilenumber"];
                     $email = $_POST["email"];
                     $password = md5($_POST["password"]); 
+                    echo $fname;
         
                     $query = $link->prepare('INSERT INTO `users` (`email`,`mobile_number`,`password`) VALUES (?,?,?)');
                     
@@ -126,7 +129,7 @@
             </div>
             <form id="signin-form" method="post">
             
-              
+               
     
                 <div class="form-floating mb-4">
                     <input type="tel" id="mobile-input-reg" class="form-control" name="mobilenumber" required="required">
