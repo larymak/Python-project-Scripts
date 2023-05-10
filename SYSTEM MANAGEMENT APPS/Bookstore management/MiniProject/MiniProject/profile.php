@@ -126,8 +126,7 @@
                            
                             <div class="row">
                                 <div class="col">
-                                   <strong> Name :</strong>  <?= $row['user_id'];?>
-                           
+                                   <strong> Name :</strong>  <?= $row['name'];?>
                                 </div>
                                 <div class="col">
                                     <strong> Email:</strong>  <?=$row['email']?>
@@ -138,15 +137,6 @@
                                
                
                             </div>
-                            <!-- <div class="row">
-                                <div class="col"></div>
-                                <div class="col">
-                                    <button class="know-more-btn" type="button" data-bs-toggle="collapse" data-bs-target="#my2" aria-expanded="false" aria-controls="collapseExample">
-                                        On View Details &#8594
-                                    </button>
-                                </div>
-                            </div> -->
-                            <!-- <br> -->
                        
                         </div>
                     </div>

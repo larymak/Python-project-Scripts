@@ -9,9 +9,8 @@
         header('Location: manage.php');
     }
     if($_POST['deletereq']){
-        
         $query = $link->prepare('DELETE FROM `books` WHERE `book_id` = ?');
-        $query -> bind_param("i", $_POST['deletereq']);
+        $query->bind_param("i", $_POST['deletereq']);
         if($query->execute()){
             header('Location: dashboard.php');
         }
@@ -27,10 +26,8 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        
         <!-- Site Icon -->
         <link rel="icon" href="Resources/A-Dot-Icon.png">
         <!-- Custom Css -->
@@ -58,8 +55,6 @@
         <br><br><br><br><br>
 
         <div class="container">
-            
-      
             <div class="row">
                 <div class="col"></div>
                 <div class="col">
@@ -145,21 +140,12 @@
                                         </div>
                                         <div class="row">
                                             <div class="col">
-                                                <form method="post">
-                                                    <input type="hidden" value="<?=$books['book_id']?>" name="deletereq">
-                                                    <button class="know-more-btn" type="submit">
-                                                        Delete Book
-                                                    </button>
-                                                </form>
-                                            </div>
-                                            <div class="col">
                                                 <button class="know-more-btn" type="button" data-bs-toggle="collapse" data-bs-target="#my<?=$idnum?>" aria-expanded="false" aria-controls="collapseExample">
                                                     View Details &#8594
                                                 </button> 
                                             </div>
                                         </div>
                                         <br>
-                                    
                                     </div>
                                 </div>
                                 <div class="collapse" id="my<?=$idnum?>">
@@ -195,7 +181,6 @@
                             </div>
                             <br>
                             <?php
-
                         }
                     }
                     else{
@@ -209,18 +194,8 @@
                     }
                 }    
             ?>
-            
-        
-         
-
-            
-        
             <br>
-
         </div>
-        
-
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
     </body>
 </html>
