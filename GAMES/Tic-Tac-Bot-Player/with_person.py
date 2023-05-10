@@ -18,7 +18,7 @@ def script_with_person():
     player_1 = 'X'
     player_2 = 'O'
     current_player = player_1
-    possibilities = ['X', 'O', 'None']
+    possibilities = ['X', 'O']
     while config.empty_cells:
         print("Player 1's turn: ") if current_player == 'X' else print("Player 2's turn: ")
 
@@ -34,10 +34,12 @@ def script_with_person():
         # Checking if there is any win condition for the current board state after the player's move
         judgement = common_module.the_judge()
 
-        if judgement in possibilities and config.empty_cells == 0:
+        if judgement in possibilities:
+            break
+        elif config.empty_cells == 0:
             break
 
-    if judgement == 'None':
-        print(f'The game is a {judgement}\n')
+    if judgement is None:
+        print(f'The game is a draw!')
     else:
         print('Player 1 wins!\n') if judgement == 'X' else print('Player 2 wins!\n')
