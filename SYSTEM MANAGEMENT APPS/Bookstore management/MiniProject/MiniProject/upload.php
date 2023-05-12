@@ -46,7 +46,6 @@
         else {
             $msg = '<div class="alert  alert-danger alert-dismissible fade show" role="alert"><strong>Oops! </strong>Error while uploading book.<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>';
         }
-
     }
 ?>
 <!doctype html>
@@ -88,7 +87,7 @@
                 <div class="col"></div>
                 <div class="col">
                     <div class="alert alert-secondary" role="alert">
-                        Created Book Will Be Displayed As Created Here
+                        Book Successfully created will be displayed here
                     </div>
                 </div>
                 <div class="col"></div>
@@ -109,7 +108,7 @@
                     <div class="row">
                         <div class="col" style="text-align: center;">
                             <p class="jobdetails">Thumbnail:</p>
-                            <img src="Resources/placeholder.png" alt="Thumbnail" id="JobProfileImage" width="150px" height="150px"><br><br>
+                            <img src="Resources/thumbnail.png" alt="Thumbnail" id="JobProfileImage" width="150px" height="150px"><br><br>
                             <input type="file" id="thumbnail" name="image" accept="image/*">
                         </div>
                         <div class="col ">
