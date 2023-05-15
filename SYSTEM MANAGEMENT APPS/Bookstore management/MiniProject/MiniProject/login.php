@@ -3,10 +3,7 @@
     if(isset($_COOKIE["email"])){
         header('Location: index.php');                                           
     }
-    
-    
     require_once "connection.php";
-    
     
     if($_POST){
     
