@@ -1,0 +1,4 @@
+pandas
+sea-born
+keras
+matplotlib
