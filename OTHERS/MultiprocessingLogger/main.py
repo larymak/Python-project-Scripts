@@ -20,7 +20,6 @@ def process_target(queue: multiprocessing.Queue, input: str):
 
 
 def main(is_pool: bool):
-    print(is_pool)
     logger_helper = MultiProcesses_Logging_Helper()
 
     if is_pool:
