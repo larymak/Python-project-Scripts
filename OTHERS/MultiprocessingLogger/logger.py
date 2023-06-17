@@ -15,6 +15,7 @@ class MultiProcesses_Logging_Helper:
             target=self._process_target,
         )
         self.process.start()
+        self.redirect_main_process_log_to_queue()
 
     def get_log_file_path(self) -> str:
         # TODO: make this configurable
@@ -22,6 +23,22 @@ class MultiProcesses_Logging_Helper:
         Path(log_file_dir).mkdir(parents=True, exist_ok=True)
         log_file_path = os.path.join(log_file_dir, 'multip.log')
         return log_file_path
+
+    def redirect_main_process_log_to_queue(self):
+
+        main_process_id = os.getpid()
+
+        def filter(record: logging.LogRecord):
+            if record.process == main_process_id:
+                self.queue.put_nowait(record)
+            return None
+
+        root = logging.getLogger()
+        root.setLevel(logging.INFO)
+
+        handler = logging.Handler()
+        handler.addFilter(filter)
+        root.addHandler(handler)
 
     def init_logger_configure(self):
         
