@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CO2 Emission Predictor</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class = "form-container">
+        <div class = "form-wrapper">
+          <span class='logo'>Predict CO2 Emission of Vehicles</span>
+          <span class='title'>Enter the following values to predict the CO2 emission from the vehicle</span>
+            <form action="{{ url_for('predict')}}"method="post">
+              <input type="text" name="enginesize" placeholder="Engine Size" required />
+              <input type="text" name="cylinders" placeholder="Cylinders" required />
+              <input type="text" name="fuel" placeholder="Fuel" required="required" />
+              <button type="submit">Predict</button>
+            </form>   
+        </div>
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
