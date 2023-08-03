@@ -1,0 +1,2 @@
+python==3.11.2
+tkinter==8.6
