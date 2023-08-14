@@ -18,7 +18,7 @@ def main():
             break
         except ValueError:
             print("Please enter a valid integer.")
-
+            continue 
     # Generate the specified number of passwords and print them to the console
     print("Generated passwords:")
     for i in range(num_pass):
