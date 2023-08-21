@@ -21,12 +21,20 @@ def get_ticker_list():
         except ValueError:
             print("Please input a valid integer only.")
 
+# Function to get the time period for analysis
+def get_time_period():
+    try:
+        start_date = input("Enter the start date (YYYY-MM-DD): ")
+        end_date = input("Enter the end date (YYYY-MM-DD): ")
+        return start_date, end_date
+    except ValueError:
+        print("Invalid date format. Please use the format YYYY-MM-DD.")
+
 # Main function
 def main():
     tickerlist = get_ticker_list()
     
-    end_date = datetime.today().strftime('%Y-%m-%d')
-    start_date = (datetime.today() - timedelta(days=365)).strftime('%Y-%m-%d')
+    start_date, end_date = get_time_period()  # Get time period for analysis
     
     data = pd.DataFrame()
 
