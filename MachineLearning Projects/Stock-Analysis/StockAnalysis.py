@@ -3,6 +3,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 
+# Function to get a list of tickers for analysis
 def get_ticker_list():
     while True:
         try:
@@ -20,6 +21,7 @@ def get_ticker_list():
         except ValueError:
             print("Please input a valid integer only.")
 
+# Main function
 def main():
     tickerlist = get_ticker_list()
     
@@ -28,6 +30,7 @@ def main():
     
     data = pd.DataFrame()
 
+    # Loop through each ticker to fetch data
     for ticker in tickerlist:
         try:
             y = yf.Ticker(ticker)
@@ -40,6 +43,7 @@ def main():
             print("An error occurred while fetching data for", ticker, ":", str(e))
 
     if not data.empty:
+        # Plotting the data
         data.plot(title="Stock Price Analysis")
         plt.xlabel("Date")
         plt.ylabel("Price")
@@ -49,5 +53,6 @@ def main():
     else:
         print("No data available for analysis.")
 
+# Entry point of the program
 if __name__ == "__main__":
     main()
