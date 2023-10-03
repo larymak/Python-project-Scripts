@@ -1,0 +1,1 @@
+"C:\Users\JeeKay\Python-project-Scripts\DJANGO PROJECTS\weather-app\MyProject\settings.py"
