@@ -1,0 +1,9 @@
+numpy
+pandas
+pytest-shutil
+DateTime
+matplotlib
+seaborn
+opencv-python
+scikit-image
+scikit-learn
