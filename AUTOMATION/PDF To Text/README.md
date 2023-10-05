@@ -1,21 +1,49 @@
-# Extracting text from PDF using Python 
+# Extracting Text from PDF using Python 
 
-Create a new folder and create a pdfToText.py file in it. Copy and paste the code in pdfToText.py in this repository to that file.
+This project is aimed at extracting text from PDF files using Python.
 
-Open the Terminal:
+## Getting Started
 
-```py
-pip install pdfminer.six
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+### Prerequisites
+
+Before running the script, you must install the appropriate dependencies. To install these dependencies, run the following command in your terminal.
+
+```bash
+pip install -r requirements.txt
 ```
 
-In the same folder, add the pdf from which you want to extract text (Here the pdf used is test.pdf). Provide this pdf as a command line argument.
+### Using the Tool
 
-Run the script using:
+Follow these steps to use the tool:
 
-```py
-python3 pdfToText.py test.pdf
+1. Run the 'pdfToText.py' script:
 
-```
+    ```bash
+    python pdfToText.py
+    ```
 
-The extracted text will be available in converted_pdf.txt
+2. When prompted, provide the full path along with the file name of the PDF from which you want to extract text. For example:
+
+    ```bash
+    D:\FolderName\FileName.pdf
+    ```
+
+3. The data from the PDF will be extracted and stored in a .txt file in the same folder. For example:
+
+    ```bash
+    D:\FolderName\FileName.txt
+    ```
+
+### Error Handling
+
+If any error is encountered during the process, it will be printed on the screen. For resolution, check the error message and debug accordingly.
+
+Feel free to report any bugs or request features using the issue tracker.
+
+## Example Run and Output
+
+Below is a screenshot demonstrating how to run the commands in the terminal:
+
+![Sample Usage of the Script](./SampleUsage.png)
