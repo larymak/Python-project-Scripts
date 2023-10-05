@@ -1,6 +1,7 @@
 import re
 
 
+
 def password_strength(password):
     """
         Checks the strength of a password and returns a tuple containing the strength
