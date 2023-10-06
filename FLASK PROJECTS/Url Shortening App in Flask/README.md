@@ -2,48 +2,42 @@
 ![Star Badge](https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99)
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-# Firebase Authentication for Flask Application
+# URL Shortening Application in Flask
 
 ## 🛠️ Description
-This project enables developers to implement secure user authentication features in their Flask applications with ease using Firebase Authentication which offers various authentication methods, including email/password, social media login (such as Google, Facebook, Twitter), and more. It handles the entire authentication process, including user registration, login, and password reset, taking care of security best practices like password hashing and token-based authentication.
+This project is about developing a url shortening application in **Flask** and **MongoDB**. User will paste their long URLs in this application and will get a shortened url, which will redirect to the same long url once used in a browser.
 
 ## ⚙️ Languages or Frameworks Used
- - Flask, Firebase
+ - Flask, MongoDB
  - HTML, CSS, Bootstrap
 
 
 ## 🌟 How to run
  - ### Install all the requirements
     Run `pip install -r requirements.txt` to install all the requirements.
- - ### Firebase Setup for Project
+ - ### MongoDB Setup for Project
 
-   - Create a [firebase](https://firebase.google.com/) project, set up a web project and get all the `Project Configurations` from `Project Settings`.
+   - Download monogdb from the [official website](https://www.mongodb.com/try/download/community) and setup in your local system for testing.
+   - Once it is setup locally, try creating documents and collections in mongodb to familiarize yourself with it.
+   - You can also download the `MongoDB Compass`, which is the GUI version of Mongo Shell.
+   - Once all the local testing is done, you can create a free cloud version of MongoDB in [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register) and get the following credentials from the dashboard of atlas:
+ ```bash
+export MONGO_URI=YOUR_MONGO_URI
+export MONGO_USERNAME=YOUR_MONGO_USERNAME
+export MONGO_PASSWORD=YOUR_MONGO_PASSWORD
+``` 
+     
 
-   - Navigate to the **Authentication** section in your firebase project and enable the `Email and Password`
- authentication.
-
-   - The `Project Configurations` will look as follows :-
-```bash
-  "apiKey": YOUR_API_KEY ,
-  "authDomain": YOUR_AUTH_DOMAIN,
-  "databaseURL": YOUR_DATABASEURL,
-  "projectId": YOUR_PROJECT_ID,
-  "storageBucket": YOUR_STORAGE_BUCKET,
-  "messagingSenderId": YOUR_MESSAGING_SENDER_ID,
-  "appId": YOUR_APP_ID,
-  "measurementId": YOUR_MEASUREMENT_ID 
-```
 - ### Setup Environment for the project
    - Now create a `.env` file in your project dreictory and include the following parameters as it is :-
 ```bash
-export FIREBASE_APIKEY=YOUR_API_KEY
-export FIREBASE_AUTHDOMAIN=YOUR_AUTH_DOMAIN
-export FIREBASE_DATABASEURL=YOUR_DATABASEURL
-export FIREBASE_PROJECT_ID=YOUR_PROJECT_ID
-export FIREBASE_STORAGE_BUCKET=YOUR_STORAGE_BUCKET
-export FIREBASE_MESSAGING_SENDER_ID=YOUR_MESSAGING_SENDER_ID
-export FIREBASE_APP_ID=YOUR_APP_ID
-export FIREBASE_MEASUREMENT_ID=YOUR_MEASUREMENT_ID
+export ENVIRONMENT=local | production (choose on the basis of local or production environment)
+export APP_SECRET=YOUR_APP_SECRET
+export APP_URL=YOUR_APP_URL (the short url)
+export MONGO_URI=YOUR_MONGO_URI
+export MONGO_USERNAME=YOUR_MONGO_USERNAME
+export MONGO_PASSWORD=YOUR_MONGO_PASSWORD
+export DB_NAME=YOUR_DATABASE_NAME
 ``` 
 
 - ###  Now Just, Run the project
@@ -52,8 +46,14 @@ export FIREBASE_MEASUREMENT_ID=YOUR_MEASUREMENT_ID
 
 
 ## 📺 Demo
-![image](https://github.com/MBSA-INFINITY/MBSA-Forms/assets/85332648/2200ef81-57de-4619-ba33-4bed2cf31780)
-![image](https://github.com/MBSA-INFINITY/MBSA-Forms/assets/85332648/ad83c91d-e140-4f4b-9b30-81b4903f1011)
+- Main screen of the application.
+![image](https://github.com/MBSA-INFINITY/Python-project-Scripts/assets/85332648/94825306-1803-4e48-95d1-4f65bd94fcc1)
+- Paste you long URL in the input.
+![image](https://github.com/MBSA-INFINITY/Python-project-Scripts/assets/85332648/a5dd5bf5-b311-4d72-b84f-ebf197e30009)
+- Click on Shorten and copy the `short url` to clipboard
+![image](https://github.com/MBSA-INFINITY/Python-project-Scripts/assets/85332648/4eeb3d39-ddfe-48b0-9c2c-23ffe01036cd)
+
+
 
 ## 🤖 Author
 
