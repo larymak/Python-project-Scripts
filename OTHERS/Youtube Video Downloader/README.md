@@ -1,5 +1,4 @@
-Pytube is a lightweight and dependency-free Python library designed for fetching videos from the internet. It simplifies the process of downloading videos, particularly from YouTube. However, it's important to note that the actual library isn't named "pytube" but must be installed under that name for usage. Below, you'll find instructions for installing pytube and some guidance on how to utilize it.
-
+Pytube is a lightweight and dependency-free Python library designed for fetching videos from the internet.
 Installation:
 
 To install pytube via pip, follow these steps:
@@ -8,6 +7,7 @@ Open your command prompt or terminal as an administrator.
 Execute the following command:
 bash
 Copy code
+
 ```BASH
 pip install pytube
 ```
