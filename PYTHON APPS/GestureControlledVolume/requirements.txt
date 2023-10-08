@@ -1,0 +1,16 @@
+# requirements.txt
+
+# Specify the required Python version
+python_version >= 3.6
+
+# OpenCV for computer vision
+opencv-python==4.5.3
+
+# MediaPipe for hand tracking
+mediapipe==0.8.3
+
+# NumPy for numerical operations
+numpy==1.21.2
+
+# pycaw for audio control
+pycaw==2021.6.24
