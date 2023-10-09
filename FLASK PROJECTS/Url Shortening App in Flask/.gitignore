@@ -1,0 +1,5 @@
+*.pyc
+/__pycache__
+.env
+client_secret.json
+do_not_commit
