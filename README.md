@@ -1,8 +1,6 @@
 # Python-project-Scripts.
 
-<a href="https://join.slack.com/t/ngc-goz8665/shared_invite/zt-r01kumfq-dQUT3c95BxEP_fnk4yJFfQ">
-<img alt="Join us on Slack" src="https://raw.githubusercontent.com/netlify/netlify-cms/master/website/static/img/slack.png" width="165"/>
-</a>
+[![Join us on Slack](https://img.shields.io/badge/slack-chat-green.svg?logo=slack)](https://join.slack.com/t/ngc-goz8665/shared_invite/zt-r01kumfq-dQUT3c95BxEP_fnk4yJFfQ)
 
 ![Contributors](https://img.shields.io/github/contributors/larymak/Python-project-Scripts?style=plastic)
 ![Forks](https://img.shields.io/github/forks/larymak/Python-project-Scripts)
