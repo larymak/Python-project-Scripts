@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    padding: 100px;
+    background-color: rgb(230, 227, 227);
+}
+
+.container {
+    background-color: rgb(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.item1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h1,
+h3 {
+    margin: 0%;
+    padding: 0;
+    font-size: 2.5rem;
+}
+
+span {
+    text-align: center;
+}
+
+span a {
+    color: blue;
+    font-size: 1.5rem;
+}
+
+.form_area {
+    width: 100%;
+}
+
+#field_inside {
+    background: #fff;
+    border: 2px solid #2700ff;
+    width: 85%;
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#but {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#but1 {
+    margin: 5px auto;
+    width: 100px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgb(54, 235, 54);
+    color: #fff;
+    cursor: pointer;
+}
+
+#but2 {
+    width: 100px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #2700ff;
+    cursor: pointer;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#upload-button {
+    font-size: 1.5rem;
+    display: block;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    background-color: #2700ff;
+    border: 2px solid #3f00ff;
+    cursor: pointer;
+    outline: 0;
+    margin: auto;
+    margin-top: 8px;
+}
+
+#custom-msg {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#reset_but {
+    display: block;
+    margin: 5px auto;
+    position: relative;
+    width: 100px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgba(206, 22, 16, 0.911);
+    cursor: pointer;
+    color: #fff;
+}
+#drop,
+#text_down{
+    text-align:center;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 70vw;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+td {
+    vertical-align: auto;
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: gray;
+}
+
+.headin {
+    background-color: black;
+    color: white;
+}
+
+th {
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+#plot {
+    display: none;
+}
+
+#plot div {
+    width: 500px;
+    height: 500x;
+    margin:5px;
+}
+
+#plot div img {
+    width: 500px;
+    height: 500px;
+}
+
+.cap{
+    font-style: italic; 
+    font-size: 25px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #3f00ff;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#but3 {
+    width: 100px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #2700ff;
+    cursor: pointer;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 15px;
+
+}
+
+#plot1 {
+    display: none;
+}
+
+#plot1 div {
+    width: 450px;
+    height: 450px;
+}
+
+#plot1 div img {
+    width: 450px;
+    height: 450px;
+}
