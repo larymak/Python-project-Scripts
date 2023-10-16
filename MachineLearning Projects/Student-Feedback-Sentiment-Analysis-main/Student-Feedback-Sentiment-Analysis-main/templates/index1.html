@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Feedback Analyzer</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script>
+        plot = false;
+        plot1 = false;
+
+        function show_plot() {
+            if (plot == false) {
+                plot = true;
+                document.getElementById("plot").style.cssText = "display: flex;flex-direction: row;flex-wrap: wrap;justify-content:center;";
+            } else {
+                plot = false;
+                document.getElementById("plot").style.cssText = "display:none";
+            }
+
+
+        }
+
+        function show_plot1() {
+            if (plot1 == false) {
+                plot1 = true;
+                document.getElementById("plot1").style.cssText = "display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;";
+            } else {
+                plot1 = false;
+                document.getElementById("plot1").style.cssText = "display:none";
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="item1">
+            <h1>
+                Student Feedback Analyzer Tool
+            </h1>
+            <h3 style="display: inline-flex; padding-top: 10px;">
+                Here are your results <img src="/static/paste-your-content-here.gif" alt="gif">
+            </h3>
+        </div>
+        
+        {% if result %}
+        <div id="Text_Area" class="textarea">
+
+            <div>
+                <table>
+                    <caption class="cap"> Results of Sentiment Analysis </caption>
+                    <tr class="headin">
+                        <th>Category</th>
+                        <th>Positive</th>
+                        <th>Neutral</th>
+                        <th>Negative</th>
+                    </tr>
+                    <tr>
+                        <th>{{ result['f1'] }}</th>
+                        <td>{{ result['pos1'] }}</td>
+                        <td>{{ result['n1'] }} </td>
+                        <td>{{ result['neg1'] }}</td>
+                    </tr>
+                    <tr>
+                        <th>{{ result['f2'] }}</th>
+                        <td>{{ result['pos2'] }}</td>
+                        <td>{{ result['n2'] }} </td>
+                        <td>{{ result['neg1'] }}</td>
+                    </tr>
+                    <tr>
+                        <th>{{ result['f3'] }}</th>
+                        <td>{{ result['pos3'] }}</td>
+                        <td>{{ result['n3'] }} </td>
+                        <td>{{ result['neg3'] }}</td>
+                    </tr>
+                    <tr>
+                        <th>{{ result['f4'] }}</th>
+                        <td>{{ result['pos4'] }}</td>
+                        <td>{{ result['n4'] }} </td>
+                        <td>{{ result['neg4'] }}</td>
+                    </tr>
+                    <tr>
+                        <th>{{ result['f5'] }}</th>
+                        <td>{{ result['pos5'] }}</td>
+                        <td>{{ result['n5'] }} </td>
+                        <td>{{ result['neg5'] }}</td>
+                    </tr>
+                    <tr>
+                        <th>{{ result['f6'] }}</th>
+                        <td>{{ result['pos6'] }}</td>
+                        <td>{{ result['n6'] }} </td>
+                        <td>{{ result['neg6'] }}</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <button onclick="show_plot()" id="but2" type="button" name="display-button" value="plot"> Show Plot </button>
+            </div>
+
+            <div id="plot">
+
+                {% for i in range(0 , 6) %}
+                <div> <img src="../static/plot{{i+10}}.jpg" alt="chart"> </div>
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+        
+        {% elif result1 %}
+        <div id="Text_Area1" class="textarea">
+            <div>
+                <table>
+                    <caption class="cap"> Results of Sentiment Analysis </caption>
+                    <tr class="headin">
+                        <th>Category</th>
+                        <th>Positive</th>
+                        <th>Neutral</th>
+                        <th>Negative</th>
+                    </tr>
+                    <tr>
+                        <th>{{ result1['f1'] }}</th>
+                        <td>{{ result1['pos1'] }}</td>
+                        <td>{{ result1['n1'] }} </td>
+                        <td>{{ result1['neg1'] }}</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <button onclick="show_plot1()" id="but3" type="button" name="display-button" value="plot1"> Show Plot </button>
+            </div>
+
+            <div id="plot1">
+                <div> <img src="../static/plot{{cat}}.jpg" alt="chart"> </div>
+            </div>
+
+        </div>
+
+        {% elif result2 %}
+        <div id="Text_Area1" class="textarea">
+            <div>
+                <table>
+                    <caption class="cap"> Results of Sentiment Analysis </caption>
+                    <tr class="headin">
+                        <th>Category</th>
+                        <th>Positive</th>
+                        <th>Neutral</th>
+                        <th>Negative</th>
+                    </tr>
+                    <tr>
+                        <th>{{ result2['f2'] }}</th>
+                        <td>{{ result2['pos2'] }}</td>
+                        <td>{{ result2['n2'] }} </td>
+                        <td>{{ result2['neg2'] }}</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <button onclick="show_plot1()" id="but3" type="button" name="display-button" value="plot1"> Show Plot </button>
+            </div>
+
+            <div id="plot1">
+                <div> <img src="../static/plot{{cat}}.jpg" alt="chart"> </div>
+            </div>
+
+        </div>
+
+        {% elif result3 %}
+        <div id="Text_Area1" class="textarea">
+            <div>
+                <table>
+                    <caption class="cap"> Results of Sentiment Analysis </caption>
+                    <tr class="headin">
+                        <th>Category</th>
+                        <th>Positive</th>
+                        <th>Neutral</th>
+                        <th>Negative</th>
+                    </tr>
+                    <tr>
+                        <th>{{ result3['f3'] }}</th>
+                        <td>{{ result3['pos3'] }}</td>
+                        <td>{{ result3['n3'] }} </td>
+                        <td>{{ result3['neg3'] }}</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <button onclick="show_plot1()" id="but3" type="button" name="display-button" value="plot1"> Show Plot </button>
+            </div>
+
+            <div id="plot1">
+                <div> <img src="../static/plot{{cat}}.jpg" alt="chart"> </div>
+            </div>
+
+        </div>
+
+        {% elif result4 %}
+        <div id="Text_Area1" class="textarea">
+            <div>
+                <table>
+                    <caption class="cap"> Results of Sentiment Analysis </caption>
+                    <tr class="headin">
+                        <th>Category</th>
+                        <th>Positive</th>
+                        <th>Neutral</th>
+                        <th>Negative</th>
+                    </tr>
+                    <tr>
+                        <th>{{ result4['f4'] }}</th>
+                        <td>{{ result4['pos4'] }}</td>
+                        <td>{{ result4['n4'] }} </td>
+                        <td>{{ result4['neg4'] }}</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <button onclick="show_plot1()" id="but3" type="button" name="display-button" value="plot1"> Show Plot </button>
+            </div>
+
+            <div id="plot1">
+                <div> <img src="../static/plot{{cat}}.jpg" alt="chart"> </div>
+            </div>
+
+        </div>
+
+        {% elif result5 %}
+        <div id="Text_Area1" class="textarea">
+            <div>
+                <table>
+                    <caption class="cap"> Results of Sentiment Analysis </caption>
+                    <tr class="headin">
+                        <th>Category</th>
+                        <th>Positive</th>
+                        <th>Neutral</th>
+                        <th>Negative</th>
+                    </tr>
+                    <tr>
+                        <th>{{ result5['f5'] }}</th>
+                        <td>{{ result5['pos5'] }}</td>
+                        <td>{{ result5['n5'] }} </td>
+                        <td>{{ result5['neg5'] }}</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <button onclick="show_plot1()" id="but3" type="button" name="display-button" value="plot1"> Show Plot </button>
+            </div>
+
+            <div id="plot1">
+                <div> <img src="../static/plot{{cat}}.jpg" alt="chart"> </div>
+            </div>
+
+        </div>
+
+        {% elif result6 %}
+        <div id="Text_Area1" class="textarea">
+            <div>
+                <table>
+                    <caption class="cap"> Results of Sentiment Analysis </caption>
+                    <tr class="headin">
+                        <th>Category</th>
+                        <th>Positive</th>
+                        <th>Neutral</th>
+                        <th>Negative</th>
+                    </tr>
+                    <tr>
+                        <th>{{ result6['f6'] }}</th>
+                        <td>{{ result6['pos6'] }}</td>
+                        <td>{{ result6['n6'] }} </td>
+                        <td>{{ result6['neg6'] }}</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <button onclick="show_plot1()" id="but3" type="button" name="display-button" value="plot1"> Show Plot </button>
+            </div>
+
+            <div id="plot1">
+                <div> <img src="../static/plot{{cat}}.jpg" alt="chart"> </div>
+            </div>
+
+        </div>
+        
+        {% endif %}
+
+
+        <script>
+            const fileBtn = document.getElementById("file");
+            const customBtn = document.getElementById("upload-button");
+            const customTxt = document.getElementById("custom-msg");
+            customBtn.addEventListener("click", function() {
+                fileBtn.click();
+
+            });
+            file.addEventListener("change", function() {
+                if (fileBtn.value) {
+                    customTxt.innerHTML = fileBtn.value.match(
+                        /[\/\\]([\w\d\s\.\~\(\)]+)$/)[1];
+                } else {
+                    customTxt.innerHTML = "NO file Chosen, Yet.";
+
+                }
+            });
+        </script>
+
+</body>
+
+</html>
