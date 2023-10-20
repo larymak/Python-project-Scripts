@@ -1,0 +1,359 @@
+<!--
+This is a simple Secure Recipe Web App Web. This was developed for educational purposes only. 
+Author: oretnom23
+Email: oretnom23@gmail.com 
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>BillSwift | Bill</title>
+     <link rel="shortcut icon" href="{{url_for('static',filename='images/logo.png')}}" type="image/x-icon">
+     <link rel="stylesheet" href="{{url_for('static',filename='font-awesome/css/all.min.css')}}">
+     <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+     <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
+     <script src="{{url_for('static',filename='font-awesome/js/all.min.js')}}"></script>
+     <script src="{{url_for('static',filename='js/jquery-3.6.0.min.js')}}"></script>
+     <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+     <script src="{{url_for('static',filename='js/script_bill.js')}}"></script>
+
+ 
+ </head>
+ 
+ <body class="bg-gradient bg-dark bg-opacity-50" onload="window.scrollTo(0, document.body.scrollHeight)">
+     <script>
+         start_loader()
+     </script>
+         <nav class="navbar bg-light">
+             <div class="container-fluid">
+              <h3 class="navbar-brand" style="color:black"> <img src="{{url_for('static',filename='images/logo.png')}}" height="40"/> BillSwift</h3>
+               <form class="d-flex" role="search">
+               
+                 <a href="/" class="btn btn-outline-primary mx-2">Create a Bill</a>
+                 <a href="/products" class="btn btn-outline-primary mx-2">Products</a>
+                 <a href="/bills" class="btn btn-outline-primary mx-2">Bills</a>
+                 <a href="/logout" class="btn btn-outline-primary mx-2">Logout</a>
+               </form>
+             </div>
+           </nav>
+     <main>
+         <div class="modal fade" id="customer_details" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div class="modal-dialog">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <h1 class="modal-title fs-5" id="exampleModalLabel">Customer Details</h1>
+                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                     <div class="mb-3">
+                         <label for="exampleFormControlInput1" class="form-label">Name</label>
+                         <input type="text" class="form-control" id="customer_name_modal" name="customer_name_modal" placeholder="Name of the Customer" value="{{bill_details_json['customer_name']}}" disabled>
+                       </div>
+                       <div class="mb-3">
+                         <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                         <input type="text" class="form-control" id="customer_number_modal" name="customer_number_modal" placeholder="Number of the Customer" value="{{bill_details_json['customer_number']}}" disabled>
+                       </div>
+                       <div class="mb-3">
+                         <label for="exampleFormControlInput1" class="form-label">Email</label>
+                         <input type="email" class="form-control" id="customer_email_modal" name="customer_email_modal" placeholder="Email of the Customer" value="{{bill_details_json['customer_email']}}" disabled>
+                       </div>
+                      
+                 </div>
+                 <div class="modal-footer">
+                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              
+                 </div>
+               </div>
+             </div>
+           </div>
+         <div class="row">
+          <div class="col-3">
+          <form action="" id="checkout-form">
+             <button type="submit" class="btn btn-primary  my-2 mx-2" form="checkout-form">
+              Generate Bill
+            </button>
+          </form>
+        </div>
+             <div class="col-6"><h3 class="text-center my-2 text-light"><span style="color:black"><b>BILL ID</b> </span><b>{{bill_key}}</b></h3></div>
+             <div class="col-3"><button type="button" class="btn btn-primary  my-2 mx-2" data-bs-toggle="modal" data-bs-target="#customer_details">
+                 Customer Details (Optional)
+               </button></div>
+         </div>
+         <div class="container-fluid w-100">
+             <div class="row">
+                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                     <div class="card rounded-0 shadow mb-3">
+                         <div class="card-body">
+                             <div class="container-fluid">
+                                 <input type="text" id="mbsa" value="{{_products_}}" style="display:none">
+                                 <div class="row">
+                                     <div class="col-12"><h4 class="text-center fw-bold">Payment Status</h4></div>
+                                     
+                                 </div>
+                                 <center>
+                                     <hr class="bg-primary border-2 w-25 bg-opacity-100">
+                                 </center>
+                                 <div class="container-fluid">
+
+                                    <form action="/bill/{{bill_key}}" id="checkout_form_bill" method="post" onsubmit="return Confirm_Submit()">
+                                      <div class="row">
+                                        {% if bill_details_json['payment_status'] == "paid" %}
+                                        <div class="col-4"> <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="payment_status" id="flexRadioDefault2" value="paid" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                              Completely PAID
+                                            </label>
+                                          </div></div>
+                                        <div class="col-4"> <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="payment_status" id="flexRadioDefault2" value="ppaid" >
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                              Partially PAID
+                                            </label>
+                                          </div></div>
+                                        <div class="col-4"> <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="payment_status" id="flexRadioDefault2" value="unpaid" >
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                              UN-PAID
+                                            </label>
+                                          </div></div>
+                                          <div id="partial-paid" style="display:none">
+                                            <div class="form-group">
+                                                <label for="checkout-amount" class="control-label">Total Amount</label>
+                                                <input type="text" id="checkout-amount" class="form-control form-control-lg text-end" name="checkout_amount" readonly>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="checkout-tendered" class="control-label">Paid Amount</label>
+                                       
+                                                <input type="number" min="0" id="checkout-tendered" class="form-control form-control-lg text-end" name="paid_amount" value="{{bill_details_json['paid_amount']}}" oninput="calculate_amount_to_be_collected()" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="checkout-change" class="control-label">To be Collected</label>
+                                                <input type="text" id="checkout-change" class="form-control form-control-lg text-end" name="amount_to_be_collected" value="{{bill_details_json['amount_to_be_collected']}}"  readonly>
+                                            </div>
+              
+                                        </div>
+                                          {% elif bill_details_json['payment_status'] == "unpaid" %}
+                                          <div class="col-4"> <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="payment_status" id="flexRadioDefault2" value="paid" >
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                              Completely PAID
+                                            </label>
+                                          </div></div>
+                                        <div class="col-4"> <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="payment_status" id="flexRadioDefault2" value="ppaid" >
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                              Partially PAID
+                                            </label>
+                                          </div></div>
+                                        <div class="col-4"> <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="payment_status" id="flexRadioDefault2" value="unpaid" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                              UN-PAID
+                                            </label>
+                                          </div></div>
+                                          <div id="partial-paid" style="display:none">
+                                            <div class="form-group">
+                                                <label for="checkout-amount" class="control-label">Total Amount</label>
+                                                <input type="text" id="checkout-amount" class="form-control form-control-lg text-end" name="checkout_amount" readonly>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="checkout-tendered" class="control-label">Paid Amount</label>
+                                                <input type="number" min="0" id="checkout-tendered" class="form-control form-control-lg text-end" name="paid_amount" value="{{bill_details_json['paid_amount']}}" oninput="calculate_amount_to_be_collected()" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="checkout-change" class="control-label">To be Collected</label>
+                                                <input type="text" id="checkout-change" class="form-control form-control-lg text-end" name="amount_to_be_collected" value="{{bill_details_json['amount_to_be_collected']}}"  readonly>
+                                            </div>
+              
+                                        </div>
+                                          {% else %}
+                                          <div class="col-4"> <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="payment_status" id="flexRadioDefault2" value="paid" >
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                              Completely PAID
+                                            </label>
+                                          </div></div>
+                                        <div class="col-4"> <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="payment_status" id="flexRadioDefault2" value="ppaid" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                              Partially PAID
+                                            </label>
+                                          </div></div>
+                                        <div class="col-4"> <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="payment_status" id="flexRadioDefault2" value="unpaid" >
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                              UN-PAID
+                                            </label>
+                                          </div></div>
+                                          <div id="partial-paid">
+                                            <div class="form-group">
+                                                <label for="checkout-amount" class="control-label">Total Amount</label>
+                                                <input type="text" id="checkout-amount" class="form-control form-control-lg text-end" name="checkout_amount" readonly>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="checkout-tendered" class="control-label">Paid Amount</label>
+                                                <input type="number" min="0" id="checkout-tendered" class="form-control form-control-lg text-end" name="paid_amount" value="{{bill_details_json['paid_amount']}}" oninput="calculate_amount_to_be_collected()" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="checkout-change" class="control-label">To be Collected</label>
+                                                <input type="text" id="checkout-change" class="form-control form-control-lg text-end" name="amount_to_be_collected" value="{{bill_details_json['amount_to_be_collected']}}"  readonly>
+                                            </div>
+              
+                                        </div>
+                                        {% endif %}
+                                   
+                                      </div>
+                                   
+                                    </div>
+                                 <hr>
+                                 <div class="text-end">
+                                    <button class="btn btn-sm btn-primary rounded-0 bg-gradient" type="submit"><i class="fa fa-save"></i> Save </button>
+                                 </div>
+                                </form>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="card rounded-0 shadow mb-3">
+                         <div class="card-body">
+                             <div class="container-fluid">
+                                 <h4 class="text-center fw-bold">Total Amount</h4>
+                                 <input type="text" value="{{bill_details}}" id="product_details_db" style="display: none;">
+                                 <center>
+                                     <hr class="bg-primary border-2 w-25 bg-opacity-100">
+                                 </center>
+                                 <h3 class="fw-bolder text-center" id="total-amount">0.00</h3>
+                                 <hr>
+                                 <div class="text-center">
+                                    
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                     <div class="card rounded-0 shadow">
+                         <div class="card-body">
+                             <div class="w-100 overflow-auto">
+                                 <table class="table table-stripped table-bordered" id="item-list">
+                                     <colgroup>
+                                         <!-- <col width="5%"> -->
+                                         <col width="15%">
+                                         <col width="30%">
+                                         <col width="25%">
+                                         <col width="25%">
+                                     </colgroup>
+                                     <thead>
+                                         <tr class="bg-primary bg-gradient text-light">
+                                             <!-- <th></th> -->
+                                             <th>QTY</th>
+                                             <th>Product</th>
+                                             <th>Price</th>
+                                             <th>Total</th>
+                                         </tr>
+                                     </thead>
+                                     <tbody></tbody>
+                                 </table>
+                             </div>
+                             <div class="d-none" id="noItem">
+                                 <center><small><em>No item listed yet.</em></small></center>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </main>
+     
+ </body>
+ <noscript id="prod-item-clone">
+ <a href="javascript:void(0)" class="list-group-item prod-item">
+     <div class="lh-1">
+         <h4 class="prod_name"></h4>
+         <small class="text-muted">Price: <span class="prod_price">101.10</span></small>
+         <!-- <small class="text-muted">ID: <span class="prod_id">dsfvds</span></small> -->
+     </div>
+ </a>
+ </noscript>
+ <script defer>
+    console.log("{{bill_details_json['paid_amount']}}")
+            var product_details_db = document.getElementById("product_details_db").value
+            console.log(product_details_db)
+            product_details_db = JSON.parse(product_details_db)
+            localStorage.setItem('listed_prod',JSON.stringify(product_details_db.selected_products))
+           if (document.querySelector('input[name="payment_status"]')) {
+         document.querySelectorAll('input[name="payment_status"]').forEach((elem) => {
+             elem.addEventListener("change", function(event) {
+             var item = event.target.value;
+             if(item == "ppaid"){
+                 document.getElementById("partial-paid").style.display = "block"
+             }
+             else{
+                 document.getElementById("partial-paid").style.display = "none"
+ 
+             }
+             });
+         });
+         }
+     // document.getElementById("mbsa").value = "{{_products_}}"
+     function load_mbsa() {
+     resp = JSON.parse(document.getElementById("mbsa").value)
+     console.log(`resp:${resp[0].name}`)
+     products = resp
+     $('#product-result').html('')
+     Object.keys(resp).map(k => {
+         var item = $($('noscript#prod-item-clone').html()).clone()
+         item.find('.prod_name').text(resp[k].name)
+         // item.find('.prod_id').text(resp[k].item_id)
+         item.find('.prod_price').text(parseFloat(resp[k].price).toLocaleString('en-US'))
+         item.find('.prod_price').attr('data-id', resp[k].price)
+         $('#product-result').append(item)
+         product_actions(item, resp[k])
+     })
+ }
+ function load_all_products(){
+     document.getElementById("find-product").removeAttribute("disabled")
+     load_mbsa()
+ }
+ function Confirm_Submit(){
+//  document.getElementById("selected_products").value = JSON.stringify(listed)
+ let a = confirm("Are you sure?")
+ if(a){
+    //  localStorage.setItem('listed', '[]')
+     return true;
+ }
+ else{
+     return false;
+ }
+ }
+ function Save_Customer_Details(){
+     document.getElementById("customer_name").value = document.getElementById("customer_name_modal").value
+     document.getElementById("customer_number").value = document.getElementById("customer_number_modal").value
+     document.getElementById("customer_email").value = document.getElementById("customer_email_modal").value
+     alert("Customer Details Saved!!")
+ }
+
+ function calculate_amount_to_be_collected(){
+    total_amount = document.getElementById("checkout-amount").value
+    paid_amount = document.getElementById("checkout-tendered").value
+    to_be_paid = parseFloat(total_amount.replace(",",'')) - parseFloat(paid_amount)
+    document.getElementById("checkout-change").value = to_be_paid
+    // alert(total)
+ }
+//  calculate_amount_to_be_collected()
+
+ </script>
+ 
+ <noscript id="item-tr-clone">
+     <tr>
+      
+         <td class="text-center"><input type="number" class="form-control form-control-sm rounded-0 border-0 border-bottom qty text-center"></td>
+         <td class="item-name">Item</td>
+         <td class="text-end item-price">0.00</td>
+         <td class="text-end item-total">0.00</td>
+     </tr>
+ </noscript>
+ 
+ </html>
