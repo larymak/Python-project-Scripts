@@ -36,25 +36,16 @@ The class for operators and numbers buttons
 				style = style,
 				command = func
 				)
-		try:
-			self.grid(
-					row = row,
-					column = column,
-					columnspan = span,
-					sticky = 'news',
-					padx = GAP_SIZE,  # is a problem on debian with padx and pady. I am not sure if is on my machine
-					# or not.
-					pady = GAP_SIZE
-					
-					)
-		except Exception:
-			self.grid(
-					row = row,
-					column = column,
-					columnspan = span,
-					sticky = 'news',
-					
-					)
+		self.grid(
+				row = row,
+				column = column,
+				columnspan = span,
+				sticky = 'news',
+				padx = GAP_SIZE,  # is a problem on debian with padx and pady. I am not sure if is on my machine
+				# or not.
+				pady = GAP_SIZE
+				
+				)
 
 
 class NumberButtons(Button):

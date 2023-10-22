@@ -40,7 +40,7 @@ MATH_OPERATORS: dict[str] = {
 		'percent': {'row': 2, 'column': 2, 'span': 1, 'text': '%', }
 		}
 
-GAP_SIZE: int = 0.5
+GAP_SIZE: int = 1
 TITLE_BAR_COLOR: dict[str, int] = {
 		'dark' : 0x00000000,
 		'light': 0xFFEEEE

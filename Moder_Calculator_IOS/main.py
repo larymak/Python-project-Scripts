@@ -200,7 +200,6 @@ Creating the symbols, +, —, = and /
 		:param number:
 		"""
 		self.display_nums.append(number)
-		print(self.display_nums)
 		full_number = ''.join(self.display_nums)
 		self.result_string.set(full_number)
 	
