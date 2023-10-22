@@ -1,0 +1,6 @@
+# Automatically generated configuration for PyQt5.QtBluetooth.
+
+sip-version = "6.4.0"
+sip-abi-version = "12.8"
+module-tags = ["Qt_5_15_0", "WS_WIN"]
+module-disabled-features = []
