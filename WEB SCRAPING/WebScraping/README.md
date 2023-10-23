@@ -18,7 +18,7 @@ The code is also able to filter out unwanted skills so that you get job listings
 - requests 
 
 ### Challenges encountered: 
-- The only maim challenge encountered was trying to find the exact elements that would relay the information back correctly (find element by ID, x-path, class and find_all)
+- The only main challenge encountered was trying to find the exact elements that would relay the information back correctly (find element by ID, x-path, class and find_all)
 - In overall it was a nice practice on webscrapping bit and an educative one too  
 
 
