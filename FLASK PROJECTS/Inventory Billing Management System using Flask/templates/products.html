@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BillSwift | Products</title>
+    <link rel="shortcut icon" href="{{url_for('static',filename='images/logo.png')}}" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    {% macro catch(on_exception) %}
+    {{ handle_catch(caller, on_exception) }}
+    {% endmacro %}
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <h3 class="navbar-brand" style="color:black"> <img src="{{url_for('static',filename='images/logo.png')}}" height="40"/> BillSwift</h3>
+          <form class="d-flex" role="search">
+          
+            <a href="/" class="btn btn-outline-primary mx-2">Create Bill</a>
+            <a href="/bills" class="btn btn-outline-primary mx-2">Bills</a>
+            <a href="/products" class="btn btn-outline-primary mx-2">Products</a>
+            <a href="/logout" class="btn btn-outline-primary mx-2">Logout</a>
+          </form>
+        </div>
+      </nav>
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Add Products</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action="/products" method="post">
+
+        <div class="modal-body">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Item Name</label>
+                <input type="text" class="form-control" id="item_name" name="name" placeholder="Name of the Item" required>
+              </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Item Price</label>
+                <input type="number" class="form-control" id="item_price" name="price" placeholder="Price of the Item" step="0.01" required> 
+              </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Item Description</label>
+                <textarea class="form-control" id="item_description" name="item_description" placeholder="Description of the Item" step="0.01"></textarea>
+              </div>
+            <div class="mb-3" id="item_stock_div">
+                <label for="exampleFormControlInput1" class="form-label">Item Stock</label>
+                <input type="number" class="form-control" id="item_stock" name="item_stock" placeholder="Stock amount of the Item" required>
+              </div>
+           
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="manage_inventory" id="flexRadioDefault2" value="true" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Manage Inventory
+                </label>
+              </div>
+              <div class="form-check" >
+                <input class="form-check-input" type="radio" name="manage_inventory" id="flexRadioDefault1"  value="false">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Non Manage Inventory
+                </label>
+              </div>
+              
+              
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Save changes</button>
+        </div>
+    </form>
+
+      </div>
+    </div>
+  </div>
+      <div class="container my-2">
+       <div class="row">
+        <div class="col-2"></div>
+        <div class="col-6"> <h1 class="text-center"> BillSwift - Products List</h1></div>
+        <div class="col-2">
+          <form action="/products/{{page_index}}" class="d-flex" role="search" method="post">
+            <input class="form-control" type="search" name="search" placeholder="Search" aria-label="Search">
+            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+          </form>
+        </div>
+        <div class="col-2">
+            <button type="button" class="btn btn-primary my-1" data-bs-toggle="modal" data-bs-target="#exampleModal" style="float:right">
+                Add Products
+              </button>
+        </div>
+       </div>
+       <div class="row">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Sno</th>
+              <th scope="col">Item Name</th>
+              <th scope="col">Item Price</th>
+              <th scope="col">Item Stock</th>
+              <th scope="col">Open Product</th>
+              <th scope="col">Delete Product</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% call catch('') %}
+            {% for item in products %}
+            <div class="modal fade" id="{{item['item_id']}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">{{item['name']}}</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <form action="/products/{{item['merchant_id']}}/{{item['item_id']}}/{{page_index}}" method="post">
+          
+                  <div class="modal-body">
+                      <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Item Name</label>
+                          <input type="text" class="form-control" id="item_name" name="name" placeholder="Name of the Item" value="{{item['name']}}" required>
+                        </div>
+                      <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Item Price</label>
+                          <input type="number" class="form-control" id="item_price" name="price" placeholder="Price of the Item" step="0.01" value="{{item['price']}}" required> 
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Item Description</label>
+                          <textarea class="form-control" id="item_description" name="item_description" required>{{item['item_description']}}</textarea>
+                        </div>
+                        {% if item['manage_inventory'] == "true" %}
+                      <div class="mb-3" id="item_stock_div">
+                          <label for="exampleFormControlInput1" class="form-label">Item Stock</label>
+                          <input type="number" class="form-control" id="item_stock" name="item_stock" placeholder="Stock amount of the Item" value="{{item['item_stock']}}" required>
+                        </div>
+                        
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="manage_inventory" id="flexRadioDefault2" value="true" checked disabled>
+                          <label class="form-check-label" for="flexRadioDefault2">
+                            Manage Inventory
+                          </label>
+                        </div>
+                      {% else %}
+                        <div class="form-check" >
+                          <input class="form-check-input" type="radio" name="manage_inventory" id="flexRadioDefault1"  value="false" checked disabled>
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Non Manage Inventory
+                          </label>
+                        </div>
+                      {% endif %}
+                        
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                  </div>
+              </form>
+          
+                </div>
+              </div>
+            </div>
+            <tr>
+              <th scope="row">{{loop.index + page_index*page_size}}</th>
+              <td>{{item['name']}}</td>
+              <td>{{item['price']}}</td>
+              <td>{{item['item_stock']}}</td>
+              <td>    <a type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#{{item['item_id']}}">Open</a></td>
+              <td><form action="/products_delete/{{item['merchant_id']}}/{{item['item_id']}}/{{page_index}}" method="post" onsubmit="return Confirm_Delete()">
+                <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                </form></td>
+            </tr>
+            {% endfor %}
+            {% endcall %}
+          </tbody>
+        </table>
+        
+        
+      </div>
+    </div>
+<div class="container">
+
+  <nav aria-label="Page navigation example" class="text-center">
+    <ul class="pagination">
+     {% call catch('') %}
+     {% for i in range(total_pages) %}
+      <li class="page-item"><a class="page-link" href="/products/{{i}}">{{i+1}}</a></li>
+     {% endfor %}
+     {% endcall %}
+    </ul>
+  </nav>
+</div>
+
+      <script>
+        if (document.querySelector('input[name="manage_inventory"]')) {
+        document.querySelectorAll('input[name="manage_inventory"]').forEach((elem) => {
+            elem.addEventListener("change", function(event) {
+            var item = event.target.value;
+            if(item == "true"){
+                document.getElementById("item_stock_div").style.display = "block"
+            }
+            else if(item == "false"){
+                document.getElementById("item_stock_div").style.display = "none"
+
+            }
+            });
+        });
+        }
+        function Confirm_Delete(){
+            let a = confirm("Are you sure you want to delete this item?")
+            if (a){
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
