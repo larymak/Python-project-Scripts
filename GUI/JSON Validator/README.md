@@ -6,10 +6,10 @@ The GUI JSON Validator is a simple tool that allows you to validate JSON strings
 
 ## Screenshot
 
-**Valid JSON Screenshot**
+**Valid JSON Screenshot**\
 [![Valid-JSON.png](https://i.postimg.cc/y8ngKCYZ/Valid-JSON.png)](https://postimg.cc/qNhMcYKJ)
 
-**Invalid JSON Screenshot**
+**Invalid JSON Screenshot**\
 [![Invalid-JSON.png](https://i.postimg.cc/9fM4FgrN/Invalid-JSON.png)](https://postimg.cc/XrRNs8Kw)
 
 ## How to Use
