@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Define the URL of the website you want to extract the DOM from
-url = 'https://www.facebook.com'
+url = 'https://example.com'
 
 response = requests.get(url)
 
