@@ -1,5 +1,7 @@
 # Title: "Hunters Island Adventure"
 
+### Expected game output on the terminal
+![Image of the game](./hunter.png)
 ## Introduction:
 Welcome to "Hunters Island Adventure," an interactive text-based game where you take on the role of a stranded individual on a mysterious island. Your choices will determine your fate, whether you find riches or face peril. This game is all about decision-making, so choose wisely!
 
