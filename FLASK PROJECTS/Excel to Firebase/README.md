@@ -67,7 +67,9 @@ This Python project provides the integration that eliminates the need for manual
 
 
 ## 📺 Demo
-![Screenshot 2023-10-25 133406](https://github.com/Om25091210/Count-Color-Black-Pages-PDF/assets/74484315/a84def7c-7db4-4ab5-bf0b-f8cfe5ded66b)
+![image](https://github.com/Om25091210/Python-project-Scripts/assets/74484315/85873602-a1e2-4a1e-acef-8b66a27ae488)
+![image](https://github.com/Om25091210/Python-project-Scripts/assets/74484315/d7d7bb3f-eaf0-4963-97e7-f1204539b10f)
+
 
 
 ## 🤖 Author
