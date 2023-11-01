@@ -8,7 +8,6 @@ from ttkbootstrap.dialogs import Messagebox
 
 # Most variables are named a,b,c according to ax² + bx + c in a quadratic equation
 
-
 def plot():
 
     # Collect all inputs
@@ -52,7 +51,7 @@ root.title("Quadratic Equation Solver")
 # Font data
 font = ("Nunito", 12)
 
-# Frame containig the entry for the three arguments
+# Frame containing the entry for the three arguments
 top_frame = tb.Frame(root)
 top_frame.grid(row = 0, column = 0,padx  = 10, pady = 20)
 
