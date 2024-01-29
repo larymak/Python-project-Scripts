@@ -44,4 +44,3 @@ TOP_LEVEL: dict[str, int] = dict(WIDTH = 300, HEIGHT = 200)
 TIME_RELAPSE = 60
 TIME_SPEED = 1
 
-# TODO: I need to make the configuration file and to make a much clean code
