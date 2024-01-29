@@ -1,4 +1,5 @@
 from frame_alarm import AlarmsFrame
+from configuration import TIME, DATE
 from ttkbootstrap.scrolled import ScrolledFrame
 import ttkbootstrap as ttk
 import time
@@ -22,19 +23,21 @@ class ClockFrame(ttk.Frame):
         
         # set set style
         self.style = ttk.Style()
+        # Configure the style of time label
         self.style.configure(
                 style = 'Time.TLabel',
                 font = ('Helvetica', 30, 'bold'),
                 anchor = 'center'
                 )
         
+        # Configure the style of time label
         self.style.configure(
                 style = 'Data.TLabel',
                 font = ('Helvetica', 30, 'bold'),
                 anchor = 'center'
                 )
         
-        # set widgets
+        # Creating the widgets for the time and the date
         
         self.label_time = ttk.Label(
                 master = self,
@@ -51,16 +54,16 @@ class ClockFrame(ttk.Frame):
         # set layout
         
         self.label_time.grid(
-                row = 0,
-                column = 0,
-                columnspan = 2,
-                sticky = 'ns'
+                row = TIME['ROW'],
+                column = TIME['COLUMN'],
+                columnspan = TIME['SPAN'],
+                sticky = TIME['STICKY']
                 )
         self.label_date.grid(
-                row = 1,
-                column = 0,
-                columnspan = 2,
-                sticky = 'n'
+                row = DATE['ROW'],
+                column = DATE['COLUMN'],
+                columnspan = DATE['SPAN'],
+                sticky = DATE['STICKY']
                 )
     
     def update_time(self):
@@ -92,11 +95,20 @@ class AddAlarmClock(ttk.Frame):
     def __init__(self, parent, button_function):
         super().__init__(master = parent)
         
-        # button
+        # set style for the button
+        self.style = ttk.Style()
+        self.style.configure(
+                style = 'Alarm.TButton',
+                font = ('Helvetica', 20, 'bold'),
+                anchor = 'center'
+                )
+        
+        # Create the button for adding alarms
         self.button = ttk.Button(
                 master = self,
-                text = '+',
+                text = '✚',
                 command = button_function,
                 style = 'Alarm.TButton',
                 )
-        self.button.pack(expand = True, fill = 'both')
+        # pack the button
+        self.button.pack()

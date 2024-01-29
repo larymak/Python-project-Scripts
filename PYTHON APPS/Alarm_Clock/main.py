@@ -5,7 +5,7 @@ import ttkbootstrap as ttk
 from configuration import (
     WIDTH, HEIGHT,
     ICON_PATH, TITLE_APP,
-    THEME,
+    THEME, CLOCK, BUTTON, PANEL,
     )
 from widgets import (
     ClockFrame, AlarmClockPanel,
@@ -48,22 +48,22 @@ class App(ttk.Window):
         
         # set layout for widgets(place method)
         self.clock_frame.place(
-                relx = 0,
-                rely = 0,
-                relwidth = 1,
-                relheight = 0.3,
+                relx = CLOCK['X'],
+                rely = CLOCK['Y'],
+                relwidth = CLOCK['WIDTH'],
+                relheight = CLOCK['HEIGHT'],
                 anchor = 'nw'
                 )
         self.alarm_panel.place(
-                relx = 0,
-                rely = 0.3,
-                relwidth = 1,
-                relheight = 0.6,
-                anchor = 'nw'
+                relx = PANEL['X'],
+                rely = PANEL['Y'],
+                relwidth = PANEL['WIDTH'],
+                relheight = PANEL['HEIGHT'],
+                anchor = 'nw',
                 )
         self.button_top_level.place(
-                relx = 0.5,
-                rely = 0.95,
+                relx = BUTTON['X'],
+                rely = BUTTON['Y'],
                 anchor = 'center'
                 )
         

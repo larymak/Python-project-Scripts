@@ -3,6 +3,10 @@ from datetime import datetime
 from threading import Event
 from typing import List
 from configuration import TIME_RELAPSE, TIME_SPEED
+from pygame import mixer
+
+mixer.init()
+sound = mixer.Sound('media/sound/alarm.mp3')
 
 
 def get_date_now() -> int:
@@ -56,7 +60,8 @@ class AlarmClock:
 
         """
         current_time = get_date_now()
-        if current_time >= self.total_time:
+        if current_time == self.total_time:
+            sound.play()  # It start the alarm sound
             time.sleep(TIME_RELAPSE)
             self.start_alarm()
         else:

@@ -54,7 +54,7 @@ class TopLevel(tk.Toplevel):
         # The spinbox
         self.top_level_style.configure(
                 style = 'PAUSE.TLabel',
-                font = ('Helvetica', 30, 'bold'),
+                font = ('Helvetica', 20, 'bold'),
                 anchor = 'center'
                 
                 )
@@ -79,7 +79,7 @@ class TopLevel(tk.Toplevel):
                 to = 23,
                 )
         
-        # Create the ":"
+        # Create the ":" for spacing
         self.space_label = ttk.Label(
                 master = self,
                 style = 'PAUSE.TLabel',
@@ -102,7 +102,6 @@ class TopLevel(tk.Toplevel):
                 text = 'OK',
                 style = 'OK.TButton',
                 command = ok_function
-                
                 )
         # Create the CANCEL button
         self.cancel_button = ttk.Button(
