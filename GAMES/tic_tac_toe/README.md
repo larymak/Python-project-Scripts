@@ -1,35 +1,40 @@
-# Tic Tac Toe
+# Tic Tac Toe with ttkbootstrap and pygame
 
-Tic Tac Toe is a popular game for two players, X and O, who take turns marking the spaces in a 3×3 grid.
-The player who succeeds in placing three of their marks in a diagonal, horizontal,
-or vertical row is the winner.
+Simple and good looking tic tac toe game including sound. The game is only for 2 player, sadly I am not ready
+enough to add the AI boot (I don't want to add the random boot :) )
 
-For more information about the  the game, check [here](https://en.wikipedia.org/wiki/Tic-tac-toe).
+## Description
 
-The game was implemented in Python, using **Numpy** library.
+The game is made only in ttkboostrap and some little pygame for the sound. You can customize this game as you
+want. The main thing you can do is to change the color and many things. To see them check the OPTION part.
 
-## How to launch
-first you need to install *numpy*:\
-`pip install -r requirements.txt`\
-then you can directly launch the main script:\
-`python main.py`
+## Installation
 
-good luck :)
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to
+install [ttkboostrap](https://ttkbootstrap.readthedocs.io/en/latest/) and the [pygame ](https://www.pygame.org/news)
 
+```bash
+pip install ttkboostrap
+```
 
-#### Game Sample
-each play, in turn, will choose one of the available positions by
-entering the corresponding number. Numbers are 0-8 from going from top-left
-to bottom-right corner.
+```bash
+pip install pygame 
+```
 
-*start*
+## Option
 
-![Start](media/start.JPG)
+The configuration.py file is made in that the information is stored in dictionary/hash-map or like json file.
+In this way is very easy to change the color, the font and kind of everthing you want :/ (so be carefull)
 
-*first move*
+## Visual
 
-![first-move](media/first-move.JPG)
+![Tic_Tac_Toe.png](media%2FTic_Tac_Toe.png)
 
-*winner*
+## Contributing
 
-![winner](media/winner.JPG)
+Pull request are wellcome, if you have any advice I am open. If you know to add the AI boot, I will very happy
+to add to my code
+
+## License
+
+[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)

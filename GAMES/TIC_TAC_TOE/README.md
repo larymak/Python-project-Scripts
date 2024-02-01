@@ -28,7 +28,7 @@ In this way is very easy to change the color, the font and kind of everthing you
 
 ## Visual
 
-<img alt="empty" height="200" src="/home/mary/Documents/Marinel_Projects/Apps_GUI/TIC_TAC_TOE/Tic_Tac_Toe.png" width="200"/>
+![Tic_Tac_Toe.png](media%2FTic_Tac_Toe.png)
 
 ## Contributing
 
