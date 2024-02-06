@@ -1,36 +1,44 @@
-###### Notice ######
-
-# before sending email you have to enable your less secure apps access in your sending mail (xyz@gmail.com)
-
 import smtplib
+import os
 from email.message import EmailMessage
+import logging
 
-EMAIL_ADDRESS = "xyz@gmail.com"                         # your email-id goes here
-EMAIL_PASSWORD = "xyz"                                  # your password goes here
+# Set up logging
+logging.basicConfig(level=logging.INFO)
 
-msg = EmailMessage()
-msg['Subject'] = 'this is subject'
-msg['From'] = EMAIL_ADDRESS
-msg['To'] = EMAIL_ADDRESS
+# Use environment variables for credentials
+EMAIL_ADDRESS = os.getenv('EMAIL_ADDRESS')  
+EMAIL_PASSWORD = os.getenv('EMAIL_PASSWORD')  
 
-msg.set_content('Content area')
+def send_email(subject, recipient, body, html_content=None, attachment_path=None):
+    msg = EmailMessage()
+    msg['Subject'] = subject
+    msg['From'] = EMAIL_ADDRESS
+    msg['To'] = recipient
 
-msg.add_alternative("""\
-<html>
-<body>
-    <h1>Your HTML CONTENT GOES HERE </h1>                                
-</body>
-</html>
-""", subtype='html')
+    msg.set_content(body)
 
-with open('testing.txt', 'rb') as f:                       # your filename will go here
-    file_data = f.read()
-    file_name = f.name
+    if html_content:
+        msg.add_alternative(html_content, subtype='html')
 
-    msg.add_attachment(file_data, maintype='application', subtype='octet-stream', filename=file_name)
+    if attachment_path:
+        try:
+            with open(attachment_path, 'rb') as f:
+                file_data = f.read()
+                file_name = f.name
+                msg.add_attachment(file_data, maintype='application', subtype='octet-stream', filename=file_name)
+        except FileNotFoundError:
+            logging.error(f"Attachment file {attachment_path} not found.")
+            return
 
-with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-    smtp.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
+    try:
+        with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
+            smtp.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
+            smtp.send_message(msg)
+            logging.info("Email Sent Successfully")
+    except Exception as e:
+        logging.error(f"An error occurred: {e}")
 
-    smtp.send_message(msg)
-    print("Email Sent Successfully ..")
+# Usage Example
+send_email('Test Subject', 'recipient@example.com', 'This is the email body',
+           '<html><body><h1>HTML Content</h1></body></html>', 'testing.txt')
