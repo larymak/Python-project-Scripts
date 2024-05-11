@@ -1,41 +1,44 @@
-import time,os,sys 
+#!/usr/bin/env python3
+import sys 
+from argparse import ArgumentParser as aparse
 
 usage = "Usage :-\n$ ./task add 2 'hello world'    # Add a new item with priority 2 and text \"hello world\" to the list\n$ ./task ls                   # Show incomplete priority list items sorted by priority in ascending order\n$ ./task del INDEX            # Delete the incomplete item with the given index\n$ ./task done INDEX           # Mark the incomplete item with the given index as complete\n$ ./task help                 # Show usage\n$ ./task report               # Statistics ( list complete/incomplete task )"
 
+def create_parser():
+    parser = aparse(description="""Command Line task list""")
+    parser.add_argument("toDo", default="ls", choices=['usage', 'ls', 'add', 'del', 'done', 'report'], help="Enter command: usage, ls, add, del, done, report.")
+    parser.add_argument("-p", required=False, help="item priority")
+    parser.add_argument("-i", required=False, help="List item to add, remove, or mark done.")
+
 def func():
-    try:
-
-        # printing help
-        if sys.argv[1]=="help":
-            print(usage)
-            return usage
-
+    args = create_parser().parse_args()
+        
         # lisiting all the task
-        if sys.argv[1]=="ls":
-            try:
-                f = open("path/to/plans/task.txt",'r')
-                data = f.read()
-                datalist = data.split("\n")
-                datalist = sorted(datalist)
-                datalist = datalist[1:]
-                # print(datalist)
-                for i in range(len(datalist)):
-                    print(f"{i+1}. {datalist[i][2:]} [{datalist[i][0:1]}]")
+    if args.toDo == "ls":
+        try:
+            f = open("path/to/plans/task.txt",'r')
+            data = f.read()
+            datalist = data.split("\n")
+            datalist = sorted(datalist)
+            datalist = datalist[1:]
+            # print(datalist)
+            for i in range(len(datalist)):
+                print(f"{i+1}. {datalist[i][2:]} [{datalist[i][0:1]}]")
 
-            except:
-                print("Error: Missing file")
+        except:
+            print("Error: Missing file")
 
 
 
-        # adding the task
-        if sys.argv[1]=="add":
-            try:
-                with open("path/to/plans/task.txt",'a',encoding = 'utf-8') as f:
-                    res = f.write(f"{sys.argv[2]} {sys.argv[3]}\n")
-            except:
-                print("Error: Missing tasks string. Nothing added!")
-            else:
-                print(f"Added task: \"{sys.argv[3]}\" with priority {sys.argv[2]}")
+    # adding the task
+    if args.toDo == "add":
+        try:
+            with open("path/to/plans/task.txt",'a',encoding = 'utf-8') as f:
+                res = f.write(f"{sys.argv[2]} {sys.argv[3]}\n")
+        except:
+            print("Error: Missing tasks string. Nothing added!")
+        else:
+            print(f"Added task: \"{sys.argv[3]}\" with priority {sys.argv[2]}")
 
 
 
@@ -110,8 +113,9 @@ def func():
             except:
                 print("Error: Missing file")
 
-    except:
-        print(usage)
-        return usage.encode('utf8')
+    # except:
+    #     print(usage)
+    #     return usage.encode('utf8')
 
-func()
+if __name__ == "__main__":
+    func()
