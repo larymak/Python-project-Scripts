@@ -1,117 +1,145 @@
-import time,os,sys 
+#!/usr/bin/env python3
+# Python todo list
 
-usage = "Usage :-\n$ ./task add 2 'hello world'    # Add a new item with priority 2 and text \"hello world\" to the list\n$ ./task ls                   # Show incomplete priority list items sorted by priority in ascending order\n$ ./task del INDEX            # Delete the incomplete item with the given index\n$ ./task done INDEX           # Mark the incomplete item with the given index as complete\n$ ./task help                 # Show usage\n$ ./task report               # Statistics ( list complete/incomplete task )"
+import os
+from argparse import ArgumentParser as aparse
+
+# change the path of the files here to the actual desired paths
+taskTxt = "task.txt"
+completedTxt = "completed.txt"
+
+def create_parser():
+    parser = aparse(description="""Command Line task list""")
+    parser.add_argument("toDo", default="ls", choices=['usage', 'ls', 'add', 'del', 'done', 'report'], help="Enter command: usage, ls, add, del, done, report.")
+    parser.add_argument("-p", required=False, type=int, help="item priority")
+    parser.add_argument("-i", required=False, type=str, help="List item to add, remove, or mark done.")
+    return parser
 
 def func():
-    try:
+    args = create_parser().parse_args()
 
-        # printing help
-        if sys.argv[1]=="help":
-            print(usage)
-            return usage
+    # check if files exist, create if not
+    if not os.path.exists(taskTxt):
+        with open(taskTxt, "w") as filet:
+            pass
 
-        # lisiting all the task
-        if sys.argv[1]=="ls":
+    if not os.path.exists(completedTxt):
+        with open(completedTxt, "w") as filec:
+            pass
+    
+    if args.toDo == "ls":
+        lister(read_list())
+
+    # adding the task
+    if args.toDo == "add":
+        if args.i == '' or args.p == '':
+            raise ValueError('An item and priority must be entered')
+        taskList = read_list()
+        taskList.insert((args.p - 1), args.i)
+        with open(taskTxt, "w") as f:
+            for line in taskList:
+                f.write(line + "\n")
+
+
+    # deleting the task
+    if args.toDo == "del":
+        if args.i == '' or args.p == '':
+            raise ValueError('An item or priority must be entered')
+        taskList = read_list()
+        if args.p:
+            index = args.p - 1
+            delete_item(index, taskList)
+        else:
             try:
-                f = open("path/to/plans/task.txt",'r')
-                data = f.read()
-                datalist = data.split("\n")
-                datalist = sorted(datalist)
-                datalist = datalist[1:]
-                # print(datalist)
-                for i in range(len(datalist)):
-                    print(f"{i+1}. {datalist[i][2:]} [{datalist[i][0:1]}]")
+                index = taskList.index(args.i)
+                delete_item(index, taskList)
+                exit(0)
+            except(ValueError):
+                print(f"Item {args.i} not found. Maybe run ls and try again?")
+                exit(0)
 
-            except:
-                print("Error: Missing file")
-
-
-
-        # adding the task
-        if sys.argv[1]=="add":
+    # marking done
+    if args.toDo == "done":
+        if args.i == '' or args.p == '':
+            raise ValueError('An item or priority must be entered')
+        taskList = read_list()
+        if args.p:
+            index = args.p - 1
+            do_item(index, taskList)
+        else:
             try:
-                with open("path/to/plans/task.txt",'a',encoding = 'utf-8') as f:
-                    res = f.write(f"{sys.argv[2]} {sys.argv[3]}\n")
-            except:
-                print("Error: Missing tasks string. Nothing added!")
-            else:
-                print(f"Added task: \"{sys.argv[3]}\" with priority {sys.argv[2]}")
+                index = taskList.index(args.i)
+                do_item(index, taskList)
+                exit(0)
+            except(ValueError):
+                print(f"Item {args.i} not found. Maybe run ls and try again?")
+                exit(0)
 
+    # generating the report
+    if args.toDo == "report":
+        print("\n")
+        print("To do:")
+        lister(read_list())
+        print("\n")
+        print("Done:")
+        lister(read_complete())
 
+def read_list():
+    with open(taskTxt, "r") as file:
+        task_list = file.readlines()
+    # all the newlines added during file writing must be removed otherwise printing is messed up
+    strip_list = []
+    for item in task_list:
+        strip_list.append(item.strip())
+    filtered_list = [item for item in strip_list if item != ""]
+    return filtered_list
 
-        # deleting the task
-        if sys.argv[1]=="del":
-            lineno = int(sys.argv[2])
-            try:
-                with open("path/to/plans/task.txt","r+") as f:
-                    new_f = f.readlines()
-                    new_f = sorted(new_f)
-                    # print(new_f)
-                    del_f = new_f.pop(lineno-1)
-                    # print(new_f)
+def read_complete():
+    with open(completedTxt, "r") as file:
+        completed_list = file.readlines()
+    # all the newlines added during file writing must be removed otherwise printing is messed up
+    strip_list = []
+    for item in completed_list:
+        strip_list.append(item.strip())
+    filtered_list = [item for item in strip_list if item != ""]
+    return filtered_list
 
-                    f.seek(0)
-                    for line in new_f:
-                        if  del_f not in line:
-                            f.write(line)
-                    f.truncate()
-            except:
-                print(f"Error: item with index {lineno} does not exist. Nothing deleted.")
+def delete_item(index, taskList):
+    print("\n")
+    print(f"Do you want to delete {taskList[index]}?")
+    answer = input("Enter y or n: ")
+    if answer == "y":
+        taskList.pop(index)
+        with open(taskTxt, "w") as f:
+            for line in taskList:
+                f.write(line + "\n")
+        print("Item Deleted")
+        exit(0)
+    print("No item deleted")
+    exit(0)
 
+def do_item(index, taskList):
+    print("\n")
+    print(f"Do you want to move {taskList[index]} to done?")
+    answer = input("Enter y or n: ")
+    if answer == "y":
+        task = taskList.pop(index)
+        with open(taskTxt, "w") as f:
+            for line in taskList:
+                f.write(line + "\n")
+        completed = read_complete()
+        completed.append(task)
+        with open(completedTxt, "w") as f:
+            for line in completed:
+                f.write(line + "\n")
+        print("Item marked done")
+        exit(0)
+    print("No item changed")
+    exit(0)
 
+def lister(items):
+    for item, line in enumerate(items, 1):
+            print(f"{item}: {line.strip()}")
 
-        # marking done
-        if sys.argv[1]=="done":
-            lineno = int(sys.argv[2])
-            try:
-                with open("path/to/plans/task.txt","r+") as f:
-                    new_f = f.readlines()
-                    new_f = sorted(new_f)
-                    # print(new_f)
-                    del_f = new_f.pop(lineno-1)
-                    # print(new_f)
-
-                    f.seek(0)
-                    for line in new_f:
-                        if  del_f not in line:
-                            f.write(line)
-                    with open("path/to/plans/completed.txt","a") as r:
-                        r.write(del_f)
-                    f.truncate()
-                
-
-
-            except:
-                print(f"Error: no incomplete item with index #0 exists.")
-            else:
-                print(f"Marked item as done.")
-
-
-        # generating the report
-        if sys.argv[1]=="report":
-            try:
-                task = open("path/to/plans/task.txt",'r')
-                data = task.read()
-                datalist = data.split("\n")
-                datalist = sorted(datalist)
-                datalist = datalist[1:]
-                print(f"Pending : {len(datalist)}")
-                for i in range(len(datalist)):
-                    print(f"{i+1}. {datalist[i][2:]} [{datalist[i][0:1]}]")
-                
-                compt = open("path/to/plans/completed.txt",'r')
-                data = compt.read()
-                datalist = data.split("\n")
-                datalist = sorted(datalist)
-                datalist = datalist[1:]
-                print(f"Completed : {len(datalist)}")
-                for i in range(len(datalist)):
-                    print(f"{i+1}. {datalist[i][2:]} [{datalist[i][0:1]}]")
-            except:
-                print("Error: Missing file")
-
-    except:
-        print(usage)
-        return usage.encode('utf8')
-
-func()
+if __name__ == "__main__":
+    func()
