@@ -1,8 +1,8 @@
 # Author: Asib Hossen
-# Date: May 20, 2024
-# Description: This script scrapes job listings from a website based on user input,
-#              displays the job details, and optionally saves them as CSV and/or TXT files.
-# Version: 1.0
+# Date: May 21, 2024
+# Description: This script scrapes job listings from https://www.devjobsscanner.com/ based on user input, displays the job details, and optionally saves them as CSV and/or TXT files.
+# Version: 1.1
+
 
 import os
 import re
