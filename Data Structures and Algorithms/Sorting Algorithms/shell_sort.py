@@ -1,6 +1,6 @@
 def shell_sort(arr):
     n = len(arr)
-    gap = n // 2  # gap size
+    gap = n // 2  # gap size 
 
     while gap > 0:
         for i in range(gap, n):
