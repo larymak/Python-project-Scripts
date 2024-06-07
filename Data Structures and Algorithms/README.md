@@ -38,6 +38,8 @@
 
 - Recursive Binary Search
 
+- Shell Sort
+
 - Selection Sort
 
 - Binary Tree traversal
