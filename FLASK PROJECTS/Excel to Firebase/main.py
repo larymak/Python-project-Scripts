@@ -11,19 +11,19 @@ import datetime
 from firebase import Firebase
 import os
 
-firebaseConfig = {
-  "apiKey": "your apikey",
-  "authDomain": "",
-  "databaseURL": "database url",
-  "projectId": "your project id",
-  "storageBucket": "your storage bucket id",
-  "messagingSenderId": "your sender id",
-  "appId": "your appId",
-  "measurementId": "your measurement id"
-};
-firebase = Firebase(firebaseConfig)
+firebase_config = {
+    "apiKey": "your apiKey",
+    "authDomain": "",
+    "databaseURL": "database url",
+    "projectId": "your project id",
+    "storageBucket": "your storage bucket id",
+    "messagingSenderId": "your sender id",
+    "appId": "your appId",
+    "measurementId": "your measurement id"
+}
+firebase = Firebase(firebase_config)
 db = firebase.database()
-list_of_keys=[]
+
 
 app = Flask(__name__)
 
