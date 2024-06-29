@@ -3,8 +3,11 @@ Another code snippet where we are going to generate random password which accept
 * random
 * string  
 
-For instance, when the program runs, it will ask the user to input how many number of password and the length of password to be generated.
-to generate a combiantion of letters, numbers and special keys to generate random passwords for us to use  
+For instance, when the program runs, it will ask the user to input how many number of password , the length of password to be generated and the generation mode code
+to generate random passwords for us to use.
+
+There three generation code, the default code is 0:
+(1) Only Number (2) Don't use punctuation (0) All ascii character
 
 ### Sample Output: 
 
