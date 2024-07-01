@@ -8,6 +8,8 @@
 
 - Bogo Sort
 
+- Cocktail Sort
+
 - Counting Sort
 
 - Linear search (for numbers)
@@ -35,6 +37,8 @@
 - Recursion
 
 - Recursive Binary Search
+
+- Shell Sort
 
 - Selection Sort
 
