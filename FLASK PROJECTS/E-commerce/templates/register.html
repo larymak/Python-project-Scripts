@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    register
+{% endblock %}
+
+{% block main %}
+<!-- Link to external CSS file for styling the page -->
+<link href="/static/form.css" rel="stylesheet">
+
+<!-- Form for user registration -->
+<div class="stack-area">
+  <div class="center" id="div">
+    <form action="/register" method="post">
+      <span class="section">
+        <div class="head">Sign up</div>
+
+        <!-- Input field for username -->
+        <span class="inputf">
+          <label for="username" class="label"> Enter your username: </label>
+          <input autofocus class="form-control mx-auto w-auto" id="username" name="username" placeholder="Username" type="text" required>
+        </span>
+
+        <!-- Input field for password -->
+        <span class="inputf">
+          <label for="password" class="label"> Enter your password: </label>
+          <input class="form-control mx-auto w-auto" id="password" name="password" placeholder="Password" type="password" required="">
+        </span>
+
+        <!-- Input field for password confirmation -->
+        <span class="inputf">
+          <label for="password" class="label"> Confirm your password: </label>
+          <input class="form-control mx-auto w-auto" name="confirmation" placeholder="Password (again)" type="password" required="">
+        </span>
+
+        <!-- Button to submit the registration form -->
+        <span class="btn">
+          <button class="button-35" type="submit">Sign up</button>
+        </span>
+    </form>
+  </div>
+</div>
+{% endblock %}

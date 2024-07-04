@@ -370,4 +370,10 @@ def cart():
     return render_template("cart.html", rows=rows)
 
 
+# payment methods
+@app.route("/productdetails/<int:id>", methods=["GET", "POST"])
+def methods(id):
+    """ methods for payment"""
 
+    
+    

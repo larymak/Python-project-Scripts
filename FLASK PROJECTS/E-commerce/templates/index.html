@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+<!-- Link to external CSS file for styling the page -->
+<link href="/static/products.css" rel="stylesheet">
+
+<!-- Section for displaying featured books -->
+<section id="product1" class="section-p1">
+  <!-- Heading for the featured books section -->
+  <div class="title-1">Featured Products</div>
+
+
+
+    <!-- Container for the product items -->
+    <div class="pro-container">
+      <div class="part">
+          <ul class="row">
+          <!-- Icon for navigating back to the previous page -->
+  <i class="fa-solid fa-reply" style="color: #000000;cursor: pointer;display: flex; justify-content: space-between; align-items: center;"  onclick="goBack()"></i>
+
+  <!-- Script for the goBack function to navigate back in the browser history -->
+  <script>
+      function goBack() {
+          window.history.back();
+      }
+  </script>
+
+        <!-- Loop through each book in the list of books -->
+        {% for product in products %}
+          <li class="col-xs-6 col-md-3">
+            <div class="pro">
+              <!-- Display the book cover and name -->
+              <img src="{{ product.cover }}" alt="{{ product.name }}">
+              <div class="des">
+                <span>{{ product.category }}</span>
+                <h5>{{ product.name }}</h5>
+                <h4>{{ product.price }}</h4>
+                <a href="{{ url_for('productdetails', id=product.id) }}"> details </a>
+              </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+</div>
+</section>
+{% endblock %}

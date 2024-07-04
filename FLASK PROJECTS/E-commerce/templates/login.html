@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+<!-- Link to external CSS file for styling the page -->
+<link href="/static/form.css" rel="stylesheet">
+
+<!-- Form for user login -->
+<div class="stack-area">
+  <div class="center" id="div">
+    <form action="/login" method="post">
+      <span class="section">
+        <div class="head">Sign in</div>
+
+        <!-- Input field for username -->
+        <span class="inputf">
+          <label for="username" class="label"> Enter your username: </label>
+          <input autofocus class="form-control mx-auto w-auto" id="username" name="username" placeholder="Username" type="text" required>
+        </span>
+
+        <!-- Input field for password -->
+        <span class="inputf">
+          <label for="password" class="label"> Enter your password: </label>
+          <input class="form-control mx-auto w-auto" id="password" name="password" placeholder="Password" type="password" required="">
+        </span>
+
+        <!-- Link to the registration page for creating a new account -->
+        <div class="info">
+          <div class="info">
+            <a href="/register">No account? Create one!</a>
+          </div>
+        </div>
+
+          <!-- Button to submit the form -->
+          <button class="button-35" type="submit">Sign in</button>
+      </span>
+    </form>
+  </div>
+</div>
+{% endblock %}
+
