@@ -1,0 +1,89 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Profile
+{% endblock %}
+
+{% block main %}
+<!-- Link to external CSS file for styling the page -->
+<link href="/static/profile.css" rel="stylesheet">
+
+<!-- Container for profile information -->
+<div class="center">
+  <div class="area">
+    <div class="left">
+          <div class="info">
+            <h2 class="text-center my-4">Personal Information</h2>
+            <!-- Displaying username -->
+            <p><strong>Username:</strong> {{ user_data["username"] }}</p>
+
+            <!-- Table for displaying personal information -->
+            <table class="table table-grey table-hover">
+                <thead>
+                  <tr>
+                    <th class="text-start">address</th>
+                    <th class="text-end">city</th>
+                    <th class="text-end">postal code</th>
+                    <th class="text-end">phone number</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Check if there is no information available -->
+                  {% if not orders %}
+                    <tr>
+                      <td colspan="5">No information available.</td>
+                    </tr>
+                  {% else %}
+                    <!-- Iterate through the information -->
+                    {% for order in orders %}
+                      <tr>
+                        <td class="text-start">{{ order.address }}</td>
+                        <td class="text-end">{{ order.city }}</td>
+                        <td class="text-end">{{ order.postal_code }}</td>
+                        <td class="text-end">{{ order.phone_number }}</td>
+                      </tr>
+                    {% endfor %}
+                  {% endif %}
+                </tbody>
+              </table>
+
+          </div>
+          <div class="info">
+            <h2>Your Order History</h2>
+            <!-- Table for displaying order history -->
+            <table class="table table-grey table-hover">
+              <thead>
+                <tr>
+                  <th>Order Number</th>
+                  <th>Order Date</th>
+                  <th>Total Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Check if there is no order history available -->
+                {% if not orders %}
+                  <tr>
+                    <td colspan="3">No order history available.</td>
+                  </tr>
+                {% else %}
+                  <!-- Iterate through the order history -->
+                  {% for order in orders %}
+                    <tr>
+                      <td>{{ order.id }}</td>
+                      <td>{{ order.history }}</td>
+                      {% endfor %}
+
+                      <td>{{ total_amount|usd }}</td>
+                    </tr>
+                {% endif %}
+              </tbody>
+            </table>
+            <!-- Links for removing account and checking the cart -->
+            <p><a href="/remove">Remove Account</a></p>
+            <p><a href="/cart">Check cart</a></p>
+          </div>
+        </div>
+  </div>
+</div>
+
+{% endblock %}

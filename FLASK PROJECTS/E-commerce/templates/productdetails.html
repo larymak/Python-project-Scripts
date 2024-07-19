@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    productdetails
+{% endblock %}
+
+{% block main %}
+
+<!-- Link to external CSS file -->
+<link href="/static/productdetails.css" rel="stylesheet">
+
+<!-- Stack area and center div -->
+<div class="stack-area">
+<div class="center" id="div">
+<div class="container mt-5">
+  {% for detail in details %}
+
+  <!-- Product name -->
+  <h1>{{ detail.name }}</h1>
+    <!-- Icon for navigating back with an attached event handler -->
+    <i class="fa-solid fa-reply" style="color: #000000; cursor: pointer; display: flex; justify-content: space-between; align-items: center;" onclick="goBack()"></i>
+
+    <!-- JavaScript function to navigate back -->
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+  <!-- Row for product details -->
+  <div class="row mt-4">
+    <!-- Column for product image -->
+    <div class="col-md-6">
+      <img src="{{ detail.cover }}" alt="{{ detail.title }}">
+    </div>
+    <!-- Column for product details -->
+    <div class="col-md-6">
+      <h2>Details:</h2>
+      <h5>{{ detail.description }}</h5>
+      <h2>Price: <h5>{{ detail.price|usd }}</h5></h2>
+      {% if session["user_id"] %}
+      <!-- Form for adding product to the cart -->
+      <form method="POST" action="/addtocart/{{ detail.id }}" >
+        <h2>Quantity:</h2>
+        <div class="form-group">
+          <div class="row-md-6">
+
+          <!-- Input field for quantity -->
+          <input type="number" id="frequency" name="frequency" class="form-control" min="1" required placeholder="0">
+          <input type="hidden" name="id" value="{{ detail.id }}">
+
+          <!-- Button to add to cart -->
+          <button type="submit" class="btn">Add to Cart</button>
+          <!-- Link to checkout page -->
+          <a href="/payment" class="btn "> Check Out</a>
+          {% else %}
+          <a href="{{ url_for('login') }}"><p>Click here to log in and add the product to your cart.
+              *</p></a>
+          {% endif %}
+          {% endfor %}
+
+        </div> </div>
+
+      </form>
+
+    </div>
+  </div>
+
+  <hr>
+
+
+</div>
+</div>
+</div>
+{% endblock %}

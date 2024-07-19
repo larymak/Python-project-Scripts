@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Payment
+{% endblock %}
+
+{% block main %}
+<!-- Link to external CSS file -->
+<link href="/static/form.css" rel="stylesheet">
+
+<!-- Stack area and center div -->
+<div class="stack-area">
+    <div class="center" id="div">
+        <!-- Payment form section -->
+        <div class="payment-form">
+            <form action="/payment" method="post" class="payment-form">
+
+            <span class="section">
+                <!-- Head section for payment method selection -->
+
+                <div class="head">Select a Payment Method:</div>
+                <span class="inputf">
+                    <!-- Payment option for cash on delivery -->
+                    <div class="payment-option">
+                        <a href="{{ url_for('checkout') }}"> <label for="cash" class="cash">Pay Cash on Delivery</label></a>
+                    </div>
+
+                    <!-- Payment option for other payment methods -->
+                    <div class="payment-option">
+                        <a href="{{ url_for('comingsoon') }}"> <label for="other" class="cash">Pay by Other Methods</label></a>
+                    </div>
+
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

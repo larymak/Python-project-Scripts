@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Check Out
+{% endblock %}
+
+{% block main %}
+<!-- Link to external CSS file for styling the form -->
+<link href="/static/form.css" rel="stylesheet">
+
+<!-- Container for the check-out form -->
+<div class="stack-area">
+    <div class="center" id="div">
+        <!-- Form for checking out -->
+        <form action="/checkout" method="post">
+            <span class="section">
+                <!-- Heading for the check-out section -->
+                <div class="head">Check Out</div>
+
+                <!-- Form input fields for the city, state, address, postal code, phone number, and delivery note -->
+                <span class="inputf">
+                    <label for="city">City:</label>
+                    <input name="city" placeholder="e.g. Razi" type="text" autofocus class="form-control mx-auto w-auto">
+                </span>
+
+                <span class="inputf">
+                    <label for="address">Address:</label>
+                    <input name="address" placeholder="e.g. Street name - House number - State - Tunisia" type="text" autofocus class="form-control mx-auto w-auto">
+                </span>
+
+                <span class="inputf">
+                    <label for="postal_code">Postal Code:</label>
+                    <input name="postal_code" placeholder="e.g. 1240" type="text" autofocus class="form-control mx-auto w-auto">
+                </span>
+
+                <span class="inputf">
+                    <label for="phone_number">Phone Number:</label>
+                    <input name="phone_number" placeholder="e.g. 216+" type="text" autofocus class="form-control mx-auto w-auto">
+                </span>
+
+
+
+                <!-- Links for additional information and creating a new account -->
+                <div class="info">
+                    <a href="/delivery_information"><span>Delivery Information!</span></a>
+                    <hr>
+                    <a href="/register"><span>No account? Create one!</span></a>&nbsp;&nbsp;&nbsp;
+                </div>
+                &nbsp;&nbsp;
+
+                <!-- Submit button for the check-out form -->
+                <button class="button-35" type="submit">Submit</button>
+            </span>
+        </form>
+    </div>
+</div>
+{% endblock %}

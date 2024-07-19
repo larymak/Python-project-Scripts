@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   Cart
+{% endblock %}
+{% block main %}
+
+<!-- Link to external CSS file for styling the page -->
+<link href="/static/profile.css" rel="stylesheet">
+
+<!-- Container for the cart information -->
+<div class="center">
+    <div class="area">
+      <div class="left">
+            <div class="info">
+          <!-- Heading for the cart section -->
+          <h2 class="text-center my-4">Your Cart</h2>
+            <!-- Table for displaying cart information -->
+            <table class="table table-grey table-hover">
+            <thead>
+              <tr>
+                <th class="text-start">Cover</th>
+                <th class="text-end">Product Name</th>
+                <th class="text-end">Quantity</th>
+                <th class="text-end">Price</th>
+              </tr>
+            </thead>
+             <!-- Iterate through the cart  -->
+            <tbody> {% for row in rows %}
+                <tr>
+                <td class="text-start">
+                  <img src="{{ row.cover }}" alt="{{ row.title }}">
+                </td>
+                <td class="text-end">{{ row.name }}</td>
+                <td class="text-end">{{ row.quantity }}</td>
+                <td class="text-end">{{ row.price }}</td>
+              </tr> {% endfor %}
+            </tbody>
+          </table>
+        <!-- Link to navigate back to the catalog page or to check out -->
+        <a href="/payment">Check Out</a>
+        <a href="/">Back to Catalog</a>
+      </div>
+    </div>
+</div>
+{% endblock %}

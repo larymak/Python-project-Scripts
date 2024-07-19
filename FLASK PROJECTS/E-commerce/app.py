@@ -25,7 +25,7 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
 # Configure CS50 Library to use SQLite database
-db = SQL("sqlite:///library.db")
+db = SQL("sqlite:///shop.db")
 
 
 @app.after_request
@@ -370,4 +370,10 @@ def cart():
     return render_template("cart.html", rows=rows)
 
 
+# payment methods
+@app.route("/productdetails/<int:id>", methods=["GET", "POST"])
+def methods(id):
+    """ methods for payment"""
 
+    
+    
