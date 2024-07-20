@@ -1,0 +1,21 @@
+body
+{
+    text-align: center;
+}
+
+.card
+{
+    display:inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom : 5%;
+    border: 3px black solid;
+    width: 250px;
+    height:250px;
+}
+
+img
+{
+    width: 50%;
+    height: 50%;
+}
