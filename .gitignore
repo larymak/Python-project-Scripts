@@ -141,3 +141,4 @@ cython_debug/
 !/PYTHON APPS/Alarm_Clock/media/image/chose_timer.png
 
 !/PYTHON APPS/Alarm_Clock/media/image/start_alarm.png
+.DS_Store
