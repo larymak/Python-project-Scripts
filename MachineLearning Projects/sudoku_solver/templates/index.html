@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+</head>
+<body>
+    <h1>Sudoku Solver</h1>
+    <hr>
+    <h3>To solve a sudoku select the image of the sudoku and upload it to the page then hit submit.</h3>
+    <h3>The solution will be returned as an image on the next page.</h3>
+    <div>
+        <form action="" method="post" enctype="multipart/form-data">
+            <input type="file" name="image" id="image" value={{request.files.image}}>
+            <input type="submit" value="Submit" >
+        </form>
+    </div>
+</body>
+</html>
