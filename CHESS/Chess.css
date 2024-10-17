@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 10px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.divv {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    display: grid;
+    place-items: center;
+    font-size: 0px;
+}
+
+.box {
+    margin: .5px;
+    width: 75px;
+    height: 75px;
+}
+
+#tog {
+    margin: 10px 0px;
+}
+
+
+.allimg {
+    width: 45px;
+    position: relative;
+    bottom: 5px;
+}
+
+.allpawn {
+    transform: scale(.7);
+}
+
+.authcont {
+    width: 100vw;
+}
+
+.author {
+    float: right;
+    margin-right: 50px;
+
+}
+
+
+@media (max-width:650px){
+
+    #tog {
+        margin-bottom: 70px;
+
+    }
+
+    .box {
+        width: 11vw;
+        height: 11vw;
+    }
+
+    .allimg {
+        width: 7vw;
+    }
+}
