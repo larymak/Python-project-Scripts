@@ -9,7 +9,7 @@ def passwordValidator():
     print('\nYour password should: ')
     print('\t- Have a minimum length of 6;')
     print('\t- Have a maximum length of 12;')
-    print('\t- Contain at least an uppercase letter or a lowercase letter')
+    print('\t- Contain at least an uppercase letter and a lowercase letter;')
     print('\t- Contain at least a number;')
     print('\t- Contain at least a special character (such as @,+,£,$,%,*^,etc);')
     print('\t- Not contain space(s).')
@@ -24,9 +24,13 @@ def passwordValidator():
     if ' ' in userPassword:
        message = 'Invalid Password..your password shouldn\'t contain space(s)'
        return message
-    if not any(i in string.ascii_letters for i in userPassword):
+    if not any(i in string.ascii_letters.upper() for i in userPassword):
        message = 'Invalid Password..your password should contain at least '
-       message += 'an uppercase letter and a lowercase letter'
+       message += 'an uppercase letter'
+       return message
+    if not any(i in string.ascii_letters.lower() for i in userPassword):
+       message = 'Invalid Password..your password should contain at least '
+       message += 'a lowercase letter'
        return message
     if not any(i in string.digits for i in userPassword):
         message = 'Invalid Password..your password should contain at least a number'
