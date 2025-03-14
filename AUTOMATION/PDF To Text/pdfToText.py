@@ -25,7 +25,9 @@ def convert_pdf(filename):
         
     # If any Error is encountered, Print the Error on Screen
     except Exception as e:
-        print(f'Error Converting PDF to Text or Saving Converted Text into .txt file: {e}')
+        print(f'Error: {e}')
+        if out_filename.exists():
+            out_filename.unlink()
         return None
 
 
