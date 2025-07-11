@@ -40,6 +40,7 @@ def encrypt_message(message: str, key: bytes) -> bytes:
     encrypted = f.encrypt(message.encode())
     return encrypted
 
+    
 # 4. Decrypt a message
 def decrypt_message(encrypted_message: bytes, key: bytes) -> str:
     """
