@@ -123,6 +123,6 @@ guide [HERE](https://github.com/larymak/Python-project-Scripts/blob/main/CONTRIB
 | 74    | [Notepad](https://github.com/larymak/Python-project-Scripts/tree/main/PYTHON%20APPS/Notepad)                                                                | [Annarhysa Albert](https://github.com/Annarhysa)     |
 | 75   | [Quadratic Equation Solver](https://github.com/larymak/Python-project-Scripts/tree/main/GUI/Quadratic-Equation-Solver)                                                                | [Akinfenwa Ezekiel](https://github.com/Ezek-iel)     |
 | 76   | [Internet Connectivity Monitor](https://github.com/larymak/Python-project-Scripts/tree/main/AUTOMATION/InternetConnectivityMonitor)                                                                | [Prince Khunt](https://github.com/princekhunt)     |
-| 77  | [E-commerce](https://github.com/larymak/Python-project-Scripts/tree/main/FLASK%20PROJECTS/E-commerce)                                                                | [Eter Nada](https://github.com/tarenjk24)     |
+| 76   | [E-commerce](https://github.com/larymak/Python-project-Scripts/tree/main/FLASK%20PROJECTS/E-commerce)                                                                | [Eter Nada](https://github.com/tarenjk24)     |
+| 77   | [Resolution Swapper](https://github.com/larymak/Python-project-Scripts/tree/main/PYTHON%20APPS/ResolutionSwapper)                                                                | [KnightBlue](https://github.com/KnightBlue14)     |
 | 78 | [Anniversary time](https://github.com/larymak/Python-project-Scripts/tree/main/FLASK%20PROJECTS/Anniversary%20time) | [gyyzzz](https://github.com/gyyzzz) |
-
