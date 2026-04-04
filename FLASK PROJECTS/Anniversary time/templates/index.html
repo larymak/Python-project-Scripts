@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        function updateTimer() {
+            const anniversaryDate = new Date("{{ anniversary_date }}");
+            const currentDate = new Date();
+            const timeDiff = currentDate - anniversaryDate;
+
+            const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerText = days;
+            document.getElementById("hours").innerText = hours;
+            document.getElementById("minutes").innerText = minutes;
+            document.getElementById("seconds").innerText = seconds;
+        }
+
+        setInterval(updateTimer, 1000);
+    </script>
+</head>
+<body onload="updateTimer()">
+    <div class="container">
+        <h1>It has passed the xx anniversary</h1>
+        <div class="time">
+            <span id="days">0</span> 天
+            <span id="hours">0</span> 小时
+            <span id="minutes">0</span> 分钟
+            <span id="seconds">0</span> 秒
+        </div>
+    </div>
+</body>
+</html>
