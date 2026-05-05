@@ -54,7 +54,6 @@ public:
 
             if (PyList_SetItem(a1Wrapper, i, v_obj) < 0)
             {
-                Py_DECREF(v_obj);
                 sipIsErr = 1;
                 break;
             }
@@ -93,7 +92,6 @@ public:
 
             if (PyList_SetItem(a1Wrapper, i, v_obj) < 0)
             {
-                Py_DECREF(v_obj);
                 sipIsErr = 1;
                 break;
             }
