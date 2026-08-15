@@ -1,0 +1,109 @@
+@media print{
+    body{
+        font-size: 12px;
+    }
+    .report{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    .left, .right {
+        padding: 20px;
+    }
+    .left {
+        width: 48%;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .right {
+        width: 48%;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    h3 {
+        font-size: 14px;
+        text-decoration: underline;
+        margin-bottom: 15px;
+    }
+    p {
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+    
+    .positive{
+        color: green;
+    }
+    .ideal{
+        color: #DBA800;
+    }
+    .negative{
+        color: red;
+    }
+    
+    .end p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .diabetes {
+        background-color: #FFA0A0;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    
+    .diabetes p {
+        font-size: 12px;
+    }
+    
+    .diabetes blockquote {
+        font-size: 14px;
+        font-style: italic;
+        margin: 10px 0;
+    }
+    
+    .diabetes ul {
+        list-style: disc;
+        padding-left: 10px;
+    }
+    
+    .diabetes li {
+        font-size: 12px;
+    }
+    
+    .non-diabetic {
+        background-color: #A0FFA0;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    
+    .non-diabetic p {
+        font-size: 18px;
+    }
+    
+    .non-diabetic blockquote {
+        font-size: 10px;
+        font-style: italic;
+        margin: 10px 0;
+    }
+    
+    .non-diabetic ul {
+        list-style: disc;
+        padding-left: 10px;
+    }
+    
+    .non-diabetic li {
+        font-size: 12px;
+    }
+    .date{
+        margin-left: 1px;
+        padding:2px;
+    }
+    #val{
+        font-size: 16px;
+    }
+}

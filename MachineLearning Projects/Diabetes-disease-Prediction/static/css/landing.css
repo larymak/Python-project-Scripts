@@ -1,0 +1,144 @@
+body{
+    overflow-x: hidden;
+}
+.report{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.left, .right {
+    padding: 20px;
+}
+.left {
+    width: 48%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.right {
+    width: 48%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+h3 {
+    font-size: 24px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.print:last-child {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button{
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 30%;
+    border: 1px solid black;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.positive{
+    color: green;
+}
+.ideal{
+    color: #DBA800;
+}
+.negative{
+    color: red;
+}
+
+.end p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.diabetes {
+    background-color: #FFA0A0;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px ;
+    width:auto;
+}
+
+.diabetes blockquote {
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.diabetes ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.diabetes li {
+    font-size: 16px;
+}
+
+.non-diabetic {
+    background-color: #A0FFA0;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px ;
+    width:auto;
+}
+
+.non-diabetic blockquote {
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.non-diabetic ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.non-diabetic li {
+    font-size: 16px;
+}
+.print{
+    align-items: center;
+    justify-content: center;
+}
+.date{
+    margin-left: 1px;
+    padding:2px;
+}
+
+table {
+    width: 100%;
+    border:1px solid #000;
+    /* border-collapse: collapse; */
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #333;
+    color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

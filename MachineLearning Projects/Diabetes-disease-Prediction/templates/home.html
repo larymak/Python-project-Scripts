@@ -1,0 +1,89 @@
+<DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction Form</title>
+    <!-- Include Bootstrap CSS -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h2>Health Information Form</h2>
+        <form class="forms" action="{{ url_for('predict_datapoint') }}" method="post">
+            <h3 class="form-head">Fill the details appropriately</h3>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" name="name" placeholder="Name" required="required">
+            </div>
+            <div class="mb-3">
+                <label for="Age" class="form-label">Age:</label>
+                <input type="text" class="form-control" name="Age" placeholder="Age" required="required">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label"style="margin-right:10px;">Gender:</label>
+              <div class="form-check form-check-inline">
+                  <div class="btn-group" role="group" aria-label="Gender radio toggle button group">
+                      <input type="radio" class="btn-check" name="gender" id="maleRadio" value="Male" required>
+                      <label class="btn btn-outline-primary" for="maleRadio">Male</label>
+                    
+                      <input type="radio" class="btn-check" name="gender" id="femaleRadio" value="Female" required>
+                      <label class="btn btn-outline-primary" for="femaleRadio">Female</label>
+                    
+                      <input type="radio" class="btn-check" name="gender" id="othersRadio" value="Others" required>
+                      <label class="btn btn-outline-primary" for="othersRadio">Others</label>
+                  </div>
+              </div>
+
+            <div class="mb-3" id="pregnancyQuestion" style="display:block;">
+              <label class="form-label">Are you pregnant?</label>
+              <div class="btn-group" role="group" aria-label="Pregnant radio toggle button group">
+                  <input type="radio" class="btn-check" name="pregnancy" id="pregnantRadio" value="Pregnant">
+                  <label class="btn btn-outline-primary" for="pregnantRadio">Yes</label>
+                  
+                  <input type="radio" class="btn-check" name="pregnancy" id="nonPregnantRadio" value="Non-Pregnant">
+                  <label class="btn btn-outline-primary" for="nonPregnantRadio">No</label>
+              </div>
+            </div>
+            <div class="mb-3" id="pregnanciesInput">
+                <label for="Pregnancies" class="form-label">Number of Pregnancies:</label>
+                <input type="number" class="form-control" name="Pregnancies" placeholder="No of Pregnancies">
+            </div>
+            <div class="mb-3">
+                <label for="Glucose" class="form-label">Glucose:</label>
+                <input type="text" class="form-control" name="Glucose" placeholder="Glucose" required="required">
+            </div>
+            <div class="mb-3">
+                <label for="BloodPressure" class="form-label">Blood Pressure (in mm Hg):</label>
+                <input type="text" class="form-control" name="BloodPressure" placeholder="Blood Pressure (in mm Hg)" required="required">
+            </div>
+            <div class="mb-3">
+                <label for="SkinThickness" class="form-label">Skin Thickness (in mm):</label>
+                <input type="text" class="form-control" name="SkinThickness" placeholder="Skin Thickness (in mm)" required="required">
+            </div>
+            <div class="mb-3">
+                <label for="Insulin" class="form-label">Insulin:</label>
+                <input type="text" class="form-control" name="Insulin" placeholder="Insulin" required="required">
+            </div>
+            <div class="mb-3">
+                <label for="BMI" class="form-label">BMI:</label>
+                <input type="text" class="form-control" name="BMI" placeholder="BMI" required="required">
+            </div>
+            <div class="mb-3">
+                <label for="DiabetesPedigreeFunction" class="form-label">Diabetes Pedigree Function:</label>
+                <input type="text" class="form-control" name="DiabetesPedigreeFunction" placeholder="Diabetes Pedigree Function" required="required">
+            </div>
+            <button type="submit" class="btn btn-primary">Generate Report</button>
+        </form>
+    </div>
+
+    <!-- Include Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

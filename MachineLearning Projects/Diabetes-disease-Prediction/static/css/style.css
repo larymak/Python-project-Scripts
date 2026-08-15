@@ -1,0 +1,57 @@
+/* Remove border from input elements */
+
+
+/* Style form labels */
+body{
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+}
+
+.is-invalid {
+  border-color: #dc3545 !important; /* Red border for invalid fields */
+}
+
+.invalid-feedback {
+  color: #dc3545; /* Red text color for error messages */
+  display: block;
+  margin-top: .25rem; /* Adjust as needed */
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  display: block;
+  width: 60%;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+input:hover{
+  border-bottom: 1px solid brown;
+}
+
+/* Style form buttons */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+

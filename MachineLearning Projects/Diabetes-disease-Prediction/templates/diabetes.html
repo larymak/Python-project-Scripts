@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>{{name}}'s Diabetes Results</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="{{ url_for('static', filename='images/icons.png') }}" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/landing.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/print.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <h3 style="text-align:center;">Diabetes Report</h3>
+    <p class="date">Report Generated on: {{datetime}}</p>
+    <div class="report">
+        <div class="left">
+            <h3 style="text-decoration: underline;">Patient Particulars</h3>
+            <table>
+                <tr>
+                    <th colspan="2" style="text-align:center;">Patient Details</th>
+                </tr>
+                </th>
+                <tr>
+                    <td>Name</td>
+                    <td>{{name}}</td>
+                </tr>
+                <tr>
+                    <td>Age/gender</td>
+                    <td>{{Age}}/{{gender}}</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>Patient.Height cms</td>
+                </tr>
+                <tr>
+                    <td>Weight</td>
+                    <td>{{weight}} kgs</td>
+                </tr>
+                <tr>
+                    <td>BMI</td>
+                    <td>{{BMI}} kg/m2</td>
+                </tr>
+                {% if gender == "Female" %}
+                <tr>
+                    <td>Current Pregnancy Status</td>
+                    <td><strong>{{Pregnancy}}</strong></td>
+                </tr>
+                <tr>
+                    <td>No of Pregnancies</td>
+                    <td>{{Pregnancies}}</td>
+                </tr>
+                {% endif %}
+            </table>
+        </div>
+        
+        
+        <div class="right">
+            <h3 style="text-decoration: underline;">Sample Results</h3>
+            <p> Sample collected before 2 hours of meal.</p>
+            <table>
+                <tr>
+                    <th>TEST PARAMETER</th>
+                    <th>RESULT</th>
+                    <th>REFERENCE RANGE</th>
+                </tr>
+                <tr>
+                    <td>Glucose</td>
+                    {% if Glucose >= 80 and Glucose <= 120 %}
+                        <td><span class="positive"><strong>{{ Glucose }} mg/dL</strong></span></td>
+                    {% else %}    
+                        <td><span class="negative"><strong>{{ Glucose }} mg/dL</strong></span></td>
+                    {% endif %}
+                    <td>80-120 mg/dL</td>
+                </tr>
+                <tr>
+                    <td>Blood Pressure</td>
+                    {% if BloodPressure >= 80 and BloodPressure <= 130 %}
+                        <td><span class="positive"><strong>{{ BloodPressure }} mmHg</strong></span></td>
+                    {% elif BloodPressure < 80 %}
+                        <td><span class="negative"><strong>{{ BloodPressure }} mmHg</strong></span></td>
+                    {% else %}
+                        <td><span class="negative"><strong>{{ BloodPressure }} mmHg</strong></span></td>
+                    {% endif %}
+                    <td>80-130 mmHg</td>
+                </tr>
+                <tr>
+                    <td>Skin Thickness</td>
+                    <td>{{ SkinThickness }} mm</td>
+                    <td>0.5-4.0mm</td>
+                </tr>
+                <tr>
+                    <td>Insulin</td>
+                    <td>{{ Insulin }} μIU/mL</td>
+                    <td>2-25μIU/mL</td>
+                </tr>
+                <tr>
+                    <td>Diabetes Pedigree Function</td>
+                    <td>{{ DiabetesPedigreeFunction }}</td>
+                    <td>N/A</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="result">
+        <h3 style="text-decoration: underline;">Result:</h3>
+        {% if result == 'Diabetic' %}
+            <div class="diabetes">
+                <p id="val" class="negative"><strong>{{result}}</strong></p>
+                <p class="type"><strong>{{type}}</strong></p>
+                <blockquote>
+                    "Diabetes is just a chapter in your life, not the whole story. With strength, support, and determination, you can turn the page to a healthier future."
+                </blockquote>
+                <p>The patient is kindly advised to follow the following tips:</p>
+                <ul>
+                    <li>Visit a doctor for personalized guidance.</li>
+                    <li>Watch your blood sugar levels, blood pressure and cholesterol closely</li>
+                    <li>Eat a balanced diet with whole foods.</li>
+                    <li>Stay active through regular exercise.</li>
+                    <li>Manage your weight if necessary.</li>
+                    <li>Limit sugary and processed foods.</li>
+                    <li>Manage stress with relaxation techniques.</li>
+                    <li>Schedule regular check-ups with your doctor.</li>
+                </ul>
+                <p>Remember, managing diabetes is a unique journey for each person, so work closely with your healthcare team for the best results.</p>
+            </div>
+        {% else %}
+            <div class="non-diabetic">
+                <p id='val' class="positive"><strong>{{result}}</strong></p>
+                <blockquote>
+                    "A non-diabetic life is a gift. Embrace it with a commitment to health and wellness."
+                </blockquote>
+                <p>We encourage you to maintain your well-being with the following tips:</p>
+                <ul>
+                    <li>Adopt a balanced and healthy diet.</li>
+                    <li>Maintain a healthy weight to support your overall health.</li>
+                    <li>Prioritize stress management and relaxation techniques and engage in regular physical activities.</li>
+                    <li>Avoid excessive consumption of sugary or processed foods.</li>
+                    <li>Focus on whole foods, fruits, and vegetables in your diet.</li>
+                    <li>Stay hydrated by drinking enough water daily.</li>
+                    <li>Achieve a good work-life balance for mental and emotional well-being.</li>
+                </ul>
+                <p>Embrace a life of well-being, where prevention is your ally in staying non-diabetic and healthy.</p>
+            </div>
+        {% endif %}
+    </div>
+    <div class="end">
+        <p>Get Well Soon !! </p>
+        <p>**********************<strong>End of the Report</strong>**********************</p>
+    </div>
+    <div class="print">
+        <button class="print-button" onclick="printContent()">Print Report</button>
+    </div>
+</body>
+</html>
