@@ -3,10 +3,11 @@
 This program validates passwords to match specific rules. A valid password is one that conforms to the following rules:
 - Minimum length is 6;
 - Maximum length is 12;
-- Contains at least an uppercase letter or a lowercase letter
-- Contains at least a number;
-- Contains at least a special character (such as @,+,£,$,%,*^,etc);
-- Doesn't contain space(s).
+- Must not start with a number
+- Contains at least one uppercase letter and one lowercase letter
+- Contains at least one number;
+- Contains at least one special character (such as @,+,£,$,%,*^,etc);
+- Does not contain space(s).
 
 # Prerequisites
 
