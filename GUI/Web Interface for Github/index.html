@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@500;600;700&display=swap');
+
+    * {
+      font-family: "Poppins", sans-serif;
+    }
+
+    #formSelect {
+      width: 120px;
+      height: 30px;
+      color: white;
+      font-size: 12px;
+    }
+
+    .btn {
+      padding-top: 7px;
+      text-align: center;
+      width: 90px;
+      height: 30px;
+      font-size: 11px;
+    }
+
+    .fa {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Image and text -->
+  <nav class="navbar navbar-dark bg-dark mt-10"
+    style="display:flex;justify-content: flex-start; align-items: center;width: 80%;position: relative; bottom: 10px; left: 9%;">
+    <img src="https://avatars.githubusercontent.com/u/6811672?v=4" width="50" height="50" class="d-inline-block"
+      style="margin-left: 30px;" alt="">
+    <a class="navbar-brand" href="#" style="font-weight:900;margin-top: 20px;font-size: large;">
+
+      Github
+    </a>
+  </nav>
+  <div class="dropdown" style="position: relative; float: right; right: 11%;">
+    <select class="form-select bg-dark" aria-label="Default select example" id="formSelect">
+    </select>
+  </div>
+
+  <div>
+    <h1 class="display-4 my-4 text-center" style="font-weight: 500;">
+      All Project
+    </h1>
+  </div>
+  <div class="container" style="width: 100%;" id="card-lists">
+    <div class="row" id="panel">
+
+    </div>
+  </div>
+
+</body>
+<script>
+  var options = ["All"];
+  var request = new XMLHttpRequest();
+  request.open("GET", "https://api.github.com/users/larymak/repos", true);
+  request.onload = function () {
+    var data = JSON.parse(this.response);
+    let content = " ";
+    let content1 = " ";
+    data.forEach((p) => {
+
+      content += `
+           <div class="card" style="width: 350px; margin:10px" id="card">
+                <div class="card-body">
+                  <h5 class="card-title" style="font-size:18px">${p.name}</h5>
+                  <h6 class="card-subtitle mb-2 text-muted" style="font-size:15px;margin-top:5px">Id: ${p.id}</h6>
+                  <p class="card-text" style="font-size:12px;">Created: ${p.created_at}</p>
+                  <p class="card-text" style="font-size:12px;">Branch: ${p.default_branch}</p>
+                  <p class="card-text card-lang" style="font-size:12px;">Language: ${p.language}</p>
+                  <a href="https://api.github.com/repos/larymak/${p.name}/zipball/" class="btn btn-primary" ><i class="fa fa-download"></i>Download</a>
+                  <a href="morepage.html" class="btn btn-info"  style="float:right; display:flex;justify-content:center;align-items:center"><i class="fa fa-info" style="color:black; font-size:14px"></i>More Info</a>
+                </div>
+              </div> 
+ 
+  `
+      options.push(p.language)
+    });
+    fArr = options.filter((item,
+      index) => options.indexOf(item) === index);
+    fArr.forEach((arrVal) => {
+      content1 += `
+      <option value=${arrVal}>${arrVal}</option>
+    
+    `
+    })
+
+    document.querySelector("#panel").innerHTML = content;
+    document.querySelector("#formSelect").innerHTML = content1;
+  };
+
+  request.send();
+
+  $(document).ready(function () {
+    $("#formSelect").on('change', function () {
+      const input = $(this).val().toUpperCase();
+      const cardContainer = document.getElementById("card-lists");
+      const cards = cardContainer.getElementsByClassName("card");
+      for (let i = 0; i < card.length; i++) {
+        let title = card[i].querySelector(".card-body .card-lang");
+        if(input == "ALL" ){
+        location.reload();
+        }
+        else if (title.innerText.toUpperCase().indexOf(input) > -1 ) {
+          cards[i].style.display = "";
+        } else {
+          cards[i].style.display = "none";
+        }
+
+      }
+    });
+  })
+
+</script>
+
+</html>
