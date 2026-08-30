@@ -23,7 +23,7 @@ def images_to_pdf(
 
 
 if __name__ == "__main__":
-    # You Can use any source of image
+    # You Can use any source of image!
     # Here I use posts of Instagram with hashtag 'tamil'
     from instagramy import InstagramHashTag
 
