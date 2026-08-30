@@ -18,21 +18,19 @@ def setPlayers():
                     Points.append(0)
                 return players
 
-def diceroll(player, DiceNum):
+def diceroll(player, DiceNum, points):
     throw = 0
-    print("\n\tPlayer {0}s turn:".format(player + 1),end = "")
+    print(f"\n\tPlayer {player + 1}'s turn:")
     for i in range(DiceNum):
-        print("\n\tHit Space Bar and Enter to throw die !!",end = " ")
-        sp = input()
-        if sp == " ":
-            die = random.randint(1, 6)
-            print("\t \tPlayer {0} has thrown die {1} which landed on {2}".format(player + 1, i + 1, die))
-            throw += die
-        else:
-            print("your turn skipped!!")
-    Points[player] += throw
-    print("\n \tPlayer {0}s score for this round is : {1}".format(player + 1 , throw))
-    print("\tPlayer {0}s total score is now: {1}".format(player + 1, Points[player]))
+        input("\n\tPress Enter to throw die!")
+        die = random.randint(1, 6)
+        print(f"\tPlayer {player + 1} rolled a {die}")
+        throw += die
+    points[player] += throw
+
+    print(f"\n\tPlayer {player + 1}'s score this round: {throw}")
+    print(f"\tPlayer {player + 1}'s total score: {points[player]}")
+
     return throw
 
 def checkWin(maxscore):
