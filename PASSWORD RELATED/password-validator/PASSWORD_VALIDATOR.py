@@ -3,39 +3,44 @@ import string
 def passwordValidator():
     """
     Validates passwords to match specific rules
-    : return: str
+    :return: str
     """
-    # display rules that a password must conform to
     print('\nYour password should: ')
     print('\t- Have a minimum length of 6;')
     print('\t- Have a maximum length of 12;')
-    print('\t- Contain at least an uppercase letter or a lowercase letter')
+    print('\t- Contain at least an uppercase letter;')
+    print('\t- Contain at least a lowercase letter;')
     print('\t- Contain at least a number;')
     print('\t- Contain at least a special character (such as @,+,£,$,%,*^,etc);')
     print('\t- Not contain space(s).')
-   # get user's password
+
     userPassword = input('\nEnter a valid password: ').strip()
-   # check if user's password conforms 
-   # to the rules above
+
+    # Length check
     if not(6 <= len(userPassword) <= 12):
-        message = 'Invalid Password..your password should have a minimum '
-        message += 'length of 6 and a maximum length of 12'
-        return message
+        return 'Invalid Password..length must be between 6 and 12'
+    
+    # No spaces allowed
     if ' ' in userPassword:
-       message = 'Invalid Password..your password shouldn\'t contain space(s)'
-       return message
-    if not any(i in string.ascii_letters for i in userPassword):
-       message = 'Invalid Password..your password should contain at least '
-       message += 'an uppercase letter and a lowercase letter'
-       return message
-    if not any(i in string.digits for i in userPassword):
-        message = 'Invalid Password..your password should contain at least a number'
-        return message
-    if not any(i in string.punctuation for i in userPassword): 
-       message = 'Invalid Password..your password should contain at least a special character'
-       return message
-    else:
-       return 'Valid Password!'
+        return 'Invalid Password..shouldn\'t contain spaces'
+    
+    # Uppercase letter check
+    if not any(i.isupper() for i in userPassword):
+        return 'Invalid Password..should contain at least one uppercase letter'
+    
+    # Lowercase letter check
+    if not any(i.islower() for i in userPassword):
+        return 'Invalid Password..should contain at least one lowercase letter'
+    
+    # Number check
+    if not any(i.isdigit() for i in userPassword):
+        return 'Invalid Password..should contain at least one number'
+    
+    # Special character check
+    if not any(i in string.punctuation for i in userPassword):
+        return 'Invalid Password..should contain at least one special character'
+
+    return 'Valid Password!'
 
 my_password = passwordValidator()
 print(my_password)
