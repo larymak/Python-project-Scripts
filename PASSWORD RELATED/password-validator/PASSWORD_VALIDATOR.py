@@ -24,7 +24,7 @@ def passwordValidator():
     if ' ' in userPassword:
        message = 'Invalid Password..your password shouldn\'t contain space(s)'
        return message
-    if not any(i in string.ascii_letters for i in userPassword):
+    if not any(i in string.ascii_uppercase for i in userPassword):
        message = 'Invalid Password..your password should contain at least '
        message += 'an uppercase letter and a lowercase letter'
        return message
